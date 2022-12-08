@@ -6,4 +6,15 @@ Typing here
 
 and here
 
-[https://www.thisiscolossal.com/](https://www.thisiscolossal.com/)
+{% embed url="https://www.thisiscolossal.com/" %}
+
+```
+// Some codewesjnwl
+dsnwjknak
+```
+
+{% hint style="info" %}
+Hint
+
+
+{% endhint %}
