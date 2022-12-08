@@ -18,9 +18,9 @@ merge changes
 
 click here
 
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/embedtrue" %}
 
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah" %}
+
+
 
 dcsdv
 
@@ -38,6 +38,12 @@ debbk :thumbsup:jksbd
 
 dsbhjdbjk dsjkbjkds ghvcjg
 
+{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/)" %}
+
+{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/?embedded=truetrye" %}
+
+{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/" %}
+
 {% embed url="https://www.youtube.com/watch?v=Li9XjyWAmVk" %}
 
 cgcgjhv
@@ -45,5 +51,3 @@ cgcgjhv
 vjhvkhjb
 
 bhjbkj
-
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/" %}
