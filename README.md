@@ -20,7 +20,7 @@ click here
 
 {% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/embedtrue" %}
 
-
+{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah" %}
 
 dcsdv
 
