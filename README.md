@@ -1,49 +1,58 @@
-# Demo
+---
+cover: >-
+  https://images.unsplash.com/photo-1672567590318-69ffc45ef197?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2NDg3MjM&ixlib=rb-4.0.3&q=80
+coverY: 0
+---
 
-Plain text here!
+# Copying & pasting
 
-## Subheader
+{% embed url="https://www.thisiscolossal.com/" %}
 
-Watch tutorial on YouTube
+{% embed url="https://changelog.gitbook.com/january-2023/24-january-23-new-comments-ui-improved-diff-view-and-more" %}
 
-<figure><img src=".gitbook/assets/CleanShot 2022-12-14 at 12.35.29@2x.png" alt=""><figcaption></figcaption></figure>
+<details>
 
-Does is to changes is I make here
-
-## CHANGES
-
-
-
-merge changes
-
-click here
-
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/embedtrue" %}
-
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah" %}
-
-dcsdv
+<summary></summary>
 
 
 
-Doinf channnges BLA BLA
+</details>
 
+Heading&#x20;
 
-
-1223
-
-1223
-
-debbk :thumbsup:jksbd
-
-dsbhjdbjk dsjkbjkds ghvcjg
-
-{% embed url="https://www.youtube.com/watch?v=Li9XjyWAmVk" %}
-
-cgcgjhv
-
-vjhvkhjb
-
-bhjbkj
-
-{% embed url="https://www.bilibili.com/video/BV1Ne411N7Ah/" %}
+* Bestie Intros
+  1. Chamath - Joke about lag between JCals mouth and such.
+* Slate's All-In Article
+  1. JCal - #1 Tech & Business Podcast Hands Down
+     1. Press never wants to cite All-In.
+  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
+  3. JCal - People feel like they want a fair shake.
+  4. Sacks - Why go through their filter when it's always a hit piece?
+  5. Friedberg - There are real journalists out there.
+  6. Sacks - They want to have influence, that's why journalists do what they do.
+  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
+     1. Shows that all kinds of trash must get through.
+     2. So numerically illiterate. This was an easy catch.
+  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
+  9. JCal - The test about industry expertise.
+  10. Sacks - Jellman amnesia effect. Worse than this though.
+  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
+  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
+* Bestie Intros
+  1. Chamath - Joke about lag between JCals mouth and such.
+* Slate's All-In Article
+  1. JCal - #1 Tech & Business Podcast Hands Down
+     1. Press never wants to cite All-In.
+  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
+  3. JCal - People feel like they want a fair shake.
+  4. Sacks - Why go through their filter when it's always a hit piece?
+  5. Friedberg - There are real journalists out there.
+  6. Sacks - They want to have influence, that's why journalists do what they do.
+  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
+     1. Shows that all kinds of trash must get through.
+     2. So numerically illiterate. This was an easy catch.
+  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
+  9. JCal - The test about industry expertise.
+  10. Sacks - Jellman amnesia effect. Worse than this though.
+  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
+  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
