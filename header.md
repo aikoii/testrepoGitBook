@@ -8,7 +8,9 @@ xbjshbc
 
 {% tabs %}
 {% tab title="First Tab" %}
+Hello!
 
+Bye!
 {% endtab %}
 
 {% tab title="Second Tab" %}
