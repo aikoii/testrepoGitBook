@@ -1,20 +1,8 @@
 # Tabs & Drawings
 
-bjkj
-
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
-
-fbekjds
-
 {% tabs %}
 {% tab title="First Tab" %}
-bjkj
 
-<figure><img src=".gitbook/assets/file.excalidraw.png" alt=""><figcaption></figcaption></figure>
-
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
-
-fbekjds
 
 <img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
@@ -24,23 +12,13 @@ fbekjds
 {% endtab %}
 
 {% tab title="Second Tab" %}
-bjkj
-
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
-
-fbekjds
-
-<img alt="" class="gitbook-drawing">
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
-
-<img alt="" class="gitbook-drawing">
-
 {% tabs %}
 {% tab title="First Tab" %}
-<img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+Build the structure for your documentation using pages, spaces and collections. Pages live inside of spaces, and collections are groups of spaces.
 {% endtab %}
 
 {% tab title="Second Tab" %}
@@ -50,11 +28,13 @@ fbekjds
 
 {% tabs %}
 {% tab title="First Tab" %}
-<img src=".gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/image (2).png">image (2).png</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Second Tab" %}
-<img src=".gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+{% hint style="info" %}
+Hello world
+{% endhint %}
 {% endtab %}
 
 {% tab title="Untitled" %}
