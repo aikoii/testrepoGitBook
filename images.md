@@ -11,3 +11,19 @@ Fully funded a few hours after launching on [Kickstarter](https://www.kickstarte
 Seven years in the making, the book features 1,300 photos of devices and typists at work, some of which document collections and archives that have never been seen before. Wichary emphasizes the cultural implications of the commonplace objects, saying he focused on the people behind the technology. “I wanted a book that told all the personal stories about keyboards tied in with a historical, social, and political context,” he shares.
 
 To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter.com/projects/mwichary/shift-happens?ref=av4ohi), and follow Wichary on [Mastodon](https://mastodon.online/@mwichary) for updates on the project.
+
+
+
+<div>
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Tufa_towers_in_Mono_Lake-1000px.jpeg" alt=""><figcaption></figcaption></figure>
+
+</div>
