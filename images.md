@@ -14,9 +14,11 @@ To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter
 
 
 
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 <div>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/380px.jpeg" alt=""><figcaption></figcaption></figure>
 
  
 
