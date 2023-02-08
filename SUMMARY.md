@@ -16,4 +16,4 @@
 
 ## HI THERE
 
-* [Page 1](hi-there/page-1.md)
+* [Tabs](hi-there/tabs.md)
