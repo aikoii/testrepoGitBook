@@ -2,6 +2,7 @@
 
 * [Copying & pasting](README.md)
   * [Cover image](copying-and-pasting/cover-image.md)
+  * [Subpages link?](copying-and-pasting/subpages-link.md)
 * [Expandables](expandables.md)
 * [Copy & paste: Bloc](copy-and-paste-bloc.md)
 * [Code Blocks](code-blocks.md)
