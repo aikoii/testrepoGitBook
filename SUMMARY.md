@@ -17,3 +17,4 @@
 ## HI THERE
 
 * [Tabs](hi-there/tabs.md)
+* [Cards](hi-there/cards.md)
