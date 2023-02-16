@@ -18,7 +18,7 @@ Fantastic creatures with keen attitudes and fragments of human anatomy occupy th
 
 {% tabs %}
 {% tab title="First Tab" %}
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
