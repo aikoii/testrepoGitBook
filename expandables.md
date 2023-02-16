@@ -19,3 +19,7 @@ hi
 
 
 </details>
+
+<figure><img src=".gitbook/assets/056_Kajan_Johnson_x_Islam_Makhachev (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/056_Kajan_Johnson_x_Islam_Makhachev.jpeg" alt=""><figcaption></figcaption></figure>
