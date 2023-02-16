@@ -29,12 +29,14 @@ sdnbjkwenkdns
 
 2. jcosijd
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Untitled design-3.jpg" alt=""><figcaption></figcaption></figure>
 
-![](.gitbook/assets/image.png)
+![](<.gitbook/assets/image (2).png>)
+
+![](<.gitbook/assets/image (2).png>)
