@@ -56,3 +56,5 @@ Heading&#x20;
   10. Sacks - Jellman amnesia effect. Worse than this though.
   11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
   12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
