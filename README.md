@@ -18,6 +18,12 @@ coverY: 0
 
 </details>
 
+#Heading 1
+
+##Heading 2
+
+###HEading 3
+
 Heading&#x20;
 
 * Bestie Intros
