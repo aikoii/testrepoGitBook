@@ -24,7 +24,7 @@ coverY: 0
 
 {% tabs %}
 {% tab title="First Tab" %}
-**Writing this in bold**
+**Writing this in bold in GitHub**
 {% endtab %}
 
 {% tab title="Second Tab" %}
