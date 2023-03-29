@@ -22,17 +22,18 @@ coverY: 0
 
 ## Heading 1
 
-##Testing bold text in GitHub
+## Testing bold text in GitHub
 
 {% tabs %}
 {% tab title="First Tab" %}
-**Writing bold in GitHub
+**Writing bold in GitHub**
 {% endtab %}
 
 {% tab title="Second Tab" %}
 
 {% endtab %}
 {% endtabs %}
+
 
 
 
