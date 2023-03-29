@@ -22,6 +22,8 @@ coverY: 0
 
 ## Heading 1
 
+##Testing bold text in GitHub
+
 {% tabs %}
 {% tab title="First Tab" %}
 **Writing this in bold in GitHub**
@@ -31,6 +33,8 @@ coverY: 0
 
 {% endtab %}
 {% endtabs %}
+
+
 
 ### Heading 2
 
