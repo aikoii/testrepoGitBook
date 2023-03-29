@@ -6,6 +6,8 @@ coverY: 0
 
 # Copying & pasting
 
+## Copying & pasting
+
 {% embed url="https://www.thisiscolossal.com/" %}
 
 {% embed url="https://changelog.gitbook.com/january-2023/24-january-23-new-comments-ui-improved-diff-view-and-more" %}
@@ -18,13 +20,23 @@ coverY: 0
 
 </details>
 
-# Heading 1
+## Heading 1
 
-## Heading 2
+{% tabs %}
+{% tab title="First Tab" %}
+**Writing this in bold**
+{% endtab %}
 
-### HEading 3
+{% tab title="Second Tab" %}
 
-Heading&#x20;
+{% endtab %}
+{% endtabs %}
+
+### Heading 2
+
+#### HEading 3
+
+Heading
 
 * Bestie Intros
   1. Chamath - Joke about lag between JCals mouth and such.
