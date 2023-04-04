@@ -1,9 +1,83 @@
-# Copy & paste: Bloc
+### _class_ edgeimpulse_api.api.auth_api.AuthApi(api_client=None)
+Bases: `object`
 
-<figure><img src="https://images.unsplash.com/photo-1672412200544-b173abf1c381?crop=entropy&#x26;cs=tinysrgb&#x26;fm=jpg&#x26;ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzUwNzU1MzU&#x26;ixlib=rb-4.0.3&#x26;q=80" alt=""><figcaption></figcaption></figure>
 
-What a beautiful weather&#x20;
+#### discourse(sso: StrictStr[StrictStr], sig: StrictStr[StrictStr], \*\*kwargs)
+Discourse
 
-![](.gitbook/assets/image.png)
+Log in a user to the forum. This function is only available through a JWT token.
 
-<figure><img src="https://images.unsplash.com/photo-1672412200544-b173abf1c381?crop=entropy&#x26;cs=tinysrgb&#x26;fm=jpg&#x26;ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzUwNzU1MzU&#x26;ixlib=rb-4.0.3&#x26;q=80" alt=""><figcaption></figcaption></figure>
+
+* **Parameters**
+
+    
+    * **sso** (*str*) – Single sign-on token (required)
+
+
+    * **sig** (*str*) – Verification signature (required)
+
+
+    * **async_req** (*bool**, **optional*) – Whether to execute the request asynchronously.
+
+
+    * **_preload_content** (*bool**, **optional*) – if False, the urllib3.HTTPResponse object will
+    be returned without reading/decoding response
+    data. Default is True.
+
+
+    * **_request_timeout** – timeout setting for this request. If one
+    number provided, it will be total request
+    timeout. It can also be a pair (tuple) of
+    (connection, read) timeouts.
+
+
+
+* **Returns**
+
+    Returns the result object.
+    If the method is called asynchronously,
+    returns the request thread.
+
+
+
+* **Return type**
+
+    None
+
+
+
+#### readme(\*\*kwargs)
+Readme.io
+
+Log in a user to the docs. This function is only available through a JWT token.
+
+
+* **Parameters**
+
+    
+    * **async_req** (*bool**, **optional*) – Whether to execute the request asynchronously.
+
+
+    * **_preload_content** (*bool**, **optional*) – if False, the urllib3.HTTPResponse object will
+    be returned without reading/decoding response
+    data. Default is True.
+
+
+    * **_request_timeout** – timeout setting for this request. If one
+    number provided, it will be total request
+    timeout. It can also be a pair (tuple) of
+    (connection, read) timeouts.
+
+
+
+* **Returns**
+
+    Returns the result object.
+    If the method is called asynchronously,
+    returns the request thread.
+
+
+
+* **Return type**
+
+    None
