@@ -8,7 +8,7 @@
 
 bjkj
 
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw.png" alt="" class="gitbook-drawing">
 
 fbekjds
 
@@ -16,7 +16,7 @@ fbekjds
 {% tab title="First Tab" %}
 <img src=".gitbook/assets/Feel Good Process Drawing.excalidraw.svg" alt="" class="gitbook-drawing">
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
@@ -26,7 +26,7 @@ fbekjds
 
 What if QWERTY wasn’t the standard keyboard layout? A forthcoming book by Chicago-based designer and writer [Marcin Wichary](https://aresluna.org/) examines the now-ubiquitous format and how it came to dominate modern technology.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Fully funded a few hours after launching on [Kickstarter](https://www.kickstarter.com/projects/mwichary/shift-happens?ref=2wnl1e), [_Shift Happens_ ](https://shifthappens.site/)documents 150 years of keyboard history from early analog typewriters to the pixelated versions on our phones. The 1,200-page book is split into two volumes that encompass a broad array of innovations and feuds from “the Shift Wars of the 1880s (and) Nobel-prize winner Arthur Schawlow using a laser to build the best typo eraser (to) August Dvorak—and many others—trying to dethrone QWERTY (and) Margaret Longley and Lenore Fenton perfecting touch typing.”
 
@@ -62,7 +62,7 @@ To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter
 {% tab title="Second Tab" %}
 <div>
 
-<figure><img src=".gitbook/assets/file.excalidraw.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/file.excalidraw (3).svg" alt=""><figcaption></figcaption></figure>
 
  
 
@@ -72,4 +72,4 @@ To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
