@@ -1,25 +1,14 @@
 # Table of contents
 
-* [Copying & pasting](README.md)
-  * [Cover image](copying-and-pasting/cover-image.md)
-  * [Subpages link?](copying-and-pasting/subpages-link.md)
-* [Expandables](expandables.md)
-* [Copy & paste: Bloc](copy-and-paste-bloc.md)
-* [Code Blocks](code-blocks.md)
-* [Tables](tables.md)
-* [Header](header.md)
-* [Header 3](header-3.md)
-* [Header + image](header-+-image.md)
-* [Images](images.md)
-* [Drawing](drawing.md)
-* [Tabs & Drawings](tabs-and-drawings.md)
-* [Markdown & GitHub](markdown-and-github.md)
+* [🚩 Random Pieces](README.md)
+* [Nostalgia of Banal Items Through Papier-Mâché](nostalgia-of-banal-items-through-papier-mache.md)
+* [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
+* [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
-## HI THERE
+## Inspiring work
 
-* [Tabs](hi-there/tabs.md)
-* [Cards](hi-there/cards.md)
+* [Rebecca Green's work](inspiring-work/rebecca-greens-work.md)
 
 ***
 
-* [Ordered list](ordered-list.md)
+* [Taryn Knight's work](taryn-knights-work.md)
