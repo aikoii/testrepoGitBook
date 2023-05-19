@@ -1,5 +1,5 @@
 # HINT
 
-{% hint style="success" %}
+{% hint style="info" %}
 
 {% endhint %}
