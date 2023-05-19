@@ -1,76 +1,36 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1672567590318-69ffc45ef197?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2NDg3MjM&ixlib=rb-4.0.3&q=80
+cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# Copying & pasting
+# 🚩 Random Pieces
 
-## Copying & pasting
+[_Rebecca Green is an Illustrator & Author_\
+_based in Michigan._](https://www.thisiscolossal.com/)
+------------------------------------------------------
 
-{% embed url="https://www.thisiscolossal.com/" %}
+Making changes here.&#x20;
 
-{% embed url="https://changelog.gitbook.com/january-2023/24-january-23-new-comments-ui-improved-diff-view-and-more" %}
-
-<details>
-
-<summary></summary>
+And more changes&#x20;
 
 
 
-</details>
 
-## Heading 1
 
-## Testing bold text in GitHub
+<figure><img src=".gitbook/assets/1683624355swallow-bird-silhouette.svg" alt=""><figcaption></figcaption></figure>
 
-{% tabs %}
-{% tab title="First Tab" %}
-**Writing bold in GitHub**
-{% endtab %}
-{% endtabs %}
+![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
-### Heading 2
+can't replicathe&#x20;
 
-#### HEading 3
+<img src=".gitbook/assets/1683624355swallow-bird-silhouette (1).svg" alt="" data-size="line">. sdhwksjnc,  hdoiwsjnckdsgih
 
-Heading
+Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
-* Bestie Intros
-  1. Chamath - Joke about lag between JCals mouth and such.
-* Slate's All-In Article
-  1. JCal - #1 Tech & Business Podcast Hands Down
-     1. Press never wants to cite All-In.
-  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
-  3. JCal - People feel like they want a fair shake.
-  4. Sacks - Why go through their filter when it's always a hit piece?
-  5. Friedberg - There are real journalists out there.
-  6. Sacks - They want to have influence, that's why journalists do what they do.
-  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
-     1. Shows that all kinds of trash must get through.
-     2. So numerically illiterate. This was an easy catch.
-  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
-  9. JCal - The test about industry expertise.
-  10. Sacks - Jellman amnesia effect. Worse than this though.
-  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
-  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
-* Bestie Intros
-  1. Chamath - Joke about lag between JCals mouth and such.
-* Slate's All-In Article
-  1. JCal - #1 Tech & Business Podcast Hands Down
-     1. Press never wants to cite All-In.
-  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
-  3. JCal - People feel like they want a fair shake.
-  4. Sacks - Why go through their filter when it's always a hit piece?
-  5. Friedberg - There are real journalists out there.
-  6. Sacks - They want to have influence, that's why journalists do what they do.
-  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
-     1. Shows that all kinds of trash must get through.
-     2. So numerically illiterate. This was an easy catch.
-  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
-  9. JCal - The test about industry expertise.
-  10. Sacks - Jellman amnesia effect. Worse than this though.
-  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
-  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
+Doing changes as a Creator
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src=".gitbook/assets/008-removebg-preview.png" alt=""><figcaption><p>e3ygwdfvhbsqkj2ehi3ufgrvcd 3ueiorfgyvhdjbcsenwqk2ieo3uhrgyfhvbdjscnkmjlweo3i euoiwhfbdjnsakwiehugbhfdsjndehjfbdcs</p></figcaption></figure>
+
+[In Las Vegas](https://www.thisiscolossal.com/category/design/), the Office of Collecting & Design is a haven for the minute, the small objects that have been broken, separated from their partners, or grown obsolete and somehow found their way into the hands of Jessica Oreck. An artist and filmmaker, Oreck serves as both caretaker and cultivator of this magical and somewhat bizarre “collection of collections,” which houses everything from handmade sushi smaller than a pushpin and a teeny-tiny tube of Colgate to stone marbles and limbs detached from toy figures. Oreck spoke with Colossal managing editor Grace Ebert about the origin of the ever-expanding collection of miniatures, how respect and intuition ground her approach to the objects, and the mysterious story behind one of the strangest items she’s encountered.
