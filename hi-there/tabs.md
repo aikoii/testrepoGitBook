@@ -18,7 +18,7 @@ Fantastic creatures with keen attitudes and fragments of human anatomy occupy th
 
 {% tabs %}
 {% tab title="First Tab" %}
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
@@ -30,7 +30,7 @@ Fantastic creatures with keen attitudes and fragments of human anatomy occupy th
 
 {% tabs %}
 {% tab title="First Tab" %}
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../.gitbook/assets/380px.jpeg">380px.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="../.gitbook/assets/Tufa_towers_in_Mono_Lake-1000px.jpeg">Tufa_towers_in_Mono_Lake-1000px.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="../.gitbook/assets/image (2).png">image (2).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../.gitbook/assets/380px.jpeg">380px.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="../.gitbook/assets/Tufa_towers_in_Mono_Lake-1000px.jpeg">Tufa_towers_in_Mono_Lake-1000px.jpeg</a></td></tr><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken file</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Second Tab" %}
