@@ -19,5 +19,13 @@
 ## Group 1
 
 * [Hello world](group-1/hello-world.md)
-* [Good Afternoon](group-1/good-afternoon.md)
+* [Good Afternoon](group-1/good-afternoon/README.md)
+  * [Or maybe new subpage?](group-1/good-afternoon/or-maybe-new-subpage.md)
+* [Another new doc?](group-1/another-new-doc.md)
 * [The barber of Siberia](group-1/the-barber-of-siberia.md)
+* [Create new docc??](group-1/create-new-docc.md)
+* [Page 3](group-1/page-3.md)
+
+## Group 2
+
+* [Page 4](group-2/page-4.md)
