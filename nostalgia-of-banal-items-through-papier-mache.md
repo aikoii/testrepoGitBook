@@ -6,6 +6,8 @@
 
 <mark style="color:blue;">Changing the color of the text</mark>
 
+{% embed url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/~/changes/98/untitled-document" %}
+
 
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/TheSpringDance_WS.jpeg">TheSpringDance_WS.jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
