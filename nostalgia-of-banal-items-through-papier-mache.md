@@ -2,13 +2,17 @@
 
 #### Heading 3
 
-
+{% content-ref url="whimsical-wooden-sculptures.md" %}
+[whimsical-wooden-sculptures.md](whimsical-wooden-sculptures.md)
+{% endcontent-ref %}
 
 <mark style="color:blue;">Changing the color of the text</mark>
 
+{% content-ref url="inspiring-work/rebecca-greens-work.md" %}
+[rebecca-greens-work.md](inspiring-work/rebecca-greens-work.md)
+{% endcontent-ref %}
+
 {% embed url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/~/changes/98/untitled-document" %}
-
-
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/TheSpringDance_WS.jpeg">TheSpringDance_WS.jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
