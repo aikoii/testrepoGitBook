@@ -3,7 +3,7 @@ cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# 🚩 Random Pieces
+# 🚩 Untitled
 
 [_Rebecca Green is an Illustrator & Author_\
 _based in Michigan._](https://www.thisiscolossal.com/)
@@ -17,13 +17,13 @@ And more changes&#x20;
 
 
 
-<figure><img src=".gitbook/assets/1683624355swallow-bird-silhouette.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure>
 
 ![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
 can't replicathe&#x20;
 
-<img src=".gitbook/assets/1683624355swallow-bird-silhouette (1).svg" alt="" data-size="line">. sdhwksjnc,  hdoiwsjnckdsgih
+<img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt="" data-size="line">. sdhwksjnc,  hdoiwsjnckdsgih
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
