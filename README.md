@@ -3,7 +3,7 @@ cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# 🚩 Untitled
+# 🚩 This is my test space
 
 [_Rebecca Green is an Illustrator & Author_\
 _based in Michigan._](https://www.thisiscolossal.com/)
@@ -17,20 +17,31 @@ And more changes&#x20;
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
+<div>
+
 <figure><img src=".gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
-can't replicathe&#x20;
 
-<img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt="" data-size="line">. sdhwksjnc,  hdoiwsjnckdsgih
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
-Doing changes as a Creator
-
-
-
-<figure><img src=".gitbook/assets/008-removebg-preview.png" alt=""><figcaption><p>e3ygwdfvhbsqkj2ehi3ufgrvcd 3ueiorfgyvhdjbcsenwqk2ieo3uhrgyfhvbdjscnkmjlweo3i euoiwhfbdjnsakwiehugbhfdsjndehjfbdcs</p></figcaption></figure>
+<mark style="color:blue;">**Doing changes as a Creator**</mark>
 
 [In Las Vegas](https://www.thisiscolossal.com/category/design/), the Office of Collecting & Design is a haven for the minute, the small objects that have been broken, separated from their partners, or grown obsolete and somehow found their way into the hands of Jessica Oreck. An artist and filmmaker, Oreck serves as both caretaker and cultivator of this magical and somewhat bizarre “collection of collections,” which houses everything from handmade sushi smaller than a pushpin and a teeny-tiny tube of Colgate to stone marbles and limbs detached from toy figures. Oreck spoke with Colossal managing editor Grace Ebert about the origin of the ever-expanding collection of miniatures, how respect and intuition ground her approach to the objects, and the mysterious story behind one of the strangest items she’s encountered.
+
+{% hint style="info" %}
+Oh my! this should work
+{% endhint %}
+
