@@ -13,8 +13,9 @@
 
 * [Taryn Knight's work](taryn-knights-work.md)
 * [Untitled document](untitled-document.md)
-* [Page 1](page-1.md)
-* [Page 2](page-2.md)
+* [Cards!](cards.md)
+* [Page 2](page-2/README.md)
+  * [Making](page-2/making.md)
 
 ## Group 1
 
@@ -28,7 +29,8 @@
 
 ## Group 2
 
-* [Page 4](group-2/page-4.md)
+* [Page 1](group-2/page-1.md)
+* [A win is a win](group-2/a-win-is-a-win.md)
 
 ***
 
