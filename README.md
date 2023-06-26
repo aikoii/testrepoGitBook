@@ -69,7 +69,21 @@ Heading
 
 {% embed url="https://www.figma.com/file/6HjrJuPwDhCjczn4vEoLLy/Test---public?node-id=0:1&t=xuAmYtEfHhJ2Uh2u-1&type=whiteboard" %}
 
-1. Chamath - Joke about lag between JCals mouth and such.
+ㅗ우ㅏㅣ뮤압ㅉ ㅑ지ㅓ이ㅜㅏㅣㅜㅏ
+
+ㅇㅈㅜ룾ㄴㅇ니
+
+
+
+
+
+
+
+
+
+
+
+
 
 * Slate's All-In Article
   1. JCal - #1 Tech & Business Podcast Hands Down
