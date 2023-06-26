@@ -13,6 +13,18 @@ Making changes here.&#x20;
 
 And more changes&#x20;
 
+dfvnkfeldl&#x20;
+
+&#x20;
+
+## ATD insights
+
+ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
+
+[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
+
+
+
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="inspiring-work/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight </td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
