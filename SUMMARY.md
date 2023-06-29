@@ -1,26 +1,37 @@
 # Table of contents
 
-* [Copying & pasting](README.md)
-  * [Cover image](copying-and-pasting/cover-image.md)
-  * [Subpages link?](copying-and-pasting/subpages-link.md)
-* [Expandables](expandables.md)
-* [Copy & paste: Bloc](copy-and-paste-bloc.md)
-* [Code Blocks](code-blocks.md)
-* [Tables](tables.md)
-* [Header](header.md)
-* [Header 3](header-3.md)
-* [Header + image](header-+-image.md)
-* [Images](images.md)
-* [Drawing](drawing.md)
-* [Tabs & Drawings](tabs-and-drawings.md)
-* [Markdown & GitHub](markdown-and-github.md)
+* [🚩 This is my test space](README.md)
+* [Nostalgia of Banal Items Through Papier-Mâché](nostalgia-of-banal-items-through-papier-mache.md)
+* [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
+* [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
-## HI THERE
+## Inspiring work
 
-* [Tabs](hi-there/tabs.md)
-* [Cards](hi-there/cards.md)
+* [Rebecca Green's work](inspiring-work/rebecca-greens-work.md)
 
 ***
 
-* [Ordered list](ordered-list.md)
-* [HINT](hint.md)
+* [Taryn Knight's work](taryn-knights-work.md)
+* [Untitled document](untitled-document.md)
+* [Cards!](cards.md)
+* [Page 2](page-2/README.md)
+  * [Making](page-2/making.md)
+
+## Group 1
+
+* [Hello world](group-1/hello-world.md)
+* [Good Afternoon](group-1/good-afternoon.md)
+  * [Or maybe new subpage?](group-1/good-afternoon/or-maybe-new-subpage.md)
+* [Another new doc?](group-1/another-new-doc.md)
+* [The barber of Siberia](group-1/the-barber-of-siberia.md)
+* [Create new docc??](group-1/create-new-docc.md)
+* [Page 3](group-1/page-3.md)
+
+## Group 2
+
+* [Page 1](group-2/page-1.md)
+* [A win is a win](group-2/a-win-is-a-win.md)
+
+***
+
+* [Page 3](page-3.md)

@@ -1,123 +1,59 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1672567590318-69ffc45ef197?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2NDg3MjM&ixlib=rb-4.0.3&q=80
+cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# Copying & pasting
+# 🚩 This is my test space
 
-##
+[_Rebecca Green is an Illustrator & Author_\
+_based in Michigan._](https://www.thisiscolossal.com/)
+------------------------------------------------------
 
-## [Copying](http://localhost:5000/s/IPlAOE9qy3Sp4aWmCChk/taryn-knights-work) & pasting
+Making changes here.&#x20;
 
-## [https://www.figma.com/file/6HjrJuPwDhCjczn4vEoLLy/Test---public?type=whiteboard\&node-id=0%3A1\&t=QKVdlwkKGsKHDFaP-1](https://www.figma.com/file/6HjrJuPwDhCjczn4vEoLLy/Test---public?type=whiteboard\&node-id=0%3A1\&t=QKVdlwkKGsKHDFaP-1)
+And more changes&#x20;
 
-## [https://www.thisiscolossal.com/](https://www.thisiscolossal.com/)
+dfvnkfeldl&#x20;
 
-## [https://www.youtube.com/watch?v=YaAC5fbrwUE](https://www.youtube.com/watch?v=YaAC5fbrwUE)
+{% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1" %}
 
-##
+## ATD insights
 
-{% embed url="https://www.thisiscolossal.com/" %}
+ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
 
-{% embed url="https://changelog.gitbook.com/january-2023/24-january-23-new-comments-ui-improved-diff-view-and-more" %}
-
-<details>
-
-<summary></summary>
+[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
 
 
 
-</details>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="inspiring-work/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight </td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
-{% hint style="success" %}
+{% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
+<div>
+
+<figure><img src=".gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
+
+
+
+Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
+
+<mark style="color:blue;">**Doing changes as a Creator**</mark>
+
+[In Las Vegas](https://www.thisiscolossal.com/category/design/), the Office of Collecting & Design is a haven for the minute, the small objects that have been broken, separated from their partners, or grown obsolete and somehow found their way into the hands of Jessica Oreck. An artist and filmmaker, Oreck serves as both caretaker and cultivator of this magical and somewhat bizarre “collection of collections,” which houses everything from handmade sushi smaller than a pushpin and a teeny-tiny tube of Colgate to stone marbles and limbs detached from toy figures. Oreck spoke with Colossal managing editor Grace Ebert about the origin of the ever-expanding collection of miniatures, how respect and intuition ground her approach to the objects, and the mysterious story behind one of the strangest items she’s encountered.
+
+{% hint style="info" %}
+Oh my! this should work
 {% endhint %}
 
-## Heading 1
-
-## Testing bold text in GitHub
-
-{% tabs %}
-{% tab title="First Tab" %}
-**Writing bold in GitHub**
-{% endtab %}
-{% endtabs %}
-
-
-
-```
-// Some code
-
-```
-
-### Heading 2
-
-#### HEading 3
-
-Heading
-
-[#https-www.youtube.com-watch-v-yaac5fbrwue](./#https-www.youtube.com-watch-v-yaac5fbrwue "mention")
-
-{% embed url="https://www.youtube.com/watch?v=YaAC5fbrwUE" %}
-
-* Bestie Intros
-*
-*
-*
-*
-
-{% embed url="https://www.figma.com/file/6HjrJuPwDhCjczn4vEoLLy/Test---public?node-id=0:1&t=xuAmYtEfHhJ2Uh2u-1&type=whiteboard" %}
-
-ㅗ우ㅏㅣ뮤압ㅉ ㅑ지ㅓ이ㅜㅏㅣㅜㅏ
-
-ㅇㅈㅜ룾ㄴㅇ니
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Slate's All-In Article
-  1. JCal - #1 Tech & Business Podcast Hands Down
-     1. Press never wants to cite All-In.
-  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
-  3. JCal - People feel like they want a fair shake.
-  4. Sacks - Why go through their filter when it's always a hit piece?
-  5. Friedberg - There are real journalists out there.
-  6. Sacks - They want to have influence, that's why journalists do what they do.
-  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
-     1. Shows that all kinds of trash must get through.
-     2. So numerically illiterate. This was an easy catch.
-  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
-  9. JCal - The test about industry expertise.
-  10. Sacks - Jellman amnesia effect. Worse than this though.
-  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
-  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
-* Bestie Intros
-  1. Chamath - Joke about lag between JCals mouth and such.
-* Slate's All-In Article
-  1. JCal - #1 Tech & Business Podcast Hands Down
-     1. Press never wants to cite All-In.
-  2. Friedberg - They claim they are doing it to avoid questioning from journalists.
-  3. JCal - People feel like they want a fair shake.
-  4. Sacks - Why go through their filter when it's always a hit piece?
-  5. Friedberg - There are real journalists out there.
-  6. Sacks - They want to have influence, that's why journalists do what they do.
-  7. Chamath - Difference between interest percent and basis point. Way off on math in his article then.
-     1. Shows that all kinds of trash must get through.
-     2. So numerically illiterate. This was an easy catch.
-  8. **Note: Agreed. Scary how much of public opinion is most likely based on false info.**
-  9. JCal - The test about industry expertise.
-  10. Sacks - Jellman amnesia effect. Worse than this though.
-  11. **Note: Gell-mann Amnesia Effect deleted on Wikipedia? Well, cited under Michael Chricton.**
-  12. Friedberg - Getting a total kick out of the headline article with Sacks, Elon, Thiel.
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
