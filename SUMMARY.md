@@ -25,11 +25,11 @@
 * [Another new doc?](group-1/another-new-doc.md)
 * [The barber of Siberia](group-1/the-barber-of-siberia.md)
 * [Create new docc??](group-1/create-new-docc.md)
-* [Page 3](group-1/page-3.md)
 
 ## Group 2
 
-* [Page 1](group-2/page-1.md)
+* [Page 1](group-2/page-1/README.md)
+  * [Page 3](group-2/page-1/page-3.md)
 * [A win is a win](group-2/a-win-is-a-win.md)
 
 ***
