@@ -15,6 +15,50 @@ And more changes&#x20;
 
 dfvnkfeldl&#x20;
 
+## My heading 1
+
+### My heading 2
+
+#### My heading 3
+
+//Simple Block ![](https://gitbook.com/images/gitbook.png)
+
+//Block with Caption ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
+
+//Block with Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption></figcaption></figure>
+
+//Block with Caption and Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
+
+{% hint style="info" %}
+**Info hints** are great for showing general information, or providing tips and tricks.
+{% endhint %}
+
+{% hint style="success" %}
+**Success hints** are good for showing positive actions or achievements.
+{% endhint %}
+
+{% hint style="warning" %}
+**Warning hints** are good for showing important information or non-critical warnings.
+{% endhint %}
+
+{% hint style="danger" %}
+**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
+{% endhint %}
+
+{% hint style="info" %}
+#### This is a heading
+
+This is a line
+
+This is an inline  image
+
+This is a second <mark style="color:orange;background-color:purple;">line</mark>
+{% endhint %}
+
 {% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1" %}
 
 ##
