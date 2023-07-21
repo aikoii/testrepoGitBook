@@ -11,7 +11,7 @@ _based in Michigan._](https://www.thisiscolossal.com/)
 
 Making changes here.&#x20;
 
-And more changes&#x20;
+And more[ changes ](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
 
 dfvnkfeldl&#x20;
 
