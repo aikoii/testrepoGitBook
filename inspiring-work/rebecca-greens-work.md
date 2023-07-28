@@ -1,6 +1,6 @@
 # Rebecca Green's work
 
-### _Rebecca Green is an Illustrator & Author based in Michigan._
+### _Rebecca Green is an Illustrator &_&#x20;
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
@@ -8,6 +8,8 @@ Her hand painted illustrations showcase the timeless celebration of seasons, sto
 
 <figure><img src="../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
 
+>
+>
 > Hello!
 >
 > Love it
@@ -18,3 +20,5 @@ Her hand painted illustrations showcase the timeless celebration of seasons, sto
 >
 >
 > </code></pre>
+
+### _Author based in Michigan._
