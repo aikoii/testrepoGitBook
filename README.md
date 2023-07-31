@@ -44,21 +44,10 @@ coverY: 0
 {% endtab %}
 {% endtabs %}
 
-## Stage 1: Forking and Cloning
-
-The first step in contributing to Rocket.Chat is to fork the project on GitHub and clone it to your local development environment. This allows you to work on your changes in a controlled environment without impacting the main project.
-
-## Stage 2: Create a Branch
-
-It's best to create a new branch for each new feature or bug fix. This helps to isolate your changes and makes it easier to track the work that has been done.
-
-## Stage 3: Implementing Changes
-
-This is the stage where you write your code. Make sure you follow Rocket.Chat's coding standards and guidelines ensure consistency and maintainability. Your code should be clean, well-commented, and tested thoroughly.
-
-## Stage 4: Committing Changes
-
-Once you've made your changes, you need to commit them. Each commit should be a single logical change, and the commit message should describe what the change does, why it's needed, and any potential implications it may have.
+* **Stage 1: Forking and Cloning** The first step in contributing to Rocket.Chat is to fork the project on GitHub and clone it to your local development environment. This allows you to work on your changes in a controlled environment without impacting the main project.
+* Stage 2: Create a Branch It's best to create a new branch for each new feature or bug fix. This helps to isolate your changes and makes it easier to track the work that has been done.
+* Stage 3: Implementing ChangesThis is the stage where you write your code. Make sure you follow Rocket.Chat's coding standards and guidelines ensure consistency and maintainability. Your code should be clean, well-commented, and tested thoroughly.
+* **Stage 4: Committing Changes** Once you've made your changes, you need to commit them. Each commit should be a single logical change, and the commit message should describe what the change does, why it's needed, and any potential implications it may have.
 
 ```
 // Some code
