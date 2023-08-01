@@ -10,6 +10,16 @@ Her hand painted illustrations showcase the timeless celebration of seasons, sto
 
 ![](../.gitbook/assets/H93A9948.jpeg)
 
+:smile: Hello! Making other changes here 🌼
+
+$$f(x) = x * e^{2 pi i \xi x}$$
+
+
+
+{% hint style="info" %}
+
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
