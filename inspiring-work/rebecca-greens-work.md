@@ -4,7 +4,7 @@
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
-![](../.gitbook/assets/CELIA\_balletposterWS.jpeg)
+![](../.gitbook/assets/driedbunches.png)
 
 ![](https://images.unsplash.com/photo-1686572603473-f3c2d01732eb?crop=entropy\&cs=srgb\&fm=jpg\&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NzU5NjZ8\&ixlib=rb-4.0.3\&q=85)
 
