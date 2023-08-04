@@ -4,7 +4,7 @@
 {% tab title="First Tab" %}
 
 
-<img src=".gitbook/assets/file.excalidraw.png" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 <img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
@@ -12,7 +12,7 @@
 {% endtab %}
 
 {% tab title="Second Tab" %}
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Greeeeen" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -28,7 +28,7 @@ Build the structure for your documentation using pages, spaces and collections. 
 
 {% tabs %}
 {% tab title="First Tab" %}
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken file</a></td></tr><tr><td></td><td></td><td></td><td><a href="broken-reference">Broken file</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Greeeeen">Greeeeen</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Second Tab" %}

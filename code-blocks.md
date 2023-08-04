@@ -19,7 +19,7 @@ dcnks]code
 {% endswagger-description %}
 {% endswagger %}
 
-<img src=".gitbook/assets/file.excalidraw.png" alt="" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 {% swagger method="get" path="" baseUrl="" summary="" %}
 {% swagger-description %}
