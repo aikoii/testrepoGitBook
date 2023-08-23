@@ -24,3 +24,4 @@
 
 * [Ordered list](ordered-list.md)
 * [HINT](hint.md)
+* [inline](inline.md)
