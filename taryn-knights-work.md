@@ -18,6 +18,12 @@ Over Zoom in February 2023 when Niemann was in his Berlin studio, we discussed h
 
 [Autumn](taryn-knights-work.md#rabbit-header-1) link this Rabbit Header 1
 
+aaa
+
+Diana
+
+
+
 {% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1/?t=123456789" %}
 
 Artist [Sophie Woodrow](https://sophiewoodrow.co.uk/) ([previously](https://www.thisiscolossal.com/tags/sophie-woodrow/)) joins Colossal for [a technique workshop](https://colossal.shop/collections/workshops/products/a-colossal-workshop-decorative-clay-techniques-with-sophie-woodrow) on decorative patterns for clay. In this two-hour session, Woodrow will teach students how to create the textured motifs she utilizes in her figurative porcelain works on small pinch pots. Attendees are invited to work on their preferred material to learn coiling, chequering, dotting, and more, which can be translated to a variety of projects. As this is a technique workshop—see some examples of motifs below—the goal is not necessarily to finish the session with a completed project, although participants may do so.
