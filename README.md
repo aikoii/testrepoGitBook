@@ -58,6 +58,10 @@ coverY: 0
 
 #### HEading 3
 
+![](<.gitbook/assets/056\_Kajan\_Johnson\_x\_Islam\_Makhachev (1) (1).jpeg>)
+
+![](<.gitbook/assets/Untitled design-4.jpg>)
+
 Heading
 
 [#https-www.youtube.com-watch-v-yaac5fbrwue](./#https-www.youtube.com-watch-v-yaac5fbrwue "mention")
@@ -67,7 +71,11 @@ Heading
 * Bestie Intros
 *
 *
-*
+
+:tada:
+
+:tada:
+
 *
 
 {% embed url="https://www.figma.com/file/6HjrJuPwDhCjczn4vEoLLy/Test---public?node-id=0:1&t=xuAmYtEfHhJ2Uh2u-1&type=whiteboard" %}
