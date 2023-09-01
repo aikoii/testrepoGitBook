@@ -6,13 +6,15 @@
 * [Expandables](expandables.md)
 * [Copy & paste: Bloc](copy-and-paste-bloc.md)
 * [Code Blocks](code-blocks.md)
-* [Tables](tables.md)
+* [Tables](tables/README.md)
+  * [Anotehr one](tables/anotehr-one.md)
 * [Header](header.md)
 * [Header 3](header-3.md)
 * [Header + image](header-+-image.md)
 * [Images](images.md)
-* [Drawing](drawing.md)
 * [Tabs & Drawings](tabs-and-drawings.md)
+* [Drawing](drawing/README.md)
+  * [Adding new subpage](drawing/adding-new-subpage.md)
 * [Markdown & GitHub](markdown-and-github.md)
 
 ## HI THERE
