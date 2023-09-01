@@ -38,6 +38,18 @@ To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter
 
 {% tabs %}
 {% tab title="First Tab" %}
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Second Tab" %}
+1. One
+2. Two
+3. Three
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="First Tab" %}
 | Table 1 | xoox |   |
 | ------- | ---- | - |
 |         |      |   |

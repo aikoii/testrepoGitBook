@@ -24,4 +24,22 @@
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://www.thisiscolossal.com/">Migrate Windows Desktop Applications to the Web with Wisej</a></td><td></td><td><a href="../.gitbook/assets/056_Kajan_Johnson_x_Islam_Makhachev (1) (5).jpeg">056_Kajan_Johnson_x_Islam_Makhachev (1) (5).jpeg</a></td></tr><tr><td></td><td><a href="https://www.thisiscolossal.com/">Using Wisej.NET to Access Blob Storage with Microsoft Azure</a></td><td></td><td><a href="../.gitbook/assets/Greeeeen">Greeeeen</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><a href="https://www.thisiscolossal.com/">Migrate Windows Desktop Applications to the Web with Wisej</a></td><td></td><td><a href="../.gitbook/assets/056_Kajan_Johnson_x_Islam_Makhachev (1) (5).jpeg">056_Kajan_Johnson_x_Islam_Makhachev (1) (5).jpeg</a></td></tr><tr><td></td><td><a href="https://www.thisiscolossal.com/">Using Wisej.NET to Access Blob Storage with Microsoft Azure</a><br><br> </td><td> </td><td><a href="../.gitbook/assets/Greeeeen">Greeeeen</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+and a tab here
+
+kk
+
+{% tabs %}
+{% tab title="First Tab" %}
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Second Tab" %}
+1. One
+2. Two
+3. Three
+{% endtab %}
+{% endtabs %}
+
+ll

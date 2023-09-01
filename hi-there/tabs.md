@@ -16,6 +16,8 @@ Fantastic creatures with keen attitudes and fragments of human anatomy occupy th
 {% endtab %}
 {% endtabs %}
 
+kk
+
 {% tabs %}
 {% tab title="First Tab" %}
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
@@ -27,6 +29,10 @@ Fantastic creatures with keen attitudes and fragments of human anatomy occupy th
 3. Three
 {% endtab %}
 {% endtabs %}
+
+ll
+
+
 
 {% tabs %}
 {% tab title="First Tab" %}
