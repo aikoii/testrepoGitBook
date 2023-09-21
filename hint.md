@@ -20,6 +20,14 @@ My paragraph $$type here$$
 bla changing this
 {% endhint %}
 
-{% hint style="warning" %}
-hellop
+{% hint style="danger" %}
+hellop coup sos hello
+
+
+{% endhint %}
+
+
+
+{% hint style="success" %}
+done
 {% endhint %}
