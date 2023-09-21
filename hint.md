@@ -15,3 +15,7 @@ cdcjkxn $$f(x) = x * e^{2 pi i \xi x}$$
 
 
 My paragraph $$type here$$
+
+{% hint style="info" %}
+bla bla
+{% endhint %}

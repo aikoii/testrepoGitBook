@@ -1,139 +1,61 @@
----
-cover: .gitbook/assets/image.png
-coverY: 0
----
+# Images
 
-# 🚩 This is my test space
+Rob Hopkins has seen the future – and it’s glorious. You should see it too, he says. Smell it. Hear it. There are children playing in the street again. Deafening dawn choruses. Cycle lanes chocka with rush-hour traffic. Indie shops galore. Restaurants spilling onto streets. No homelessness. Oodles of civic pride. Crystal-clean rivers rewilded by beavers. Community orchards. Pollen on the breeze. No fumes, no smog, just fresh air.
 
-### Pigeons 🐦
+The year? 2030. Just seven years away. How did he get there? Well, the writer and activist has – whisper it – a time machine. It’s hidden in a secret laboratory under Totnes Castle in Devon, near to where he lives, along with a “disbelief suspender” and a “cynicism overrider”. At least that’s the yarn he spins when he’s invited to give talks on what he believes is a curiously underrated tool for tackling the climate and biodiversity crises: our imaginations
 
-hello doing changes hereeeeee
+What if QWERTY wasn’t the standard keyboard layout? A forthcoming book by Chicago-based designer and writer [Marcin Wichary](https://aresluna.org/) examines the now-ubiquitous format and how it came to dominate modern technology.
 
-After _Ottawa Magazine_ commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
+<figure><img src=".gitbook/assets/Greeeeen" alt=""><figcaption></figcaption></figure>
 
-Ok then I'm editing here
+Fully funded a few hours after launching on [Kickstarter](https://www.kickstarter.com/projects/mwichary/shift-happens?ref=2wnl1e), [_Shift Happens_ ](https://shifthappens.site/)documents 150 years of keyboard history from early analog typewriters to the pixelated versions on our phones. The 1,200-page book is split into two volumes that encompass a broad array of innovations and feuds from “the Shift Wars of the 1880s (and) Nobel-prize winner Arthur Schawlow using a laser to build the best typo eraser (to) August Dvorak—and many others—trying to dethrone QWERTY (and) Margaret Longley and Lenore Fenton perfecting touch typing.”
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+Seven years in the making, the book features 1,300 photos of devices and typists at work, some of which document collections and archives that have never been seen before. Wichary emphasizes the cultural implications of the commonplace objects, saying he focused on the people behind the technology. “I wanted a book that told all the personal stories about keyboards tied in with a historical, social, and political context,” he shares.
 
-Yup, same here.&#x20;
-
+To grab a copy of _Shift Happens_, head to [Kickstarter](https://www.kickstarter.com/projects/mwichary/shift-happens?ref=av4ohi), and follow Wichary on [Mastodon](https://mastodon.online/@mwichary) for updates on the project.
 
 
-<table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity </td></tr><tr><td>Viewer</td><td>Can only view the accessiblity </td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
-
-
-
-{% file src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
-
-[_Rebecca Green is an Illustrator & Author_\
-_based in Michigan._](https://www.thisiscolossal.com/)
-------------------------------------------------------
-
-Making changes here.&#x20;
-
-And more[ changes ](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
-
-dfvnkfeldl&#x20;
-
-
-
-
-
-
-
-## My heading 1
-
-### My heading 2
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href=".gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
-
-#### My heading 3
-
-//Simple Block ![](https://gitbook.com/images/gitbook.png)
-
-//Block with Caption ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
-
-
-
-//Block with Alt text
-
-<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption></figcaption></figure>
-
-//Block with Caption and Alt text
-
-<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
-
-{% hint style="info" %}
-**Info hints** are great for showing general information, or providing tips and tricks.
-{% endhint %}
-
-{% hint style="success" %}
-**Success hints** are good for showing positive actions or achievements.
-{% endhint %}
-
-{% hint style="warning" %}
-**Warning hints** are good for showing important information or non-critical warnings.
-{% endhint %}
-
-{% hint style="danger" %}
-**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
-{% endhint %}
-
-{% hint style="info" %}
-#### This is a heading
-
-This is a line
-
-This is an inline  image
-
-This is a second <mark style="color:orange;background-color:purple;">line</mark>
-{% endhint %}
-
-{% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1" %}
-
-##
-
-##
-
-##
-
-## ATD insights
-
-ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
-
-[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
-
-
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="inspiring-work/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight </td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
-
-{% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
 <div>
 
-<figure><img src=".gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/380px.jpeg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Greeeeen" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Tufa_towers_in_Mono_Lake-1000px.jpeg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
+<div>
 
+<figure><img src=".gitbook/assets/Tufa_towers_in_Mono_Lake-1000px.jpeg" alt=""><figcaption></figcaption></figure>
 
+ 
 
-Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
+<figure><img src=".gitbook/assets/380px.jpeg" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:blue;">**Doing changes as a Creator**</mark>
+</div>
 
-[In Las Vegas](https://www.thisiscolossal.com/category/design/), the Office of Collecting & Design is a haven for the minute, the small objects that have been broken, separated from their partners, or grown obsolete and somehow found their way into the hands of Jessica Oreck. An artist and filmmaker, Oreck serves as both caretaker and cultivator of this magical and somewhat bizarre “collection of collections,” which houses everything from handmade sushi smaller than a pushpin and a teeny-tiny tube of Colgate to stone marbles and limbs detached from toy figures. Oreck spoke with Colossal managing editor Grace Ebert about the origin of the ever-expanding collection of miniatures, how respect and intuition ground her approach to the objects, and the mysterious story behind one of the strangest items she’s encountered.
+<details>
+
+<summary>Hello</summary>
+
+\-Mal
+
+Alina
+
+Shadow & Bone
+
+</details>
+
+:thumbsup:Yaaay!
 
 {% hint style="info" %}
-Oh my! this should work
+Does this actually work?!
 {% endhint %}
-
