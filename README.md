@@ -4,20 +4,6 @@
 
 
 
-
-
-1
-
-1
-
-CHAAAANGE AND NOW!
-
-
-
-TO TOOOOO RTUUUU
-
-
-
 {% tabs %}
 {% tab title="First Tab" %}
 Hello!
@@ -29,8 +15,6 @@ Bye!
 
 {% endtab %}
 {% endtabs %}
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Surprise+Surprise+v1_FINAL.jpeg" alt=""><figcaption></figcaption></figure>
 
