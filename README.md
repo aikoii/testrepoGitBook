@@ -16,7 +16,7 @@ Bye!
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/Surprise+Surprise+v1_FINAL.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Literati+2.jpeg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/GPF_web__18760.webp" alt=""><figcaption></figcaption></figure>
 
