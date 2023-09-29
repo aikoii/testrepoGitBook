@@ -16,9 +16,9 @@ Bye!
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/october-1950-and-historical-view-of-rows-of-female-at-work-on-a-factory-F5D70X.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Literati+2.jpeg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/istockphoto-1326108916-612x612.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/GPF_web__18760.webp" alt=""><figcaption></figcaption></figure>
 
 ## Header 3
 
