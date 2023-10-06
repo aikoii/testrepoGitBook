@@ -2,7 +2,8 @@
 
 * [안녕하세요 세계](README.md)
 * [Sun](sun/README.md)
-  * [Tree](sun/tree.md)
+  * [Tree](sun/tree-1.md)
+  * [Copy of Tree](sun/tree-1-1.md)
   * [Paper](sun/paper.md)
 * [Moon](moon/README.md)
   * [Tree](moon/tree.md)
