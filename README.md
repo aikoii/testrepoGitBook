@@ -18,9 +18,9 @@ Bye!
 {% endtab %}
 {% endtabs %}
 
-<figure><img src=".gitbook/assets/IndianHopworkers_800.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Literati+2.jpeg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/farmersranch1925.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/GPF_web__18760.webp" alt=""><figcaption></figcaption></figure>
 
 ## Header 3
 
