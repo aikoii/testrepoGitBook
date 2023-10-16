@@ -39,5 +39,5 @@
 * [Page 3](page-3.md)
 * [Page links are broken?](page-links-are-broken.md)
 * [Linking this page](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/\~/changes/135/page-links-are-broken)
-* [Image block](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/HbGuO6n0rPV0JxjH1GNV/)
+* [Image block](https://production-playground.gitbook.io/colossal/inspiring-work/rebecca-greens-work)
 * [Rebecca green's work](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/inspiring-work/rebecca-greens-work)
