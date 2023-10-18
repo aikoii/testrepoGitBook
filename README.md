@@ -31,7 +31,10 @@ After _Ottawa Magazine_ commissioned him to shoot some creatures for a story on 
 * [ ] world
 * [x] Maximus
 * [x] freedom
-* [x] Rome
+* [x] Rome&#x20;
+  * [x] done
+
+
 
 <img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
