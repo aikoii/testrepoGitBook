@@ -25,9 +25,15 @@ _hello_
 
 After _Ottawa Magazine_ commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
 
-Yup, same here.
 
-<img alt="" class="gitbook-drawing">
+
+* [ ] Hello
+* [ ] world
+* [x] Maximus
+* [ ] freedom
+* [ ] Rome
+
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 <table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
 
