@@ -12,18 +12,14 @@ _\[4] Whilst the Gateway does not see this field as mandatory, Nomupay may have 
 
 _\[5] Hosted Integration Only._
 
-![](.gitbook/assets/H93A9948.jpeg)
-
-![](.gitbook/assets/CELIA\_balletposterWS.jpeg)
-
 [^1]: Optional in Hosted Integration.
 
-[^2]: hellooooo
+[^2]: black and white
 
 [^3]: Direct Integration only.
 
-[^4]: adding more info here
+[^4]: number four
 
 [^5]: Hosted Integration Only.
 
-[^6]: helaaaaaaooooouuu
+[^6]: number four

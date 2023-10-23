@@ -5,6 +5,8 @@ coverY: 0
 
 # 🚩 This is my test space
 
+
+
 ### Pigeons 🐦
 
 hello doing changes hereeeeee
@@ -18,8 +20,6 @@ Afternoon
 _hello_
 
 **bye**
-
-just adding a change to test if annotations' work
 {% endswagger-description %}
 {% endswagger %}
 
@@ -27,14 +27,15 @@ After _Ottawa Magazine_ commissioned him to shoot some creatures for a story on 
 
 
 
+* [ ] Hello
+* [ ] world
+* [x] Maximus
+* [x] freedom
+* [x] Rome
 
-Yup, same here.&#x20;
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-
-
-<table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity </td></tr><tr><td>Viewer</td><td>Can only view the accessiblity </td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
-
-
+<table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
 
 {% file src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
 
@@ -42,17 +43,11 @@ Yup, same here.&#x20;
 _based in Michigan._](https://www.thisiscolossal.com/)
 ------------------------------------------------------
 
-Making changes here.&#x20;
+Making changes here.
 
-And more[ changes ](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
+And more[ changes](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
 
-dfvnkfeldl&#x20;
-
-
-
-
-
-
+dfvnkfeldl
 
 ## My heading 1
 
@@ -65,8 +60,6 @@ dfvnkfeldl&#x20;
 //Simple Block ![](https://gitbook.com/images/gitbook.png)
 
 //Block with Caption ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
-
-
 
 //Block with Alt text
 
@@ -93,11 +86,11 @@ dfvnkfeldl&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-#### This is a heading
+**This is a heading**
 
 This is a line
 
-This is an inline  image
+This is an inline image
 
 This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
@@ -116,9 +109,7 @@ ATD insights are created using statistics from your EOIs and machine learning al
 
 [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
 
-
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="inspiring-work/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight </td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="inspiring-work/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
@@ -138,8 +129,6 @@ ATD insights are created using statistics from your EOIs and machine learning al
 
 ![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
-
-
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
 <mark style="color:blue;">**Doing changes as a Creator**</mark>
@@ -149,4 +138,3 @@ Her hand painted illustrations showcase the timeless celebration of seasons, sto
 {% hint style="info" %}
 Oh my! this should work
 {% endhint %}
-
