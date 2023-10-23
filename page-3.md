@@ -12,14 +12,16 @@ _\[4] Whilst the Gateway does not see this field as mandatory, Nomupay may have 
 
 _\[5] Hosted Integration Only._
 
+
+
 [^1]: Optional in Hosted Integration.
 
-[^2]: _Not required for Hosted Integration._
+[^2]: hellooooo
 
 [^3]: Direct Integration only.
 
-[^4]: _Whilst the Gateway does not see this field as mandatory, Nomupay may have payment methods that require additional configuration using checkout options._
+[^4]: adding more info here
 
 [^5]: Hosted Integration Only.
 
-[^6]: _Whilst the Gateway does not see this field as mandatory, Nomupay may have payment methods that require additional configuration using checkout options._
+[^6]: helaaaaaaooooouuu
