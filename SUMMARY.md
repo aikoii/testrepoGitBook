@@ -39,3 +39,5 @@
 * [Annotations deletes](page-3.md)
 * [Page links are broken?](page-links-are-broken.md)
 * [Rebecca green's work](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/inspiring-work/rebecca-greens-work)
+* [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
+* [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
