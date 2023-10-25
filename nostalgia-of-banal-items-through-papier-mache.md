@@ -8,8 +8,8 @@
 
 <mark style="color:blue;">Changing the color of the text</mark>
 
-{% content-ref url="inspiring-work/rebecca-greens-work.md" %}
-[rebecca-greens-work.md](inspiring-work/rebecca-greens-work.md)
+{% content-ref url="rebecca-greens-work.md" %}
+[rebecca-greens-work.md](rebecca-greens-work.md)
 {% endcontent-ref %}
 
 {% embed url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/~/changes/98/untitled-document" %}
@@ -22,7 +22,7 @@ A stack of worn phone books, a neatly folded button-up, and a junk draw filled w
 
 [Wilkie Collins’ ](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
-* [_The Woman in White_](inspiring-work/rebecca-greens-work.md)&#x20;
+* [_The Woman in White_](rebecca-greens-work.md)&#x20;
 * [John Berger’s _A Painter of Our Time_ ](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
 find their place among other classic texts.
