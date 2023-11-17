@@ -10,6 +10,7 @@
 
 * [Rebecca Green's work](inspiring-work/rebecca-greens-work.md)
 * [Page](inspiring-work/page.md)
+* [Page 4](inspiring-work/page-4.md)
 
 ***
 
