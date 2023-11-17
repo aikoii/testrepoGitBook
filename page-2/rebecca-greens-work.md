@@ -2,7 +2,7 @@
 
 ### _Rebecca Green is an Illustrator &_
 
-Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
+Her hand painted illustration[^1]s showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
 ![](../.gitbook/assets/driedbunches.png)
 
@@ -30,3 +30,5 @@ $$f(x) = x * e^{2 pi i \xi x}$$
 > </code></pre>
 
 ### _Author based in Michigan._
+
+[^1]: gyujhjk
