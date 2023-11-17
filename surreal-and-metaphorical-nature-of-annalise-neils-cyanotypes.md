@@ -2,7 +2,7 @@
 
 Adding a Paragraph here
 
-[rebecca-greens-work.md](inspiring-work/rebecca-greens-work.md "mention")
+[rebecca-greens-work.md](page-2/rebecca-greens-work.md "mention")
 
 {% hint style="info" %}
 
