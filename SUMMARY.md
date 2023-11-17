@@ -19,6 +19,8 @@
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
   * [Making](page-2/making.md)
+  * [Ola!](page-2/ola.md)
+  * [Ronaldo](page-2/ronaldo.md)
 
 ## Group 1
 
