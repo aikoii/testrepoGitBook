@@ -18,9 +18,9 @@
 * [Untitled document](untitled-document.md)
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
-  * [Making](page-2/making.md)
+  * [Basketball](page-2/making.md)
   * [Ola!](page-2/ola.md)
-  * [Ronaldo](page-2/ronaldo.md)
+  * [Football](page-2/football.md)
 
 ## Group 1
 
