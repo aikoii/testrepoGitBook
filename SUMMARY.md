@@ -9,36 +9,35 @@
 ## Inspiring work
 
 * [Page](inspiring-work/page.md)
-* [Page 4](inspiring-work/page-4.md)
 
 ***
 
 * [Taryn Knight's work](taryn-knights-work.md)
+* [Rebecca Green's work](rebecca-greens-work.md)
 * [Untitled document](untitled-document.md)
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
-  * [Basketball](page-2/making.md)
-  * [Ola!](page-2/ola.md)
-  * [Football](page-2/football.md)
-  * [Rebecca Green's work](page-2/rebecca-greens-work.md)
+  * [Making](page-2/making.md)
 
 ## Group 1
 
-* [Hello world](group-1/hello-world.md)
 * [Good Afternoon](group-1/good-afternoon/README.md)
   * [Or maybe new subpage?](group-1/good-afternoon/or-maybe-new-subpage.md)
 * [Another new doc?](group-1/another-new-doc.md)
-* [The barber of Siberia](group-1/the-barber-of-siberia.md)
 * [Create new docc??](group-1/create-new-docc.md)
+* [Hello world](group-1/hello-world.md)
+* [A win is a win](group-1/a-win-is-a-win.md)
+* [The barber of Siberia](group-1/the-barber-of-siberia.md)
 
 ## Group 2
 
 * [Page 1](group-2/page-1/README.md)
   * [Page 3](group-2/page-1/page-3.md)
-* [A win is a win](group-2/a-win-is-a-win.md)
 
 ***
 
-* [Annotations deletes](page-3.md)
 * [Page links are broken?](page-links-are-broken.md)
 * [Rebecca green's work](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/inspiring-work/rebecca-greens-work)
+* [Annotations deletes](page-3.md)
+* [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
+* [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
