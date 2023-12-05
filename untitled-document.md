@@ -8,6 +8,10 @@
 
 “Evanescent.” All images © Atelier Sisu, shared with permission
 
+\= # %
+
+
+
 Whether illuminated by the sun or spotlights, the undulating layers of [Atelier Sisu](https://www.ateliersisu.com/)’s playful installations are a presence in public spaces. The Sydney-based studio, which is a collaboration between artists Renzo B. Larriviere and Zara Pasfield, celebrates community interaction and joy in their vibrant, inflatable designs. A buttress between art and architecture, their practice focuses on the interaction between art and the surrounding environment. “Our aim is not simply to create something beautiful or a temporary sculpture but to re-interpret our public spaces through architectural choices,” the studio says in a statement.
 
 Atelier Sisu’s self-described “bubble-tecture” is exemplified in the iridescent spheres of “Evanescent,” which features enormous, translucent orbs that stick one another and appear to tumble across lawns or plazas. Conceived during the pandemic when the artists, like many of us, were faced with uncertainty and began to more closely consider the delicate balance of stability and the fleeting nature of time, the studio “endeavoured to communicate this feeling of transient beauty and the need to live in the moment through the idea of the bubble.” The piece has been displayed in more than 22 different cities in 12 different countries.
