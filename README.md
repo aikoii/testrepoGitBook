@@ -5,11 +5,14 @@ coverY: 0
 
 # 🚩 This is my test space
 
-{% embed url="https://blocks.glass/embed/1777" %}
+$$
+gvfdcsxamn n
+Wgyudjbhewsjn
+$$
 
-{% embed url="https://blocks.glass/embed/1777?theme=dark" %}
-
-{% embed url="https://blocks.glass/embed/1777?theme=dark?q=2312312331312313" %}
+$$
+f(x) = x₀ * e^{2 pi i \xi x}
+$$
 
 ### Pigeons 🐦
 
