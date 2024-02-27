@@ -3,24 +3,57 @@ cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# 🚩 This is my test space
+# 🚩 And leave the title here
+
+&#x20;
+
+
 
 $$
 gvfdcsxamn n
 Wgyudjbhewsjn
 $$
 
+1. dghsjkm
+2. cvdsgbhnajmk\
+
+
+<figure><img src="https://downloads.intercomcdn.com/i/o/962619980/219263fb86d853d265a061c8/CleanShot+2024-02-14+at+11_37_13%402x.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+sdcxbanm
+{% endhint %}
+
+3. csvdgbahnj
+4. fvdhsjnmkl;l,
+
+{% hint style="info" %}
+
+{% endhint %}
+
+5.
+
 $$
 f(x) = x₀ * e^{2 pi i \xi x}
 $$
 
-### Pigeons 🐦
+### Pigeons 🐦&#x20;
+
+can cannot
+
+camping
 
 hello doing changes hereeeeee&#x20;
 
 bhejdwknmksa
 
 &#x20;     debsjkn
+
+
+
+{% content-ref url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/snippet/2313" %}
+[Makhachev](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/snippet/2313)
+{% endcontent-ref %}
 
 \->&#x20;
 

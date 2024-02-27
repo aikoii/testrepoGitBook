@@ -1,8 +1,9 @@
 # Table of contents
 
-* [🚩 This is my test space](README.md)
+* [🚩 And leave the title here](README.md)
 * [Nostalgia of Banal Items Through Papier-Mâché](nostalgia-of-banal-items-through-papier-mache.md)
 * [Kukushka](kukushka.md)
+* [New page!](new-page.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
 * [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 

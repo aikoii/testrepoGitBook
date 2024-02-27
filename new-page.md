@@ -1,48 +1,20 @@
-# New page
+# New page!
 
-<figure><img src="https://images.unsplash.com/photo-1668026013640-65b61a1f533f?crop=entropy&#x26;cs=tinysrgb&#x26;fm=jpg&#x26;ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzA1MDQyNTg&#x26;ixlib=rb-4.0.3&#x26;q=80" alt=""><figcaption></figcaption></figure>
+Early mornings are chilly in Los Romero, a village high up in the mountains of western Guatemala. As in other predominantly Mam villages – Indigenous Maya people who have lived here since pre-Columbian times – households come quietly to life before dawn. Isabel Romero, a grandmother with long black hair, used to feel somewhat trapped in hers.
 
-Typing here
+“I was afraid of speaking because I was cooped up at home. I didn’t go out,” she says, explaining that like many Mam women, her days were dedicated to the hard work of running a household with little money, and she rarely spoke with other women. “I worried a lot and had headaches.”
 
-and here
+Residents of Los Romero live mainly from subsistence farming, growing maize, beans and squash, or grazing livestock. Almost 50% of the population is Indigenous in Guatemala, Central America’s biggest economy, but they do not share in its prosperity. Indigenous women in particular are discriminated against and dispossessed, with a life expectancy 13 years lower, and a maternal mortality rate two times higher, than the national average, according to the World Bank.
 
-{% embed url="https://www.thisiscolossal.com/" %}
-
-```
-// Some codewesjnwl
-dsnwjknak
-```
-
-{% hint style="info" %}
-Hint
+\
 
 
-{% endhint %}
+* one
+* two
+* three
 
-[dbhjbsckjhbd](https://www.thisiscolossal.com/category/craft/)
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-<details>
-
-<summary>Text</summary>
-
-
-
-</details>
-
-
-
-|        | from    | hello |
-| ------ | ------- | ----- |
-| qiqiqi | ewfe    | fds   |
-| hjkhk  | erfdfas | frd   |
-| ehkuhw | fersd   | freds |
+|       |      |      |
+| ----- | ---- | ---- |
+| hello |      |      |
+|       | font |      |
+|       |      | done |
