@@ -24,8 +24,9 @@ $$
 sdcxbanm
 {% endhint %}
 
-3. csvdgbahnj
-4. fvdhsjnmkl;l,
+
+
+<figure><img src=".gitbook/assets/CleanShot 2024-02-29 at 19.08.35@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 
