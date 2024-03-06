@@ -4,6 +4,12 @@ In the Mpumalanga region of South Africa, a mysterious, human-built structure kn
 
 Luthuli’s exhibition _Inzalo Ye Langa: Birthplace of the Sun_ draws on the rich fabric of African culture, history, and folklore, exploring ancestral connections and ancient heritage. He creates meticulously hand-carved surfaces from wood in a meditative process that reveals intricate geometries and fluid figures. The painted circular patterns are influenced by traditional African healing methods, which often utilize colorful beads arranged in various formations to treat ailments and chase away bad spirits.
 
+1. eds
+2. edsa
+3. refwds
+4. edws
+5.
+
 {% content-ref url="nostalgia-of-banal-items-through-papier-mache.md" %}
 [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md)
 {% endcontent-ref %}
