@@ -1,11 +1,11 @@
 # Table of contents
 
 * [🚩 And leave the title here](README.md)
-* [Nostalgia of Banal Items Through Papier-Mâché](nostalgia-of-banal-items-through-papier-mache.md)
+* [Paper](paper/README.md)
+  * [Sculpture](paper/sculpture/README.md)
+    * [Cyanotypes](paper/sculpture/cyanotypes.md)
 * [Kukushka](kukushka.md)
 * [New page!](new-page.md)
-* [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
-* [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
 ## Inspiring work
 

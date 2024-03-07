@@ -10,8 +10,8 @@ Luthuli’s exhibition _Inzalo Ye Langa: Birthplace of the Sun_ draws on the ric
 4. edws
 5.
 
-{% content-ref url="nostalgia-of-banal-items-through-papier-mache.md" %}
-[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md)
+{% content-ref url="paper/" %}
+[paper](paper/)
 {% endcontent-ref %}
 
-type here [surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md "mention") continue
+type here [cyanotypes.md](paper/sculpture/cyanotypes.md "mention") continue
