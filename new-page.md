@@ -1,4 +1,10 @@
+---
+coverY: 0
+---
+
 # New page!
+
+<figure><img src="https://images.unsplash.com/photo-1704749208961-c18145e82919?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzE0NDZ8&#x26;ixlib=rb-4.0.3&#x26;q=85" alt=""><figcaption></figcaption></figure>
 
 Early mornings are chilly in Los Romero, a village high up in the mountains of western Guatemala. As in other predominantly Mam villages – Indigenous Maya people who have lived here since pre-Columbian times – households come quietly to life before dawn. Isabel Romero, a grandmother with long black hair, used to feel somewhat trapped in hers.
 
