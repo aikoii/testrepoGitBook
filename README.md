@@ -7,7 +7,7 @@ coverY: 0
 
 {% embed url="https://share.hsforms.com/1ELBJJ6cfT2iNT-DQob1eTQ4qsuv" %}
 
-
+{% embed url="https://form.jotform.com/223040344790146" %}
 
 $$
 gvfdcsxamn n
@@ -72,8 +72,8 @@ bhejdwknmksa
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-{% swagger method="get" path="" baseUrl="" summary="" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark>&#x20;
+
 Morning
 
 Afternoon
@@ -81,8 +81,6 @@ Afternoon
 _hello_
 
 **bye**
-{% endswagger-description %}
-{% endswagger %}
 
 [After _Ottawa Magazine_](https://www.thisiscolossal.com/) commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
 
