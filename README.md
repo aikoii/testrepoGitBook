@@ -1,8 +1,3 @@
----
-cover: .gitbook/assets/image.png
-coverY: 0
----
-
 # 🚩 And leave the title here
 
 {% embed url="https://share.hsforms.com/1ELBJJ6cfT2iNT-DQob1eTQ4qsuv" %}
@@ -26,15 +21,11 @@ efrdwsqᵥₓfedsc
 
 <table><thead><tr><th width="249"></th><th></th><th></th></tr></thead><tbody><tr><td>vgfecdwsᵥₓ </td><td>vgfecdwsᵥₓ</td><td></td></tr><tr><td></td><td>efrdwsag</td><td></td></tr><tr><td></td><td>rtfefredwsqʳᵛᶠᵉᶜᵈˢˣᵃ</td><td>ᵣᵥfₑcdₛₓₐ</td></tr></tbody></table>
 
-<figure><img src="https://downloads.intercomcdn.com/i/o/962619980/219263fb86d853d265a061c8/CleanShot+2024-02-14+at+11_37_13%402x.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 sdcxbanm
 {% endhint %}
 
 
-
-<figure><img src=".gitbook/assets/CleanShot 2024-02-29 at 19.08.35@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 
@@ -187,8 +178,6 @@ ATD insights are created using statistics from your EOIs and machine learning al
 <figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
