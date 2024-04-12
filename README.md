@@ -1,17 +1,18 @@
-# 🚩 And leave the title here
+# 🚩 Green flag
 
-{% embed url="https://share.hsforms.com/1ELBJJ6cfT2iNT-DQob1eTQ4qsuv" %}
 
-{% embed url="https://form.jotform.com/223040344790146" %}
 
-$$
-gvfdcsxamn n
-Wgyudjbhewsjn
-$$
+Preview allows you to view your content exactly as it will appear when published, enabling you to verify layout, formatting, and the overall look and feel before making it public. This feature is instrumental in ensuring accuracy and professionalism in your published materials.
 
-1. dghsjkm
-2. cvdsgbhnajmk
-3.
+![](.gitbook/assets/LOUJAIN\_Storyboard\_2+copy.jpeg) 🎈&#x20;
+
+## ANOTHER EDIT
+
+{% hint style="info" %}
+HELLO WORLD!
+{% endhint %}
+
+
 
 [https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/NkEGS7hzeqa35sMXQZ4X/\~/diff/\~/changes/331/content-editor/searching-your-content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/content-editor/searching-your-content) PUBLISHED CONTENT RELEASE
 
