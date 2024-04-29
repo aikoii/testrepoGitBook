@@ -1,6 +1,9 @@
 # 🚩 Green flag
 
-
+```
+this.gridOptions = {
+- registerExternalResources: [new ExcelExportService()]
+```
 
 Preview allows you to view your content exactly as it will appear when published, enabling you to verify layout, formatting, and the overall look and feel before making it public. This feature is instrumental in ensuring accuracy and professionalism in your published materials.
 
