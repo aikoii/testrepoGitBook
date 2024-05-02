@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🚩 Green flag](README.md)
+* [🐢 Turtle](README.md)
 * [Paper](paper/README.md)
   * [Sculpture](paper/sculpture/README.md)
     * [Cyanotypes](paper/sculpture/cyanotypes.md)
