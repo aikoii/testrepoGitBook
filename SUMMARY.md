@@ -1,11 +1,18 @@
 # Table of contents
 
-* [🐢 Turtle](README.md)
-* [Paper](paper/README.md)
-  * [Sculpture](paper/sculpture/README.md)
-    * [Cyanotypes](paper/sculpture/cyanotypes.md)
+* [🚩 Testing](README.md)
+
+## MY GROUP
+
+* [Page 4](my-group/page-4.md)
+
+***
+
+* [changing title here](nostalgia-of-banal-items-through-papier-mache.md)
 * [Kukushka](kukushka.md)
 * [New page!](new-page.md)
+* [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
+* [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
 ## Inspiring work
 

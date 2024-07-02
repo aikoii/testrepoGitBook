@@ -1,6 +1,6 @@
 # Untitled document
 
-### [**Monumental Bubbles Pop Up in Public Spaces in Atelier Sisu’s Inflatable Installations**](https://www.thisiscolossal.com/2023/02/atelier-sisu-bubbletecture/) <a href="#_j0f5ksi07eka" id="_j0f5ksi07eka"></a>
+### [**Monumental Bubbles Pop Up in Public Spaces in Atelier Sisu’s Inflatable Installations**](https://www.thisiscolossal.com/2023/02/atelier-sisu-bubbletecture/) <a href="#j0f5ksi07eka" id="j0f5ksi07eka"></a>
 
 [**FEBRUARY 9, 2023**](https://www.thisiscolossal.com/2023/02/atelier-sisu-bubbletecture/)[**KATE MOTHES**](https://www.thisiscolossal.com/author/kmothes/)
 

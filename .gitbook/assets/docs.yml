@@ -1,0 +1,1266 @@
+openapi: 3.0.0
+info:
+  title: Depasify API
+  description: API for availability check.
+  contact:
+    name: Depasify Support
+    email: hello@depasify.com
+  version: 2.0.1
+servers:
+  - url: 'http://localhost:3000/api/v2'
+  - url: 'https://dca-stage.herokuapp.com/api/v2'
+  - url: 'https://app.depasify.com/api/v2'
+tags:
+  - name: Session
+  - name: Accounts
+  - name: Trades
+  - name: Withdrawals
+  - name: Schedules
+  - name: Savings Accounts
+paths:
+  /sign_in:
+    post:
+      tags: 
+        - Session
+      summary: Sign In
+      description: Provides token for authentication.
+      parameters:
+        - name: user[email]
+          in: query
+          description: Email for logging in.
+          required: true
+          schema:
+            type: string
+        - name: user[password]
+          in: query
+          description: Password for logging in.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Token for authentication.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      token:
+                        type: string
+                        example: 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3V1aWQiOiIxNzNlMWYwZi02ZDJiLTRlZWUtYjBlZi02MzM5ODU4MWY1OWMiLCJyZWZlcnJhbF9pZCI6IlpSRUhJOCIsInZhbGlkX3VudGlsIjpudWxsLCJleHAiOjE2NjYyNTg3NDh9.l1RGDqf3XHH2hPS7m2A9D-LF-QDXpVYmRSIgzP7i4iQ'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+    
+  /accounts:
+    get:
+      tags:
+        - Accounts
+      summary: List Accounts
+      description: Retrieves the list of accounts, and its details. If given an *user_uuid*, it will list only the accounts that belongs to the specified user.
+      security:
+        - Bearer: []
+      parameters:
+        - name: filter[user_uuid]
+          in: query
+          description: Filter accounts by user.
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Accounts list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Account'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+    
+    post:
+      tags:
+        - Accounts
+      summary: Create Account
+      description: Creates a new account for a given user. New account's info will be available in the response.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account[user_uuid]
+          in: query
+          description: Account's user.
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+      responses:
+        '200':
+          description: New account details.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Account'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+                
+  /accounts/{account_id}:
+    get:
+      tags:
+        - Accounts
+      summary: Get Account
+      description: Shows account's details.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of account to return
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+      responses:
+        '200':
+          description: Account details.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: Account not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+      
+  /accounts/{account_id}/trades:
+    get:
+      tags:
+        - Trades
+      summary: List Trades
+      description: Lists all account's trades.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of account to return its trades
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+      responses:
+        '200':
+          description: Account's trades list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+                
+    post:
+      tags:
+        - Trades
+      summary: Create Trade
+      description: |
+        Create a new trade order for an account.
+        
+        When using `amount` as parameter of the new trade, it will refer to the quantity of the quote asset to trade; when using `volume`, it will refer to the base. Using both or none of them will result in an error response.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of account to create a trade
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+        - name: trade[pair]
+          in: query
+          description: Pair to trade
+          required: true
+          schema:
+            type: string
+            example: 'ETHEUR'
+        - name: trade[side]
+          in: query
+          description: Side of the operation ('BUY' or 'SELL')
+          required: true
+          schema:
+            type: string
+            example: 'BUY'
+        - name: trade[amount]
+          in: query
+          description: Amount to trade (refers to quote asset)
+          required: false
+          schema:
+            type: integer
+            example: 10000
+        - name: trade[volume]
+          in: query
+          description: Volume to trade (refers to base asset)
+          required: false
+          schema:
+            type: integer
+            example: 10000
+      responses:
+        '200':
+          description: New trade.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Trade'
+        '400':
+          description: Error in parameters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+                
+  /accounts/{account_id}/trades/{trade_id}:
+    get:
+      tags:
+        - Trades
+      summary: Get Trade
+      description: Shows specific account's trade information.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of account to return its trade
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+        - name: trade_id
+          in: path
+          description: ID of trade to return
+          required: true
+          schema:
+            type: string
+            example: 'PonmVtUg'
+      responses:
+        '200':
+          description: Account's trade.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+                
+  /trades/pairs:
+    get:
+      tags:
+        - Trades
+      summary: List Pairs
+      description: Retrieves the list of all available pairs to trade.
+      security:
+        - Bearer: []
+      responses:
+        '200':
+          description: Pairs list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assets:
+                    type: array
+                    items:
+                      type: string
+                    example: ['BTCEUR', 'BTCUSDT', 'EURUSDT']
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+                
+  /collected_fees:
+    get:
+      tags:
+        - Trades
+      summary: List Collected Fees
+      description: Retrieves the list of fees collected from accounts trades.
+      security:
+        - Bearer: []
+      responses:
+        '200':
+          description: Pairs list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/PurchaseFee'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+                
+  
+  /accounts/{account_id}/withdrawals:
+    post:
+      tags:
+        - Withdrawals
+      summary: Create Withdrawal
+      description: Create a new withdrawal for account. It will withdraw from the wallet and create a transfer to the account's bank account. Account mush have enough EUR balance to perform the withdrawal.
+      security:
+        - Bearer: []
+      parameters:
+        - name: account_id
+          in: path
+          description: ID of account to return its trades
+          required: true
+          schema:
+            type: string
+            example: '87f2e604-1c27-4d9f-8c0a-078ae9318d3e'
+        - name: withdrawal[amount]
+          in: query
+          description: Amount to withdraw (in EUR cents)
+          required: true
+          schema:
+            type: integer
+            example: 10
+      responses:
+        '200':
+          description: New withdrawal.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Withdrawal'
+        '400':
+          description: Error in parameters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '404':
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFoundError'
+                
+  /schedules:
+    get:
+      tags:
+        - Schedules
+      description: Retrieve all schedules.
+      security:
+        - Bearer: []
+      parameters:
+        - name: name
+          in: query
+          description: Search for schedule by name
+          required: false
+          schema:
+            type: string
+        - name: asset
+          in: query
+          description: Search for schedule by asset
+          required: false
+          schema:
+            type: string
+        - name: status
+          in: query
+          description: Search for schedule by status ('active' or 'deleted')
+          required: false
+          schema:
+            type: string
+        - name: order
+          in: query
+          description: Order by a specific criteria ('name', 'asset', 'amount', 'created_at')
+          required: false
+          schema:
+            type: string
+        - name: direction
+          in: query
+          description: Direction to order ('asc', 'desc')
+          required: false
+          schema:
+            type: string
+        - name: include
+          in: query
+          description: Relationships to include (purchases)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Schedules list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Schedule'
+                  included:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+    post:
+      tags:
+        - Schedules
+      description: Create new schedule.
+      security:
+        - Bearer: []
+      parameters:
+        - name: schedule[name]
+          in: query
+          description: Name for the new schedule
+          required: false
+          schema:
+            type: string
+            example: 'Plan #1'
+        - name: schedule[amount]
+          in: query
+          description: Amount for the new schedule
+          required: true
+          schema:
+            type: integer
+            example: 10000
+        - name: schedule[asset]
+          in: query
+          description: Asset for the new schedule
+          required: true
+          schema:
+            type: string
+            example: 'BTC'
+        - name: schedule[period]
+          in: query
+          description: Period for the new schedule ('daily', 'weekly' or 'monthly')
+          required: true
+          schema:
+            type: string
+            example: 'weekly'
+        - name: schedule[currency]
+          in: query
+          description: Currency for the new schedule ('EUR' or 'USDT'). 'EUR' by default
+          required: false
+          schema:
+            type: string
+            example: 'EUR'
+        - name: schedule[first_purchase]
+          in: query
+          description: Set to '1' if want to do first purchase at creation, '0' if not. '0' by default 
+          required: false
+          schema:
+            type: string
+            example: '0'
+        - name: include
+          in: query
+          description: Relationships to include (purchases)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Schedules list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Schedule'
+                  included:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+  /schedules/{schedule_id}:
+    get:
+      tags:
+        - Schedules
+      description: Retrieve all schedules.
+      security:
+        - Bearer: []
+      parameters:
+        - name: schedule_id
+          in: path
+          description: Search for schedule by name
+          required: true
+          schema:
+            type: string
+            example: 1
+        - name: include
+          in: query
+          description: Relationships to include (purchases)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Schedule.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Schedule'
+                  included:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+    put:
+      tags:
+        - Schedules
+      description: Edit an schedule.
+      security:
+        - Bearer: []
+      parameters:
+        - name: schedule_id
+          in: path
+          description: Search for schedule by name
+          required: true
+          schema:
+            type: string
+            example: 1
+        - name: schedule[name]
+          in: query
+          description: Name for the new schedule
+          required: false
+          schema:
+            type: string
+            example: 'Plan #1'
+        - name: schedule[amount]
+          in: query
+          description: Amount for the new schedule
+          required: false
+          schema:
+            type: integer
+            example: 10000
+        - name: schedule[period]
+          in: query
+          description: Period for the new schedule ('daily', 'weekly' or 'monthly')
+          required: false
+          schema:
+            type: string
+            example: 'weekly'
+        - name: include
+          in: query
+          description: Relationships to include (purchases)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Edited schedule.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Schedule'
+                  included:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+    delete:
+      tags:
+        - Schedules
+      description: Delete an schedule.
+      security:
+        - Bearer: []
+      parameters:
+        - name: schedule_id
+          in: path
+          description: Search for schedule by name
+          required: true
+          schema:
+            type: string
+            example: 1
+        - name: include
+          in: query
+          description: Relationships to include (purchases)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Deleted schedule.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Schedule'
+                  included:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Trade'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+  /savings_accounts:
+    get:
+      tags:
+        - Savings Accounts
+      description: Retrieve all savings accounts movements.
+      security:
+        - Bearer: []
+      responses:
+        '200':
+          description: Savings Accounts movements list.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/SavingsAccount'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+  /savings_accounts/fund:
+    post:
+      tags:
+        - Savings Accounts
+      description: Create a new deposit in savings account
+      security:
+        - Bearer: []
+      parameters:
+        - name: savings_accounts[volume]
+          in: query
+          description: Amount to deposit
+          required: true
+          schema:
+            type: integer
+            example: 10
+      responses:
+        '200':
+          description: New deposit.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/SavingsAccount'
+        '400':
+          description: Error in parameters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+                
+  /savings_accounts/withdraw:
+    post:
+      tags:
+        - Savings Accounts
+      description: Create a new withdrawal from savings account
+      security:
+        - Bearer: []
+      parameters:
+        - name: savings_accounts[volume]
+          in: query
+          description: Amount to withdraw
+          required: true
+          schema:
+            type: integer
+            example: 10
+      responses:
+        '200':
+          description: New withdrawal.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/SavingsAccount'
+        '400':
+          description: Error in parameters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+        '422':
+          description: Unprocessable.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GeneralError'
+    
+  /savings_accounts/accept_terms_and_conditions:
+    post:
+      tags:
+        - Savings Accounts
+      description: Accept terms and contitions to use savings account
+      security:
+        - Bearer: []
+      responses:
+        '200':
+          description: New withdrawal.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      type:
+                        type: string
+                        example: 'savings_accounts'
+                      attributes:
+                        type: object
+                        properties:
+                          terms_and_conditions:
+                            type: string
+                            example: 'accepted'
+        '401':
+          description: Unauthorized.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthError'
+  
+components:
+  securitySchemes:
+    Bearer:
+      type: apiKey
+      name: Authorization
+      in: header
+      
+  schemas:
+    Account:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'accounts'
+        id:
+          type: string
+          example: '9bd28266-e0ca-4a4d-836b-9cc189e19eec'
+        attributes:
+          type: object
+          properties:
+            user_uuid:
+              type: string
+              description: User owner of the account
+              example: '68492377-0564-425c-bb11-be0a5d63167f'
+            status:
+              type: string
+              description: Status of the account's identity verification
+              example: 'verified'
+            referral_id:
+              type: string
+              description: Unique code for the account
+              example: 'A1DO2G'
+            fiat_balance:
+              type: integer
+              description: Available liquid balance (in EUR cents)
+              example: 100
+            wallet:
+              type: object
+              description: Detail of the account's porfolio
+              properties:
+                USDT:
+                  type: number
+                  example: 103.25
+                BTC:
+                  type: number
+                  example: 0.012534
+                ETH:
+                  type: integer
+                  example: 0.254863
+            fiat_transfers:
+              type: array
+              description: List of account's transfers
+              items:
+                $ref: '#/components/schemas/FiatDeposit'
+            timestamp:
+              type: integer
+              description: Timestamp of account's creation
+              example: 1663673785
+              
+    FiatDeposit:
+      type: object
+      properties:
+        uuid:
+          type: string
+          description: Unique identifier for the deposit
+          example: 'ab16f0b5-2d44-457f-b3bd-ec8138b11374'
+        amount:
+          type: integer
+          description: Deposit amount (in EUR cents)
+          example: 100
+        currency:
+          type: string
+          description: Deposit currency
+          example: 'EUR'
+        status:
+          type: string
+          description: Status of the deposit
+          example: 'confirmed'
+        kind:
+          type: string
+          description: Direction of the deposit ('incoming' or 'outgoing')
+          example: 'incoming'
+        timestamp:
+          type: integer
+          description: Creation time of the deposit
+          example: 1663673785
+          
+    Trade:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'trades'
+        id:
+          type: string
+          example: 'PonmVtUg'
+        attributes:
+          type: object
+          properties:
+            pair:
+              type: string
+              description: Pair of the trade
+              example: 'BTCEUR'
+            cost:
+              type: number
+              description: Quantity of quote asset traded
+              example: 100.0
+            price:
+              type: number
+              description: Price of the pair in the moment of the trade
+              example: 20000.0
+            volume:
+              type: number
+              description: Quantity of base asset traded
+              example: 0.00495
+            side:
+              type: string
+              description: Side of the trade ('BUY' or 'SELL')
+              example: 'BUY'
+            fees:
+              type: object
+              properties:
+                amount:
+                  type: number
+                  description: Fee amount charged
+                  example: 0.00005
+                rate:
+                  type: number
+                  description: Fee rate in parts per unit
+                  example: 0.01
+                currency:
+                  type: string
+                  description: Currency in which the fee was charged. Destiny asset is used by default 
+                  example: 'BTC'
+            created_at:
+              type: integer
+              description: Creation time of the trade
+              example: 1663673785
+                  
+    TradeRel:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'trades'
+        id:
+          type: string
+          example: 'PonmVtUg'
+                  
+    PurchaseFee:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'trade_fees'
+        id:
+          type: integer
+          example: 1
+        attributes:
+          type: object
+          properties:
+            trade_id:
+              type: string
+              description: Id of the trade in which the fee was charged
+              example: 'PonmVtUg'
+            amount:
+              type: number
+              description: Fee amount charged
+              example: 0.00005
+            currency:
+              type: string
+              description: Currency in which the fee was charged. Destiny asset is used by default 
+              example: 'BTC'
+            rate:
+              type: number
+              description: Fee rate in parts per unit
+              example: 0.01
+            created_at:
+              type: integer
+              description: Creation time of the fee
+              example: 1663673785
+          
+    Schedule:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'schedules'
+        id:
+          type: integer
+          example: 1
+        attributes:
+          type: object
+          properties:
+            name:
+              type: string
+              example: 'Plan #1'
+            asset:
+              type: string
+              example: 'BTC'
+            asset_name:
+              type: string
+              example: 'bitcoin'
+            currency:
+              type: string
+              example: 'EUR'
+            amount:
+              type: integer
+              example: 10000
+            period:
+              type: string
+              example: 'weekly'
+            profit:
+              type: number
+              example: 15.12
+            status:
+              type: string
+              example: 'active'
+            created_at:
+              type: string
+              example: "2022-01-01 00:00:00 +0100"
+        relationships:
+          type: object
+          properties:
+            purchases:
+              type: object
+              properties:
+                data:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/TradeRel'
+                    
+    SavingsAccount:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'savings_accounts'
+        id:
+          type: integer
+          example: 1
+        attributes:
+          type: object
+          properties:
+            product:
+              type: string
+              example: 'SavingsAccountLevel1'
+            kind:
+              type: string
+              example: 'stake'
+            volume:
+              type: number
+              example: 0.15
+            created_at:
+              type: string
+              example: "2022-01-01 00:00:00 +0100"
+          
+    Withdrawal:
+      type: object
+      properties:
+        type:
+          type: string
+          example: 'payments'
+        id:
+          type: integer
+          example: 1
+        attributes:
+          type: object
+          properties:
+            recipient_account:
+              type: string
+              description: Recipient's bank account
+              example: 'ES3720807369503525781817'
+            amount:
+              type: integer
+              description: Amount withdrawn (in EUR cents)
+              example: 10000
+            currency:
+              type: string
+              description: Currency of the transfer. By default EUR.
+              example: 'EUR'
+            description:
+              type: string
+              description: Concept of the transfer
+              example: 'Concept'
+            status:
+              type: string
+              description: Status of the transfer
+              example: 'confirmed'
+            kind:
+              type: string
+              description: Direction of the transfer
+              example: 'outgoing'
+            created_at:
+              type: integer
+              description: Creation time of the order
+              example: 1663673785
+          
+    GeneralError:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              code:
+                type: string
+                description: Error identifier code
+                example: 'error_code'
+              message:
+                type: string
+                description: Description of the error
+                example: 'This is an error message.'
+                
+    NotFoundError:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              code:
+                type: string
+                description: Error identifier code
+                example: 'resource_not_found'
+              message:
+                type: string
+                description: Description of the error
+                example: 'Resource could not been found.'
+          
+    AuthError:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              code:
+                type: string
+                description: Error identifier code
+                example: 'incorrect_credentials'
+              message:
+                type: string
+                description: Description of the error
+                example: 'The credentials are not correct.'

@@ -1,68 +1,68 @@
-# 🐢 Turtle
+---
+cover: .gitbook/assets/image.png
+coverY: 0
+---
+
+# 🚩 Testing
+
+$$
+gvfdcsxamn n
+Wgyudjbhewsjn
+$$
+
+{% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/docs.yml" path="/accounts" method="post" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/docs.yml" path="/accounts" method="get" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/docs.yml" path="/accounts/{account_id}" method="get" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+{% swagger src=".gitbook/assets/docs.yml" path="/accounts/{account_id}/trades" method="get" %}
+[docs.yml](.gitbook/assets/docs.yml)
+{% endswagger %}
+
+<figure><img src=".gitbook/assets/Latex.svg" alt=""><figcaption></figcaption></figure>
 
 
 
-https://codesandbox.io/p/sandbox/react-on-request-product-button-dzytgp?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL\_GROUP%2522%252C%2522id%2522%253A%2522ROOT\_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL\_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clu73epsy00063b6gqn9u8q0c%2522%252C%2522sizes%2522%253A%255B100%252C0%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL\_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clu73epsx00023b6geam8g1wl%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL\_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clu73epsx00033b6gi3bkcnq2%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL\_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clu73epsx00053b6gdxwkzcxh%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B60.511140714246615%252C39.488859285753385%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clu73epsx00023b6geam8g1wl%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clu73epsx00013b6g68zmznxl%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252Findex.js%2522%252C%2522state%2522%253A%2522IDLE%2522%257D%255D%252C%2522id%2522%253A%2522clu73epsx00023b6geam8g1wl%2522%252C%2522activeTabId%2522%253A%2522clu73epsx00013b6g68zmznxl%2522%257D%252C%2522clu73epsx00053b6gdxwkzcxh%2522%253A%257B%2522id%2522%253A%2522clu73epsx00053b6gdxwkzcxh%2522%252C%2522activeTabId%2522%253A%2522clvvvxm5s00643b6h9q20u45z%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clu73epsx00043b6g9wsmblfc%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522UNASSIGNED\_PORT%2522%252C%2522port%2522%253A0%252C%2522path%2522%253A%2522%252F%2522%257D%252C%257B%2522type%2522%253A%2522SANDBOX\_INFO%2522%252C%2522id%2522%253A%2522clvvvxm5s00643b6h9q20u45z%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%257D%252C%2522clu73epsx00033b6gi3bkcnq2%2522%253A%257B%2522tabs%2522%253A%255B%255D%252C%2522id%2522%253A%2522clu73epsx00033b6gi3bkcnq2%2522%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Afalse%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D
 
 
 
-<table data-full-width="true"><thead><tr><th width="313" data-type="files">Icon</th><th>Description</th></tr></thead><tbody><tr><td><a href=".gitbook/assets/username.png">username.png</a></td><td><p></p><p>allows user with proper user rights to activate notifications for such events as checklists, special events, pickup receipts overview (PDIX), TSG overview, location documents, webhooks, loading units history, advising history, log books.                                                                          </p></td></tr><tr><td><a href=".gitbook/assets/Screenshot_20.png">Screenshot_20.png</a></td><td>a feature allowing users to communicate with two types of driver roles (drivers and drivers global) through voice and text-based exchanges within a system. Users can compose and send messages to a driver, as well as receive and read messages sent to them. </td></tr></tbody></table>
-
-<table data-full-width="true"><thead><tr><th width="313">Icon</th><th>Description</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/Screenshot_20.png" alt="" data-size="line"> Inline image</td><td>allows user with proper user rights to activate notifications for such events as checklists, special events, pickup receipts overview (PDIX), TSG overview, location documents, webhooks, loading units history, advising history, log books.                                                                          </td></tr><tr><td><img src=".gitbook/assets/username.png" alt="" data-size="line"> Username</td><td>a feature allowing users to communicate with two types of driver roles (drivers and drivers global) through voice and text-based exchanges within a system. Users can compose and send messages to a driver, as well as receive and read messages sent to them. </td></tr></tbody></table>
-
-```
-this.gridOptions = {
-- registerExternalResources: [new ExcelExportService()]
-```
-
-Preview allows you to view your content exactly as it will appear when published, enabling you to verify layout, formatting, and the overall look and feel before making it public. This feature is instrumental in ensuring accuracy and professionalism in your published materials.
-
-![](.gitbook/assets/LOUJAIN\_Storyboard\_2+copy.jpeg) 🎈&#x20;
-
-## ANOTHER EDIT
-
-{% hint style="info" %}
-HELLO WORLD!
-{% endhint %}
-
-{% tabs %}
-{% tab title="JavaScript" %}
-```javascript
-const message = "hello world";
-console.log(message);
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```python
-message = "hello world"
-print(message)
-```
-{% endtab %}
-
-{% tab title="Ruby" %}
-```ruby
-message = "hello world"
-puts message
-```
-{% endtab %}
-{% endtabs %}
-
-[https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/NkEGS7hzeqa35sMXQZ4X/\~/diff/\~/changes/331/content-editor/searching-your-content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/content-editor/searching-your-content) PUBLISHED[ CONTENT](https://shorturl.at/esHJX)
-
-{% embed url="https://rb.gy/sweqz6" %}
-
-efrdwsqᵥₓfedsc
 
 
 
-<table><thead><tr><th width="249"></th><th></th><th></th></tr></thead><tbody><tr><td>vgfecdwsᵥₓ </td><td>vgfecdwsᵥₓ</td><td></td></tr><tr><td></td><td>efrdwsag</td><td></td></tr><tr><td></td><td>rtfefredwsqʳᵛᶠᵉᶜᵈˢˣᵃ</td><td>ᵣᵥfₑcdₛₓₐ</td></tr></tbody></table>
+
+
+
+
+{% embed url="https://res.cloudinary.com/dvr3obmlj/image/upload/v1707402645/2018-12-03-BEKEE-Geopolitical-Reasoning_tssco0.pdf" %}
+
+{% embed url="https://docs.google.com/viewerng/viewer?url=https://res.cloudinary.com/dvr3obmlj/image/upload/v1692117687/2020-03-26-Differential-Diagnosis-COVID-19_dpsnbd.pdf" %}
+
+{% embed url="https://res.cloudinary.com/dvr3obmlj/image/upload/v1692117687/2020-03-26-Differential-Diagnosis-COVID-19_dpsnbd.pdf" %}
+
+1. dghsjkm
+2. cvdsgbhnajmk
 
 {% hint style="info" %}
 sdcxbanm
 {% endhint %}
 
-
+3. csvdgbahnj
+4. fvdhsjnmkl;l,
 
 {% hint style="info" %}
 
@@ -84,21 +84,13 @@ hello doing changes hereeeeee&#x20;
 
 bhejdwknmksa
 
-
-
-
-
-|          |   |   |
-| -------- | - | - |
-| Alphaˣˣˣ |   |   |
-| Betaₓₓₓ  |   |   |
-|          |   |   |
+&#x20;     debsjkn
 
 \->&#x20;
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href=".gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
 
 <mark style="color:blue;">`GET`</mark>&#x20;
 
@@ -110,7 +102,7 @@ _hello_
 
 **bye**
 
-[After _Ottawa Magazine_](https://www.thisiscolossal.com/) commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
+commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
 
 [#rebecca-green-is-an-illustrator-and-author-based-in-michigan.](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan. "mention")
 
@@ -124,23 +116,31 @@ _hello_
 
 <img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-<table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest. Reader</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
+<table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
 
 {% file src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
 
 [_Rebecca Green is an Illustrator & Author_\
-](https://www.thisiscolossal.com/)
-----------------------------------
+_based in Michigan._](https://www.thisiscolossal.com/)
+------------------------------------------------------
+
+Making changes here.
+
+And more[ changes](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
+
+dfvnkfeldl
 
 ## My heading 1
 
 ### My heading 2
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href=".gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="paper/">paper</a></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href=".gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### My heading 3
 
-![](.gitbook/assets/CELIA\_balletposterWS.jpeg)![The GitBook Logo](https://gitbook.com/images/gitbook.png)
+//Simple Block ![](https://gitbook.com/images/gitbook.png)
+
+//Block with Caption ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
 
 //Block with Alt text
 
@@ -186,11 +186,11 @@ This is a second <mark style="color:orange;background-color:purple;">line</mark>
 
 ## ATD insights
 
-ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [paper](paper/ "mention")<mark style="color:orange;">for</mark> a list of supported insights.
+ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
 
-[paper](paper/ "mention")
+[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Natasza</td><td></td><td></td><td><a href="rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Rodrigo</td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>John</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
@@ -207,6 +207,10 @@ ATD insights are created using statistics from your EOIs and machine learning al
 <figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
+
+Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 
 <mark style="color:blue;">**Doing changes as a Creator**</mark>
 
