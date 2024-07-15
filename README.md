@@ -36,13 +36,13 @@ $$
 
 <figure><img src=".gitbook/assets/Latex.svg" alt=""><figcaption></figcaption></figure>
 
+***
 
+***
 
+devider here
 
-
-
-
-
+***
 
 
 
@@ -90,7 +90,7 @@ bhejdwknmksa
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"></td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href=".gitbook/assets/LOUJAIN_Storyboard_2+copy.jpeg">LOUJAIN_Storyboard_2+copy.jpeg</a></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href=".gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href=".gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
 
 <mark style="color:blue;">`GET`</mark>&#x20;
 
@@ -176,7 +176,7 @@ This is an inline image
 This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
 
-{% @figma/embed fileId="rHyJpfRqtFo6w1YfISUjkX" nodeId="1152:58573" url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1" %}
+{% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1" %}
 
 ##
 
