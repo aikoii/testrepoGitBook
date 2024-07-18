@@ -1,0 +1,2352 @@
+openapi: 3.0.3
+
+info:
+  title: MAT DATA MANAGER
+  description: API designed to interact with the data of a MAT application
+  contact:
+    name: Support 40 Factory
+    email: support@40-factory.com
+  version: 0.0.1
+
+# NOTE 9 
+# THIS SCHEMA MAY ACTUALLY NOT BE REQUIRED SINCE IT'S NOT THE API ITSELF THAT REQUIRES A TOKEN TO BE INTERACTED WITH, BUT RATHER IT'S THE 
+# PLATFORMS HOSTING THE RESOURCE THAT DOES, AND THIS MICROSERVICE ONLY MOVES THE AUTHORIZATION TOKEN OVER TO THOSE
+security:
+  - thirdPartyAuth: []
+
+paths:
+
+  # Endpoint that can be used to request DM to send a mail message to a mailing list
+  /notification:
+    post: 
+      description: Sends the components of an email to DM requesting to send it
+
+      tags:
+        - Notification
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                receiver_email:
+                  description: "mailinglists of receivers"
+                  type: string
+                message:
+                  description: dictionary structure that describes the message to send
+                  type: object
+                texthtml:
+                  description: additional html formatted info 
+                  type: string 
+                attachments:
+                  description: attachments for the message to be sent 
+                  type: object
+      responses:
+        '200':
+          $ref: "#/components/responses/200"
+        '204':
+          $ref: "#/components/responses/204"
+
+
+  # NOTES 1
+  # WE COULD INTRODUCE WAYS TO RETRIEVE NUMEROUS AND/OR LARGE FILES IN AN OPTIMIZED WAY (I.E. RETURN A COMPRESSED ARCHIVE FOR A LIST OF FILES)
+  /files/{assetId}:
+    description: returns the list of files available for the specified assetId
+    
+    parameters:
+      - $ref: "#/components/parameters/assetId"
+
+    post:
+      tags:
+        - Files
+
+      description: Returns an asset's file list
+      parameters:
+        - $ref: '#/components/parameters/filterOnName'
+        - $ref: '#/components/parameters/sortOnField'
+
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                path:
+                  description: returns the list of files in this path
+                  type: string
+                  example: "/documentation"
+                filters: 
+                  description: possible filters that can be applied to the request 
+                  type: object 
+                  example: "'{'and' : [{'size' :{'>' : 0}}, {'fileExt' : '.txt'}]}'"
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    fileName:
+                      type: string
+                      example: 123_456.npz
+                    size:
+                      type: integer
+                      example: 1024
+                    etag: 
+                      type: string
+              
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /files/{assetId}/{filePath}:
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filePath'
+
+      # filePath can be a path or only a filename, e.g. /settings/settings.json or settings.json
+
+    get:
+      description: Returns the specified file. If filePath does not represent a file, it returns the list of files at that location.
+
+      tags:
+        - Files
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/octect-stream:
+              schema:
+                $ref: "#/components/schemas/genericFile"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    put:
+      description: Updates the specified asset, if it doesn't exists, it creates it
+
+      tags:
+        - Files
+
+      requestBody:
+        description: Content of the file to upload
+        content:
+          application/octet-stream: {}
+
+      responses:
+        '201':
+          description: OK
+          content:
+            application/octect-stream:
+              schema:
+                $ref: "#/components/schemas/genericFile"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    delete:
+      description: Deletes the specified file
+
+      tags:
+        - Files
+
+      responses:
+      # NOTES 5
+      # This could also be 202, without body in the response, but it would be handy to return the data about the deleted object; the same goes 
+      # for the other delete methods for other endpoints
+        '204':
+          $ref: '#/components/responses/204'
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  
+
+  /computer/{assetId}:
+    # NOTES 2
+    ########################################
+    # Questa è la funzione più importante perché è il cuore del calculator/npzReader e quindi anche la più complessa da disegnare.
+
+    #  - Vale la pena considerare che possa non avere un assetId nel path, nel caso si voglia fare una chiamata specificando KPI diversi per asset diversi in blocco
+
+    #  - Se si vogliono mantenere le funzionalità quanto più vicine possibile alla situazione attuale (e senza creare un microservizio per il calculator) questo endpoint dovrebbe
+    #    ricevere le query da parsare con alcuni ulteriori campi che definiscono funzioni da applicare al set di dati (es. groupby o resampling temporale)
+
+    #  - Vale la pena valutare se non è meglio splittare gli endpoint per le varie funzioni in modo da far tornar oggetti sempre nella stessa forma a una richiesta a questi endpoint:
+
+    #    per esempio l'endpoint
+
+    #       /computer/{assetId}/groupby/{aggregatorValues}
+
+    #   riceverebbe la stessa richiesta che si farebbe all'endpoint /computer/{assetId} e restituirebbe i dati in una forma diversa (per forza di cose) e via così ogni nuova funzione supportata
+    #   che ritorna dati in forme diverse avrebbe un endpoint dedicato
+
+    #   Questa soluzione è sicuramente più ordinata e potenzialmente più stabile garantendo un range di tipi di risposte diverse molto più limitato, però il drawback sarebbe che
+    #   l'attore che si interfaccia con l'API (immaginiamo il back-end) dovrebbe sapere come usare le varie funzioni in situazioni diverse (un tradeoff spesso accettabile).
+
+
+    description: Resource aimed to retrieve and make computations on data
+    parameters:
+      - $ref: "#/components/parameters/assetId"
+
+    get:
+      description: Returns the list of available operations and accepted syntaxes
+
+      tags:
+        - "Computer"
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: 
+                $ref: "#/components/schemas/genericJson"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    post:
+      description: Sends a query to the *computer*, describing a table, to be parsed and evaluated
+
+      tags:
+        - Computer
+      
+      parameters: 
+        - in: query 
+          name: orientation
+          description: represents how the Back End wants the response back
+          required: true 
+          schema: 
+            type: string 
+            example: list_of_dicts or dict_of_lists
+
+      requestBody:
+        description: List of objects, each describing a table expected as a result, it specifies columns, operations and aggregations to be performed 
+                      along with the name the table should have
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                tableName:
+                  description: "Name to give to the computed table"
+                  type: string
+                  example: "Table1"
+                columns:
+                  description: "Columns composing the table."
+                  #required: true
+                  type: array
+                  items:
+                    properties:
+                      expression:
+                        description: "Query representing a desired column. 
+                                      This field should indicate how to compose the desired column.
+                                      Use $C_ placeholder to indicate a table or $K_ to indicate a term 
+                                      already explained in another expression. "
+                        type: string
+                        example: $C_Table1.energy1 + $C_Table1.energy2,   $C_Table1.\*,  $C_Table1.aggr\*
+                      alias:
+                        description: "Name to give to the column"
+                        type: string
+                        example: "totalEnergy"
+                      operation:
+                        description: operation that has to be applied to the resulting column. 
+                                      It has to be coherent with all other operations (all th resulting objects need to be of the same dimension).
+                        example: sum - min - max - last - mean - count - prod - first
+                      returnScalar:
+                        description: this field can be True or False and it indicates wheter or not global values for the specified column has to be returned, e.g. the productivity for the entire timeperiod.
+                        type: boolean
+                      subAssetId:
+                        description: this field can contain the machine id associated to one of the machines composing the principal asset. In this way, the specified formula will be calculated considering the tables associated to that machine (multi machine case).
+                        type: string
+                fileId:
+                  description: this is present when the machine/asset is composed of more lines
+                  type: string 
+                from:
+                  description: "Begin of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.000Z"
+                to:
+                  description: "End of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.001Z"
+                resample:
+                  description: temporal interval to resample for, but it can also be a column. In this case all continuous values for that column are grouped togheter.
+                               When a resample is done , the resampled key is returned togheter with timeStart and timeEnd. They represen the start and end timestamp of the resampled interval.
+                  type: string
+                  example: state or 1D
+                maxPointsToReturn:
+                  description: it indicates the number of max values that have to be returned when resample is null.
+                  type: integer
+                  example: 200
+                operation: 
+                  description: an operation that has to be applied to every requested column. The same behaviour can be obtained by specifying the operation for each column.
+                  type: string 
+                  example: 'sum'
+                fill: 
+                  description: it can be 'None', which means that I do not want any fill operation done on data, or 'null', which means that I want the data to be filled with None values
+                  type: string 
+                  example: 'None'
+                subAssetId: 
+                  description: it allows to specify the machine code of a principal machine's component (multi machine case) to retrieve only its data
+                  type: string 
+                  example: 'Line2'
+                timezone:
+                  description: "Timezone to use to apply resampling"
+                  type: string
+                  example: "Europe/Berlin"
+                filters:
+                  description: contains the filters that have to be applied to the data to be returned
+                  type: object 
+                  example: {'and' : [{'or' : [{'tableName.tableColumn' : 'something'}, {'tableName.tableColumn' : 1}, {'tableName.tableColumn' : 'somethingelse'}]},
+                            {'and' : [{'tableName.tableColumn' : {'<' : 27}}, {'tableName.tableColumn' : {'=' : 'xyz'}}, {'tableName.tableColumn' : {'>=' : '300'}}]}]}
+
+
+            # filters is a dictionary: the key identifies an operation that has to be applied to every element of its value, e.g. 'and'
+            # the value can only be a list. A list can contain a dictionary (operation : [..] which is the recursive case), or a list of dictionaries that can be in three forms:
+            #     - first form: {'tableName.columnName' : 'value'} : means that the column has to be equal to the value 
+            #     - second form: {'tableName.columnName' : {'operation' : 'something'}} : means that the column it has to be applied the specified operation 
+            #                     and the value to be compared with is the one in the value field
+            #
+                derivedTables: 
+                  description: dict which represent tables that can be computer by the DM using some conditions and can then be used to calculate expressions
+                  type: object
+                limit:
+                  description: how many values have to be taken from the returning table. Es. 1 means only the last value has to be taken.
+                  type: integer 
+                  example: 3
+                orderBy:
+                  description: how returned data should be ordered
+                  type: string
+                  example: DESC or ASC
+                groupBy:
+                  description:  list of column names that the Data Manager should use to organize data. 
+                                All the tables specified in the column parameter should contain the column names specified here.
+                                In output there is a dict where the keys represent the values assumed by the groupby field, the values are 
+                                list_of_dicts or dict_of_lists representing the tables, as specified in orientation.
+                  type: object
+                  example: 
+                calendar:
+                  description: "Boolean to flag if it is required to apply calendar"
+                  type: boolean
+                checkTimeIntervalExtremes:
+                  description: allows to indicate how to check for data at the extremes of the specified time interval (from - to).
+                                Accepted values = 'narrow' -> do not check extremes,
+                                                  'wide'   -> check both extremes 
+                                                  'left'   -> check only left extreme (from)
+                                                  'right'  -> check only right extreme (to)
+
+                  type: string
+
+            #ES:                                                                        # questa struttura dovrebbe andare a sostituire una chiamata a NPZReader
+            #[
+            #  {
+            #   "columns" : [                                                            # questa struttura descrive la tabella che voglio mi venga ritornata
+            #       {
+            #       "expression" : "$C_historyAlarms.\*",                                # ti permette di prendere tutta la tabella 
+            #       "alias" : null,
+            #       "operation" : sum - min - max - last - mean - count - prod - first   # notice that if resample is set, then the operation is applied on each resampled unit
+            #        "returnScalar": True
+            #       },
+            #       {
+            #       "expression" : "Table1.timstate1 *  Table2.timestate2",
+            #       "alias" : "prodTime"
+            #       "operation" : # can be different wrt other operations, but should return the same object of the other specified
+            #       }
+            #     ],
+            #   "fileId" : "fileid"                                                     # it is present when the machine/asset is composed of more lines
+            #   "resample" : "state", "1D"# unione fra aggrUnit e aggrValue  
+            #   "mapping" : SINTASSI IN DEFINIZIONE          
+            #   "timezone" : "Europe/Berlin",
+            #    "from" :
+            #     "to":                                                        
+            #   "filters" : {                                                           # how to filter data
+                    # see comment above
+                    # }
+            #    "derivedTables": {
+            #         "unknownBreadowns": {
+            #           "reference": "historyBreakdowns",
+            #           "filter": {
+            #               "tags": {
+            #                   "cause": {
+            #                       "=": "ukw"
+            #                   }
+            #               }
+            #           }
+            #       }
+            # }
+            #   "limit" : 3                                                             # return only the last three values of the table 
+            #   "orderBy": 'DESC', 'ASC'                                                # by default it is DESC    
+            #   "groupBy" :['nomeColonna1', 'nomeColonna2']                             # it can be a list. It indicates how to aggregate data, e.g. for recipe, for machine_state. 
+                                                                                        # I expect a dict where the key is the value of the groupBy and the value can be a dict_of_lists or list_of_dicts
+            #    "orientation" : 'list_of_dicts', 'dict_of_lists'                       # how BE wants the response        
+            #   "calendar" : false,
+            #   "tableName" : "Table1"                                                  # how the output table has to be called in the response
+            # }
+            #]
+
+      responses:
+        "200":
+          description: OK
+          content:
+            application/mat.dm.v1.computer.lod+json:
+              schema:
+                $ref: "templates/responses/computer_lod.json"
+                # this is a file in the templates folder that contains an example
+
+            application/mat.dm.v1.computer.dol+json:
+              schema:
+                $ref: "templates/responses/computer_dol.json"
+                # this is a file in the templates folder that contains an example
+
+            application/mat.dm.v1.computer.globalScalars+json:
+              schema:
+                $ref: "templates/responses/computer_withGlobalScalars.txt"
+
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  
+  /computer: 
+    description: Resource aimed to retrieve and make computations on data when different assets are involved 
+    get:
+      description: Returns the list of available operations and accepted syntaxes
+      tags:
+        - "Computer"
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: 
+                $ref: "#/components/schemas/genericJson"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    post:
+      description: Sends a query to the *computer*, describing a complex table of data that has to be computed using data from different assets
+
+      tags:
+        - Computer
+      
+      parameters: 
+        - in: query 
+          name: orientation
+          description: represents how the Back End wants the response back
+          required: true 
+          schema: 
+            type: string 
+            example: list_of_dicts or dict_of_lists
+
+      requestBody:
+        description: List of objects, each describing a table expected as a result, it specifies columns, assets, operations and aggregations to be performed 
+                      along with the name the table should have
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                tableName:
+                  description: "Name to give to the computed table"
+                  type: string
+                  example: "Table1"
+                columns:
+                  description: "Columns composing the table."
+                  type: array
+                  items:
+                    properties:
+                      expression:
+                        description: "Query representing a desired column. 
+                                      This field should indicate how to compose the desired column specifying also the asset to which the data refer. "
+                        type: string
+                        example: aset1.Table1.energy1 + asset2.Table1.energy1,   asset1.Table1.timeState1+asset2.Table1.timeState1
+                      alias:
+                        description: "Name to give to the column"
+                        type: string
+                        example: "totalEnergy"
+                      operation:
+                        description: operation that has to be applied to the resulting column. 
+                                      It has to be coherent with all other operations (all th resulting objects need to be of the same dimension).
+                        example: sum - min - max - last - mean - count - prod - first
+                      returnScalar:
+                        description: this field can be True or False and it indicates wheter or not global values for the specified column has to be returned, e.g. the productivity for the entire timeperiod.
+                        type: boolean
+                fileId:
+                  description: this is present when the machine/asset is composed of more lines
+                  type: string 
+                from:
+                  description: "Begin of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.000Z"
+                to:
+                  description: "End of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.001Z"
+                resample:
+                  description: temporal interval to resample for, but it can also be a column. In this case all continuous values for that column are grouped togheter.
+                               When a resample is done , the resampled key is returned togheter with timeStart and timeEnd. They represen the start and end timestamp of the resampled interval.
+                  type: string
+                  example: state or 1D
+                maxPointsToReturn:
+                  description: it indicates the number of max values that have to be returned when resample is null.
+                  type: integer
+                  example: 200
+                operation: 
+                  description: an operation that has to be applied to every requested column. The same behaviour can be obtained by specifying the operation for each column.
+                  type: string 
+                  example: 'sum'
+                fill: 
+                  description: it can be 'None', which means that I do not want any fill operation done on data, or 'null', which means that I want the data to be filled with None values
+                  type: string 
+                  example: 'None'
+                timezone:
+                  description: "Timezone to use to apply resampling"
+                  type: string
+                  example: "Europe/Berlin"
+                filters:
+                  description: contains the filters that have to be applied to the data to be returned
+                  type: object 
+                  example: {'and' : [{'or' : [{'tableName.tableColumn' : 'something'}, {'tableName.tableColumn' : 1}, {'tableName.tableColumn' : 'somethingelse'}]},
+                            {'and' : [{'tableName.tableColumn' : {'<' : 27}}, {'tableName.tableColumn' : {'=' : 'xyz'}}, {'tableName.tableColumn' : {'>=' : '300'}}]}]}
+                derivedTables: 
+                  description: dict which represent tables that can be computer by the DM using some conditions and can then be used to calculate expressions
+                  type: object
+                limit:
+                  description: how many values have to be taken from the returning table. Es. 1 means only the last value has to be taken.
+                  type: integer 
+                  example: 3
+                orderBy:
+                  description: how returned data should be ordered
+                  type: string
+                  example: DESC or ASC
+                groupBy:
+                  description:  list of column names that the Data Manager should use to organize data. 
+                                All the tables specified in the column parameter should contain the column names specified here.
+                                In output there is a dict where the keys represent the values assumed by the groupby field, the values are 
+                                list_of_dicts or dict_of_lists representing the tables, as specified in orientation.
+                  type: object
+                  example: 
+                calendar:
+                  description: "Boolean to flag if it is required to apply calendar"
+                  type: boolean
+                checkTimeIntervalExtremes:
+                  description: allows to indicate how to check for data at the extremes of the specified time interval (from - to).
+                                Accepted values = 'narrow' -> do not check extremes,
+                                                  'wide'   -> check both extremes 
+                                                  'left'   -> check only left extreme (from)
+                                                  'right'  -> check only right extreme (to)
+                  type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/mat.dm.v1.computer.lod+json:
+              schema:
+                $ref: "templates/responses/computer_lod.json"
+                # this is a file in the templates folder that contains an example
+
+            application/mat.dm.v1.computer.dol+json:
+              schema:
+                $ref: "templates/responses/computer_dol.json"
+                # this is a file in the templates folder that contains an example
+
+            application/mat.dm.v1.computer.globalScalars+json:
+              schema:
+                $ref: "templates/responses/computer_withGlobalScalars.txt"
+
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  
+  /stored-procedures/<proc_name>:
+    description: resource that allows to execute one of the available stored procedures to perform computations on data
+    post: 
+      description: execute the code of the selected stored-procedure
+      tags:
+        - "Stored Procedures"
+      parameters: 
+        - in: query 
+          name: proc_name
+          description: represents the stored procedure that has to be executed
+          required: true 
+          schema: 
+            type: string 
+            example: explode_query_multiasset
+        - in: query 
+          name: orientation
+          description: represents how the Back End wants the response back
+          required: true 
+          schema: 
+            type: string 
+            example: list_of_dicts or dict_of_lists
+      requestBody:
+        description: the body that has to be passed into the request depends on the selected stored-procedure. Refer to the documentation of the selected stored-procedure.
+        required: true
+        content: {
+          application/json: {
+            schema: {
+              $ref: "#/components/schemas/genericBody"
+            }
+          }
+        }
+        
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: 
+                $ref: "#/components/schemas/genericJson"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /stored-procedures/explode_query_multiasset:
+    description: resource that allows to execute the explode_query_multiasset stored procedure to perform cross-asset computations on data
+    post: 
+      description: execute the code of the selected stored-procedure
+      tags:
+        - "Stored Procedures"
+      parameters: 
+        - in: query 
+          name: orientation
+          description: represents how the Back End wants the response back
+          required: true 
+          schema: 
+            type: string 
+            example: list_of_dicts or dict_of_lists
+      requestBody:
+        description: this body is the same of the /computer/<asset_id> endpoint, but each object into the column's key must have an additional 
+                    'asset_ids' key that specifies for which assets the expression should be calculated.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                tableName:
+                  description: "Name to give to the computed table"
+                  type: string
+                  example: "Table1"
+                columns:
+                  description: "Columns composing the table."
+                  type: array
+                  items:
+                    properties:
+                      expression:
+                        description: "Query representing a desired column. 
+                                      This field should indicate how to compose the desired column. "
+                        type: string
+                        example: Table1.energy1 + Table1.energy2,   Table1.\*,  Table1.aggr\*
+                      alias:
+                        description: "Name to give to the column"
+                        type: string
+                        example: "totalEnergy"
+                      operation:
+                        description: operation that has to be applied to the resulting column. 
+                                      It has to be coherent with all other operations (all th resulting objects need to be of the same dimension).
+                        example: sum - min - max - last - mean - count - prod - first
+                      returnScalar:
+                        description: this field can be True or False and it indicates wheter or not global values for the specified column has to be returned, e.g. the productivity for the entire timeperiod.
+                        type: boolean
+                      asset_ids:
+                        description: list of assetIds for which the expression should be calculated. Given an expression in the form tableName.tableColumn, each term on this form will be replaced by 
+                                      multiple terms, one for each assetId in this list, in the form assetId.tableName.tableColumn. For example given assetId1 and assetId2, an expression such as 
+                                      tableName1.col1 + tableName2.col2 will become assetId1.tableName1.col1 + assetId2.tableName2.col2  .
+                        type: array
+                        example: ['assetId1', 'assetId1']
+                fileId:
+                  description: this is present when the machine/asset is composed of more lines
+                  type: string 
+                from:
+                  description: "Begin of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.000Z"
+                to:
+                  description: "End of the time range"
+                  type: string
+                  example: "2023-01-01T00:00:00.001Z"
+                resample:
+                  description: temporal interval to resample for, but it can also be a column. In this case all continuous values for that column are grouped togheter.
+                               When a resample is done , the resampled key is returned togheter with timeStart and timeEnd. They represen the start and end timestamp of the resampled interval.
+                  type: string
+                  example: state or 1D
+                maxPointsToReturn:
+                  description: it indicates the number of max values that have to be returned when resample is null.
+                  type: integer
+                  example: 200
+                operation: 
+                  description: an operation that has to be applied to every requested column. The same behaviour can be obtained by specifying the operation for each column.
+                  type: string 
+                  example: 'sum'
+                fill: 
+                  description: it can be 'None', which means that I do not want any fill operation done on data, or 'null', which means that I want the data to be filled with None values
+                  type: string 
+                  example: 'None'
+                timezone:
+                  description: "Timezone to use to apply resampling"
+                  type: string
+                  example: "Europe/Berlin"
+                filters:
+                  description: contains the filters that have to be applied to the data to be returned
+                  type: object 
+                  example: {'and' : [{'or' : [{'tableName.tableColumn' : 'something'}, {'tableName.tableColumn' : 1}, {'tableName.tableColumn' : 'somethingelse'}]},
+                            {'and' : [{'tableName.tableColumn' : {'<' : 27}}, {'tableName.tableColumn' : {'=' : 'xyz'}}, {'tableName.tableColumn' : {'>=' : '300'}}]}]}
+                derivedTables: 
+                  description: dict which represent tables that can be computer by the DM using some conditions and can then be used to calculate expressions
+                  type: object
+                limit:
+                  description: how many values have to be taken from the returning table. Es. 1 means only the last value has to be taken.
+                  type: integer 
+                  example: 3
+                orderBy:
+                  description: how returned data should be ordered
+                  type: string
+                  example: DESC or ASC
+                groupBy:
+                  description:  list of column names that the Data Manager should use to organize data. 
+                                All the tables specified in the column parameter should contain the column names specified here.
+                                In output there is a dict where the keys represent the values assumed by the groupby field, the values are 
+                                list_of_dicts or dict_of_lists representing the tables, as specified in orientation.
+                  type: object
+                  example: 
+                calendar:
+                  description: "Boolean to flag if it is required to apply calendar"
+                  type: boolean
+                checkTimeIntervalExtremes:
+                  description: allows to indicate how to check for data at the extremes of the specified time interval (from - to).
+                                Accepted values = 'narrow' -> do not check extremes,
+                                                  'wide'   -> check both extremes 
+                                                  'left'   -> check only left extreme (from)
+                                                  'right'  -> check only right extreme (to)
+
+                  type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            application/mat.dm.v1.computer.lod+json:
+              schema:
+                $ref: "templates/responses/computer_lod.json"
+                # this is a file in the templates folder that contains an example
+            application/mat.dm.v1.computer.dol+json:
+              schema:
+                $ref: "templates/responses/computer_dol.json"
+                # this is a file in the templates folder that contains an example
+            application/mat.dm.v1.computer.globalScalars+json:
+              schema:
+                $ref: "templates/responses/computer_withGlobalScalars.txt"
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  
+  # NOTES 3
+  # CONSIDER IF TO MAKE POSSIBLE OT OMIT THE ASSET ID TO BE ABLE TO RETRIEVE ALL THE CONFIGURATIONS
+  /configs/globals:
+    description: used to retrieve the list of all the configurations not specific for an asset
+
+    parameters:
+      - $ref: "#/components/parameters/filterOnName"
+      - $ref: "#/components/parameters/sortOnField"
+      
+
+    get:
+      description: returns the list of configuration files not specific for an asset
+
+      tags:
+        - Configs
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    configName:
+                      type: string
+                      example: dashboard1.json
+                    path:
+                      type: string
+                      example: /webapp/assetId
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  
+
+  /configs/globals/{filePath}:
+
+    parameters:
+      - $ref: '#/components/parameters/filePath'
+
+    get:
+      description: returns the specified configuration file
+      tags:
+        - Configs
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericJson'
+
+    put:
+      description: updates the specified configuration file
+      tags:
+        - Configs
+
+      responses:
+        '201':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericJson'
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    delete:
+      description: deletes the specified configuration file
+      tags:
+        - Configs
+
+      responses:
+        '202':
+          description: OK
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /configs/{assetId}:
+    description: Resource representing all the configuration for an asset
+
+    parameters:
+      - $ref: "#/components/parameters/filterOnName"
+      - $ref: "#/components/parameters/sortOnField"
+      - $ref: "#/components/parameters/assetId"
+
+    get:
+      description: Returns the list of configuration files for an asset
+
+      tags:
+        - Configs
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    configName:
+                      type: string
+                      example: dashboard1.json
+                    path:
+                      type: string
+                      example: /webapp/assetId
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /configs/{assetId}/{filePath}:
+
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filePath'
+
+    get:
+      description: returns the specified configuration file 
+      tags:
+        - Configs
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                properties:
+                  fileName:
+                    type: string
+                    example: 123_456.npz
+                  size:
+                    type: integer
+                    example: 1024
+                  measureUnit: 
+                    type: string 
+                    example: 'B'
+                  content: 
+                    type: string
+
+    put:
+      description: Aggiorna le configurazioni specificate
+      tags:
+        - Configs
+
+      responses:
+        '201':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericJson'
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    delete:
+      description: Deletes the specified file
+      tags:
+        - Configs
+
+      responses:
+        '202':
+          description: OK
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  # NOTES 7
+  # IT MAKES SENSE TO DISTINGUISH SHARED FILES FROM THE OTHERS CAUSE THEY REFER NEITHER TO 'DATA FILES' NOR 'CONFIG FILES', THEY ARE CHARACTERIZED
+  # BY BEIGN DYNAMIC (AND OFTEN USER-GENERATED) AND TO NOT DESCRIBE OR CONFIGURE AN ASPECT OF THE APPLICATION BEHAVIOUR, BUT RATHER PARAMETERS AND
+  # LOGICS ON THE ELABORATIONS ON DATA (E.G. calendar.json OR settings.json).
+  /sharedFiles/{assedId}:
+    description: returns the list of dynamic files used, generated or modified by the application that may be used, generated or modified by another service.
+                  The list can be filtered returning only the paths (path+filename+extension) containing the filterOnName parameter value.
+
+    get:
+      description: Returns the list of shared files
+      tags:
+        - Shared Files
+
+      parameters:
+        - $ref: "#/components/parameters/assetId"
+        - $ref: "#/components/parameters/sortOnField"
+        - $ref: "#/components/parameters/filterOnName"
+          description:: if specified, this string is searched in all the paths (path+filename+extension) to return only the ones containing it
+
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    fileName:
+                      type: string
+                      example: 123_456.npz
+                    size:
+                      type: integer
+                      example: 1024
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /sharedFiles/{assetId}/{filePath}:
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filePath'
+        description: in this case, filepath can be a composition of levels, e.g. /something/somethingelse/filename.ext
+
+    get:
+      tags:
+        - Shared Files
+      description: returns the content of the file found at the specified filepath
+
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  fileName:
+                    type: string
+                    example: 123_456.npz
+                  size:
+                    type: integer
+                    example: 1024
+                  measureUnit: 
+                    type: string 
+                    example: 'B'
+                  content: 
+                    type: string
+
+    put:
+      tags:
+        - Shared Files
+      description: updates the specified file
+
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: object
+                  description: the file to upload
+
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  fileName:
+                    type: string
+                    example: 123_456.npz
+                  size:
+                    type: integer
+                    example: 1024
+
+    delete:
+      tags:
+        - Shared Files
+      description: deletes the specified file
+
+      responses:
+        '202':
+          description: Successo
+
+  /assets:
+    description: Asset Resource
+
+    get:
+      tags:
+        - Assets
+      description: Return the list of assets. At the moment also info about assets are returned.
+      parameters:
+        - $ref: '#/components/parameters/filterOnName'
+        - $ref: '#/components/parameters/sortOnField'
+
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  properties:
+                    assetId:
+                      type: string
+                      example: f0e9209e029fi08c0cd398
+                    assetName:
+                      type: string
+                      example: Asset 1
+                    customer:
+                      type: string
+                      example: Customer 1
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    post:
+      tags:
+        - Assets
+      description: Creates an asset with the required parameters
+
+      requestBody:
+        content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assetName:
+                    type: string
+                    example: Asset 2
+                  customer:
+                    type: string
+                    example: Customer 1
+
+      responses:
+        '201':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assetId:
+                    type: string
+                    example: ae0be0a8a06ce0a6e3b63c2083
+                  assetName:
+                    type: string
+                    example: Asset 2
+                  customer:
+                    type: string
+                    example: Customer 1
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /assets/{assetId}:
+
+    parameters:
+      - $ref: "#/components/parameters/assetId"
+
+    get:
+      description: Return the data representing the specified asset
+
+      tags:
+        - Assets
+
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assetId:
+                    type: string
+                    example: ae0be0a8a06ce0a6e3b63c2083
+                  assetName:
+                    type: string
+                    example: Asset 2
+                  customer:
+                    type: string
+                    example: Customer 1
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    put:
+      description: Updates the specified asset
+      # NOTES 4
+      # It cloud also create it if it doesn't exist, but it could be better to avoid ambuiguity and force to use the POST request
+      # Also this method would require to create an asset with the specified ID, which isn't always possible
+
+      tags:
+        - Assets
+
+      responses:
+        '201':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assetId:
+                    type: string
+                    example: ae0be0a8a06ce0a6e3b63c2083
+                  assetName:
+                    type: string
+                    example: Asset 2
+                  customer:
+                    type: string
+                    example: Customer 1
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+    delete:
+
+      description: Deletes the specified asset
+
+      tags:
+        - Assets
+
+      responses:
+        '201':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  assetId:
+                    type: string
+                    example: ae0be0a8a06ce0a6e3b63c2083
+                  assetName:
+                    type: string
+                    example: Asset 2
+                  customer:
+                    type: string
+                    example: Customer 1
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /datamodel/{assetId}:
+    description: Represents the datamodel resource
+
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filterOnName'
+      - $ref: '#/components/parameters/sortOnField'
+
+    get:
+      description: Returns all the tables related to the asset
+      tags:
+        - Datamodel
+
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tableName:
+                    type: string
+                    example: "processData"
+                  realTableName:
+                    type: string
+                    example: "aggrData"
+                  tableColumns:
+                    type: object
+                    properties:
+                      columnName: 
+                        type: string 
+                        example: "duration"
+                      columnType: 
+                        type: string
+                        example: "double" 
+                      columnMeasUnit:
+                        type: string
+                        example: "seconds" 
+                      columnDescr:                     
+                        type: string 
+                        example: "id of the currently used recipe for the production process"
+                  tags:
+                    type: array
+                    items:
+                      type: string
+                      example:
+                        - tag1
+                        - tag2
+                        - tag3
+                  fields:
+                    type: array
+                    items:
+                      type: string
+                    example:
+                      - field1
+                      - field2
+                      - field3
+                  resamplings:
+                    type: array
+                    items:
+                      type: string
+                    example:
+                      - aggr_30m
+                      - aggr_1h
+                      - aggr_1d
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  # NOTES 6
+  # IT IS TO BE SEEN IF IT ALWAYS POSSIBLE TO CHANGE THE DATAMODEL (IMPLYING POST/PUT/DELETE METHODS FOR THIS ENDPOINT AND SUB-ENDPOINT) FROM THE DATA-MANAGER, NOT ONLY BECAUSE
+  # IT'D BE VERY TRICKY TO GRANT CONSISTENCY ACROSS ALL DATA, BUT IT WOULD ALSO REQUIRE TO TAKE EFFECT ON THE EDGE SERVICES, WHICH IS TROUBLESOME
+  # IN WHICH CASE THIS ENDPOINT DOESN'T OFFER ANYTHING OVER THE /COMPUTER ONE
+  # /datamodel/{assetId}/{tableId}:
+  #   parameters:
+  #     - $ref: '#/components/parameters/assetId'
+  #     - $ref: '#/components/parameters/tableId'
+
+  #   get:
+  #     description: Ritorna il contenuto del file specificato
+
+  #     tags:
+  #       - Datamodel
+
+  #     responses:
+  #       '200':
+  #         description: Successo
+  #         content:
+  #           application/json:
+  #             schema:
+  #               type: object
+  #               properties:
+  #                 tableName:
+  #                   type: string
+  #                   example: Table1
+  #                 tags:
+  #                   type: array
+  #                   example:
+  #                     - tag1
+  #                     - tag2
+  #                     - tag3
+  #                 fields:
+  #                   type: array
+  #                   example:
+  #                     - field1
+  #                     - field2
+  #                     - field3
+  #                 resamplings:
+  #                   type: array
+  #                   example:
+  #                     - aggr_30m
+  #                     - aggr_1h
+  #                     - aggr_1d
+  #       '400':
+  #         $ref: "#/components/responses/400"
+  #       '401':
+  #         $ref: "#/components/responses/401"
+  #       '403':
+  #         $ref: "#/components/responses/403"
+  #       '404':
+  #         $ref: "#/components/responses/404"
+  #       '500':
+  #         $ref: "#/components/responses/500"
+  #       '503':
+  #         $ref: "#/components/responses/503"
+  #       '504':
+  #         $ref: "#/components/responses/504"
+
+  #   put:
+  #     tags:
+  #       - Tables
+  #     description: Aggiorna la tabella specificata
+
+  #     responses:
+  #       '200':
+  #         description: Successo
+  #         content:
+  #           application/json:
+  #             schema:
+  #               type: object
+  #               properties:
+  #                 fileName:
+  #                   type: string
+  #                   example: 123_456.npz
+  #                 size:
+  #                   type: integer
+  #                   example: 1024
+
+  #   delete:
+  #     tags:
+  #       - Tables
+  #     description: Elimina il file specificato
+
+  #     responses:
+  #       '202':
+  #         description: Successo
+
+  /datamodel/{assetId}/aggrs:
+    description: return the list of all the possible aggregates
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filterOnName'
+      - $ref: '#/components/parameters/sortOnField'
+    get:
+      tags:
+        - Datamodel
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                example: ["aggr01", "aggr02", "aggr03"]
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+  /datamodel/{assetId}/{tableName}:
+    description: return the list of all tableName's columns
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - $ref: '#/components/parameters/filterOnName'
+      - $ref: '#/components/parameters/sortOnField'
+    get:
+      tags:
+        - Datamodel
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                example: ["state", "duration", "aggr01", "aggr02", "aggr03"]
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+
+
+  /datamodel/{assetId}/aggrs/{aggrId}:
+    description: given the id of an aggregate, it returns all the values that aggregate can assume
+    parameters:
+      - $ref: '#/components/parameters/assetId'
+      - in: path 
+        name: aggrId
+        description: id of the aggregate for which the client wants the possible values
+        required: true
+        schema:
+          type: string
+          example: rawData, processData
+      - in: query 
+        name: tableId 
+        description: id of the table (npz file) that has to be read
+        required: true 
+        schema: 
+          type: string 
+      - $ref: "#/components/parameters/from"
+      - $ref: "#/components/parameters/to"
+      - $ref: "#/components/parameters/tz"
+      - in: query 
+        name: machineId 
+        description: id of a machine 
+        required: false 
+        schema: 
+          type: string 
+    get:
+      tags:
+        - Datamodel
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                type: array
+                example: ["recipe_standard", "recipe_slow", "recipe_fast"]
+        '400':
+          $ref: "#/components/responses/400"
+        '401':
+          $ref: "#/components/responses/401"
+        '403':
+          $ref: "#/components/responses/403"
+        '404':
+          $ref: "#/components/responses/404"
+        '500':
+          $ref: "#/components/responses/500"
+        '503':
+          $ref: "#/components/responses/503"
+        '504':
+          $ref: "#/components/responses/504"
+
+
+
+  # Endpoints for SQL queries
+
+  /sql/insert-into-table:
+    post:
+      tags:
+        - SQL queries
+      description: Insert more records into a specified table. All the records should have the same columns structure.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                table:
+                  type: string
+                  example: "MaintenanceHistory"
+                columns:
+                  type: array
+                  items:
+                    type: string
+                  example: ["maintenanceId", "maintenanceTime", "assetId"]
+                values:
+                  type: array
+                  items: 
+                    type: array 
+                    items: 
+                      type: string
+                  example: [['1', '2023-06-01T10:00:00.000', "ABC123"], ['2', '2023-06-01T10:00:00.000', "XYZ123"]]
+            examples: 
+              example1:
+                value:
+                  table: "MaintenanceHistory"
+                  columns: ["maintenanceId", "maintenanceTime", "assetId"]
+                  values: [['1', '2023-06-01T10:00:00.000', "ABC123"], ['2', '2023-06-01T10:00:00.000', "XYZ123"]]
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/delete-from-table:
+    post:
+      tags:
+        - SQL queries
+      description: Delete records from a specified table. A condition for deletion can be specified.
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object 
+              properties: 
+                table: 
+                  type: string 
+                conditions:
+                  $ref: '#/components/schemas/WhereClauses'
+              required: 
+                - table
+            example:
+              example1: 
+              value:
+                table: "MaintenanceHistory"
+                conditions: { "operator" : "or", "conditions": [{"column" : "startTime", "operator" : ">", "value": "2023-01-01T00:00:00.000"},
+                                                                 {"column" : "endTime", "operator" : "<", "value": "2023-06-01T00:00:00.000"}] }
+              example2:
+                value: 
+                  $ref: "#/components/examples/example_delete"
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/update-table:
+    post: 
+      tags: 
+        - SQL queries
+      description: Update records in a specified table. WHERE and CASE clauses are supported.
+      requestBody:
+        required: true
+        content:
+          application/json: 
+            schema:
+              type: object 
+              properties: 
+                table: 
+                  type: string 
+                columns: 
+                  type: array 
+                  items: 
+                    type: object
+                    properties:
+                      column: 
+                        type: string 
+                      value: 
+                          anyOf: 
+                            - type: string 
+                            - type: number
+                      case: 
+                        type: array 
+                        items:
+                          type: object
+                          properties: 
+                            condition: 
+                              $ref: '#/components/schemas/WhereClause'
+                            value: 
+                              anyOf: 
+                                - type: string 
+                                - type: number
+                      default: 
+                        anyOf:
+                          - type: string
+                          - type: integer
+
+                where: 
+                  $ref: '#/components/schemas/WhereClauses'
+              required: 
+                - table 
+                - columns
+            example:
+              example1:
+                $ref: '#/components/examples/example_update'
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/select-data:
+    post: 
+      tags: 
+        - SQL queries
+      description: Perform a SELECT query. Clauses supported are AS, LEFT JOINT, RIGHT JOIN, JOIN, WHERE, GROUPBY, ORDERBY, LIMIT
+      requestBody:
+        required: true
+        content:
+          application/json: 
+            schema: 
+              $ref: '#/components/schemas/SelectQuery'
+            examples: 
+              example1:
+                $ref: 'examples/example_select.json'
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/create-table:
+    post: 
+      tags: 
+        - SQL queries 
+      description: Create a new table into the db 
+      requestBody: 
+        required: true 
+        content: 
+          application/json: 
+            schema: 
+              type: object
+              properties: 
+                table: 
+                  type: string 
+                columns: 
+                  type: array 
+                  items: 
+                    $ref: '#/components/schemas/ColumnDefinition'
+              required: 
+                - table 
+                - columns 
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/drop-table:
+    post: 
+      tags: 
+        - SQL queries 
+      description: Eliminate a table from the db 
+      requestBody: 
+        required: true 
+        content: 
+          application/json: 
+            schema: 
+              type: object
+              properties: 
+                table: 
+                  type: string 
+              required: 
+                - table 
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+  /sql/alter-table:
+    post: 
+      tags: 
+        - SQL queries
+      description: Alter an existing table structure 
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema:
+              type: object
+              properties: 
+                table: 
+                  type: string
+                operation:  
+                  type: string 
+                  enum: ['ADD', 'RENAME COLUMN']
+                arg1:  
+                  oneOf: 
+                    - type: string 
+                    - type: integer
+                arg2:  
+                  oneOf: 
+                    - type: string 
+                    - type: integer
+              required: 
+                - table 
+                - operation
+                - arg1 
+                - arg2
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+
+  /sql/show:
+      post: 
+        tags: 
+          - SQL queries
+        description: Perform a show query for databases or tables
+        requestBody:
+          required: true
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  structure: 
+                    type: string
+                    enum: ['databases', 'tables']
+        responses:
+          '200':
+            description: OK             
+          '400':
+            $ref: "#/components/responses/400"
+          '500':
+            $ref: "#/components/responses/500"
+
+  /sql/create-database:
+    post:
+      tags: 
+        - SQL queries
+      description: Perform a query to create a database and set sql safe updates
+      requestBody:
+        required: true 
+        content:
+          application/json: 
+            schema: 
+              type: object 
+              properties: 
+                database: 
+                  type: string
+                  description: name of the database to create 
+                sql_safe_updates: 
+                  type: string 
+                  description: possible values are 0 or 1, which indicate if the option has to be set or not 
+      responses:
+        '200':
+          description: OK             
+        '400':
+          $ref: "#/components/responses/400"
+        '500':
+          $ref: "#/components/responses/500"
+
+
+  /sql/query:
+      post: 
+        tags: 
+          - SQL queries
+        description: Perform an already prepared query 
+        requestBody:
+          required: true
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  query: 
+                    type: string
+        responses:
+          '200':
+            description: OK             
+          '400':
+            $ref: "#/components/responses/400"
+          '500':
+            $ref: "#/components/responses/500"
+
+  
+components:
+
+  parameters:
+
+    assetId:
+      in: path
+      name: assetId
+      description: Asset instance ID
+      required: true
+      schema:
+        type: string
+    
+    sessionId:
+      in: path
+      name: sessionId
+      description: session ID
+      required: true
+      schema:
+        type: string
+
+    filterOnName:
+      in: query
+      name: filter
+      schema:
+        type: string
+        description: Filtro basato sui campi supportati
+
+    sortOnField:
+      in: query
+      name: order
+      required: false
+      schema:
+        type: boolean
+        description: sort based on supported fields - see order syntax for more details
+          (name, path, type, size, timestamp, created, updated)
+
+    filePath:
+      in: path
+      name: filePath
+      description: path of the desired file, it includes the file name 
+      required: true
+      schema:
+        type: string
+        example: /rawData/aggr_2m/123_124.npz
+
+    from: 
+      in: query 
+      name: from 
+      description: initial instant of the requested time interval
+      required: false
+      schema:
+        type: string 
+
+    to: 
+      in: query
+      name: to 
+      description: final instant of the requested time interval 
+      required: false 
+      schema: 
+        type: string 
+
+    tz: 
+      in: query 
+      name: tz 
+      description: it indicates the timezone 
+      required: false 
+      schema: 
+        type: string 
+
+
+
+
+
+    tableId:
+      in: path
+      name: tableId
+      description: Id della tabella
+      required: true
+      schema:
+        type: string
+
+  responses:
+
+    '200':
+      description: OK
+    '204':
+      description: No response
+    '400':
+      description: Bad request
+    '401':
+      description: Unauthorized
+    '403':
+      description: Forbidden
+    '404':
+      description: Resource not found
+    '500':
+      description: Internal server error
+    '503':
+      description: Service temporarily unavailable
+    '504':
+      description: Timeout
+
+  schemas:
+
+    genericJson:
+      anyOf:
+        - type: object
+        - type: array
+
+    scalarJson: 
+      anyOf:
+        - type: number
+      example: [{},
+                {"scalar" : "75"}]
+      
+
+    scalarJson_groupBy:
+      anyOf:
+        - type: number
+      example: [{"groupByVals" : {"groupBy1" : "value1", "groupBy2" : "value1"}},
+                {"scalar" : "75"},
+                {"groupByVals" : {"groupBy1" : "value2", "groupBy2" : "value2"}},
+                {"scalar" : "63"}]
+
+    genericFile:
+      type: string
+      format: binary
+
+    genericBody:
+      type: object 
+      example: {
+        key1: val1,
+        key2:val2,
+        key3:val3
+      }
+      description: a generic body in the form of a dict. 
+
+    WhereClauses:
+      type: object
+      properties:
+        operator:
+          type: string
+          enum: ['AND', 'OR']
+        conditions:
+          type: array 
+          items: 
+            oneOf: 
+              - $ref: '#/components/schemas/WhereClause'
+              - $ref: '#/components/schemas/WhereClauses'
+
+    WhereClause:
+      type: object
+      properties:
+        column:
+          type: string
+        operator: 
+          type: string
+          enum: ['IN', 'NOT IN', 'IS', 'IS NOT', '<', '<=', '>', '>=', '<>', '=']
+        value: 
+          oneOf:
+          - type: string
+          - type: array 
+            items: 
+              type: string
+
+    SelectQuery:
+      type: object 
+      properties: 
+        columns: 
+          type: array
+          items:
+            $ref: '#/components/schemas/SelectedColumns'
+        table: 
+          type: array
+          items: 
+            $ref: '#/components/schemas/TableReference'
+          description: this parameters represents the table from which data has to be taken. Notice that the table can be obtained using a subquery.
+        join: 
+          type: array 
+          items: 
+            $ref: '#/components/schemas/JoinClause'
+        where: 
+          $ref: '#/components/schemas/WhereClauses'
+        groupBy:
+          type: array 
+          items: 
+            type: string 
+        orderBy: 
+          type: array 
+          items: 
+            $ref: '#/components/schemas/OrderByClause'
+        limit: 
+          type: integer
+      required: 
+        - table 
+        - columns 
+
+    SelectedColumns: 
+      oneOf: 
+        - type: string 
+        - $ref: '#/components/schemas/AliasReference'
+
+
+    TableReference: 
+      oneOf:
+        - type: string 
+        - $ref: '#/components/schemas/SubqueryReference'
+        - $ref: '#/components/schemas/AliasReference'
+
+    joinTables:
+      oneOf:
+      - $ref: '#/components/schemas/TableReference'
+      - $ref: '#/components/schemas/JoinClause'
+
+    SubqueryReference:
+      type: object 
+      properties: 
+        subquery: 
+          $ref: '#/components/schemas/SelectQuery'
+
+    AliasReference:
+      type: object
+      properties: 
+        elementName: 
+            oneOf: 
+              - type: string 
+              - $ref: '#/components/schemas/SubqueryReference'
+        alias: 
+          type: string
+
+    JoinClause: 
+      type: object
+      properties: 
+        joinType: 
+          type: string 
+          enum: ['LEFT', 'RIGHT', 'INNER', 'OUTER']
+        tables: 
+          type: object 
+          items:  
+            $ref: '#/components/schemas/joinTables'
+          description: in this field, the list of tables that have to be joined with the one in the FROM clause is present.
+                        Notice that it is important to respect priorities over JOIN statements to obtain the expected result. 
+                        This is why the 'tables' property can also contain a JoinClause object. In fact, this assures the 
+                        ability to handle the cases in which a join has to be executed before the external one. It is sufficient
+                        to specify in the 'tables' field a JoinClause structure that describes the internal join. 
+                        Notice that all conditions about how to join columns have to be specified in the internal join also for 
+                        the FROM table. 
+        conditions: 
+          type: array 
+          items: 
+            $ref: '#/components/schemas/JoinConditions'
+          description: Every cell of the array indicates a couple of columns on which the join should be performed
+      required: 
+        - joinType 
+        - tables 
+
+    OrderByClause:
+      type: object
+      properties: 
+        column: 
+          type: string
+        order: 
+          type: string 
+          enum: ['ASC', 'DESC']
+
+    
+    JoinConditions: 
+      type: array
+      items:  
+        type: string   
+      description: Array of two elements in the form tableNAme.tableCol used to perform the join on the two columns  
+
+
+    ColumnDefinition:
+      type: array
+      description: list of elements where the first is the column name, the second is the type of the column, all the others are constraints.
+                    Examples of possible types are  ['INT', 'VARCHAR', 'TEXT', 'DATE', 'DATETIME', 'FLOAT'].
+                    Examples of possible constraints are ['PRIMARY KEY', 'UNIQUE', 'NOT NULL', 'AUTO_INCREMENT', 'DEFAULT']
+      required: 
+        - column name
+        - column type
+
+
+
+  examples:
+    example_delete:
+      $ref: "examples/example_delete.json"
+
+    example_update:
+      $ref: 'examples/example_update.json'  
+
+  securitySchemes:
+
+    thirdPartyAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: The identity provider authentication token
+
