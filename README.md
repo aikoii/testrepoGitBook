@@ -10,6 +10,12 @@ gvfdcsxamn n
 Wgyudjbhewsjn
 $$
 
+[!IMPORTANT]
+> For security reasons some mongo db operators are not available or are partially available.
+
+
+> For security reasons some mongo db operators are not available or are partially available.
+
 {% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](.gitbook/assets/docs.yml)
 {% endswagger %}
