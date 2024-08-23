@@ -3,7 +3,7 @@ cover: .gitbook/assets/image.png
 coverY: 0
 ---
 
-# 🐢 Spiderman
+# 🕷️ Spiderman
 
 $$
 gvfdcsxamn n Wgyudjbhewsjn
@@ -11,18 +11,13 @@ $$
 
 \[!IMPORTANT]
 
-> For security reasons some mongo db operators are not available or are partially available.
+
+
+<figure><img src=".gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt=""><figcaption></figcaption></figure>
 
 > For security reasons some mongo db operators are not available or are partially available.
 
-## Connect to Your SparkZone
-
-In order to access your developer SparkZone, Avaneer Health supports a few Connectivity Options:
-
-1. AWS Client VPN (recommended or quick access to Developer SparkZones, not sufficient for Production SparkZones)
-2. Equinix&#x20;
-3. AWS Privatelink&#x20;
-4. Site-to-site VPN (not preferred)&#x20;
+> For security reasons some mongo db operators are not available or are partially available.
 
 {% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](.gitbook/assets/docs.yml)
