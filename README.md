@@ -19,6 +19,8 @@ $$
 
 > For security reasons some mongo db operators are not available or are partially available.
 
+Adding headeer links [#rabbit-header-1](taryn-knights-work.md#rabbit-header-1 "mention")
+
 {% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](.gitbook/assets/docs.yml)
 {% endswagger %}
