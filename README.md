@@ -1,10 +1,10 @@
 ---
-cover: .gitbook/assets/CleanShot 2024-09-09 at 12.08.22@2x.png
-coverY: 85
+cover: .gitbook/assets/nnew .png
+coverY: 0
 layout:
   cover:
     visible: true
-    size: hero
+    size: full
   title:
     visible: true
   description:
