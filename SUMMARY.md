@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🐢 Spiderman](README.md)
+* [🕷️ Spiderman](README.md)
 
 ## MY GROUP
 
@@ -22,7 +22,7 @@
 
 * [Taryn Knight's work](taryn-knights-work.md)
 * [Rebecca Green's work](rebecca-greens-work.md)
-* [Untitled document](untitled-document.md)
+* [Doc import](untitled-document.md)
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
   * [Making](page-2/making.md)
