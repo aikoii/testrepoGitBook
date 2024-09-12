@@ -10,6 +10,10 @@ connections and ancient heritage. He creates meticulously hand-carved surfaces f
 
 fluid figures.&#x20;
 
+[**making changes here**](kukushka.md#my-new-title)
+
+<figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
+
 
 
 The painted circular patterns are influenced by traditional African healing methods,&#x20;
