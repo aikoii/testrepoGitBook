@@ -11,7 +11,13 @@ $$
 
 
 
-fchgvbjkl,mknjdsbhv xb
+{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet/{petId}/uploadImage" method="post" %}
+[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% endswagger %}
+
+{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet" method="post" %}
+[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% endswagger %}
 
 > ranslates topic names on incoming commands.
 >
