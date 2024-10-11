@@ -11,6 +11,16 @@ $$
 
 
 
+Adding New synced block here 👇
+
+{% synced-block url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/blocks/syb_UsGoB" %}
+[Project Hail Mary](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/blocks/syb\_UsGoB)
+{% endsynced-block %}
+
+
+
+
+
 {% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet/{petId}/uploadImage" method="post" %}
 [https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
 {% endswagger %}
