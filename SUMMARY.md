@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🐙 Octopus](README.md)
-* [🕷️ Spider](<README (1).md>)
+* [🕷️ Spider](spider.md)
 
 ## MY GROUP
 
