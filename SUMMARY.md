@@ -1,6 +1,7 @@
 # Table of contents
 
-* [🐢 Spiderman](README.md)
+* [🐙 Octopus](README.md)
+* [🕷️ Spider](spider.md)
 
 ## MY GROUP
 
@@ -22,7 +23,7 @@
 
 * [Taryn Knight's work](taryn-knights-work.md)
 * [Rebecca Green's work](rebecca-greens-work.md)
-* [Untitled document](untitled-document.md)
+* [Doc import](untitled-document.md)
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
   * [Making](page-2/making.md)
@@ -49,3 +50,4 @@
 * [Annotations deletes](page-3.md)
 * [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
 * [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
+* [Page 5](page-5.md)
