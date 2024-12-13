@@ -81,8 +81,6 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 {% endstep %}
 
 {% step %}
-<figure><img src=".gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt=""><figcaption></figcaption></figure>
-
 
 
 
