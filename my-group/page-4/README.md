@@ -1,17 +1,5 @@
 # Page 4
 
-
-
-|   |   |   |   |   |
-| - | - | - | - | - |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-
-℅
-
-
-
 \\
 
 
@@ -31,9 +19,21 @@ Con
 {% endstep %}
 
 {% step %}
+###
+
+{% include "../../.gitbook/includes/ingredients.md" %}
+
+
+{% endstep %}
+
+{% step %}
 ### Choose your adventure
 
 Research online or use apps like _AllTrails_ to find locations near you.
+
+
+
+{% include "../../.gitbook/includes/ingredients.md" %}
 {% endstep %}
 
 {% step %}
@@ -41,8 +41,6 @@ Research online or use apps like _AllTrails_ to find locations near you.
 
 * Dress appropriately for the weather and terrain.
 * Pack essentials
-
-<figure><img src="https://images.unsplash.com/photo-1496950866446-3253e1470e8e?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHx0cmF2ZWwlMjBwYWNraW5nfGVufDB8fHx8MTczNDAyMTg0MHww&#x26;ixlib=rb-4.0.3&#x26;q=85" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,17 +56,23 @@ As you explore, take your time to notice the details:
 * Jot down thoughts or observations in a notebook.
 * Bring a camera or use your phone to take photos of the landscapes and experiences.
 * Jot down thoughts or observations in a notebook. \{% endstep %
+
+
 {% endstep %}
 {% endstepper %}
 
 {% tabs %}
 {% tab title="First Tab" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt="" width="375"><figcaption></figcaption></figure>
+{% include "../../.gitbook/includes/ingredients.md" %}
+
+{% include "../../.gitbook/includes/ccooking.md" %}
 
 
 {% endtab %}
 
 {% tab title="Second Tab" %}
+{% include "../../.gitbook/includes/ccooking.md" %}
+
 
 {% endtab %}
 {% endtabs %}
