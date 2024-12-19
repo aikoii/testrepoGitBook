@@ -1,6 +1,6 @@
 ---
 hidden: true
-cover: .gitbook/assets/image.png
+cover: ../.gitbook/assets/image.png
 coverY: 0
 ---
 
@@ -10,15 +10,13 @@ $$
 gvfdcsxamn n Wgyudjbhewsjn
 $$
 
-{% include ".gitbook/includes/untitled (1).md" %}
+{% include "../.gitbook/includes/untitled (1).md" %}
 
 
 
+Doings some changes now!!
 
-
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet/{petId}/uploadImage" method="post" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+A cupcake is a small, individually-sized cake typically baked in a lined cup-shaped mold. Cupcakes are usually topped with frosting and can be decorated with sprinkles or other embellishments. They come in various flavors and are popular for their convenience and portion control, often served at parties and celebrations.
 
 {% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet" method="post" %}
 [https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
@@ -29,7 +27,7 @@ $$
 > This module requires one or more of the following options: `Topic`
 >
 > Specifies the translation to use. This option takes the following format:\
-> _original_ _translated_
+> &#xNAN;_&#x6F;riginal_ _translated_
 >
 > The _original_ parameter can be a literal topic name or a PCRE regex. Any topic on any command tha
 
@@ -51,39 +49,39 @@ $$
 
 \[!IMPORTANT]
 
-<figure><img src=".gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt=""><figcaption></figcaption></figure>
 
 > For security reasons some mongo db operators are not available or are partially available.
 
 > For security reasons some mongo db operators are not available or are partially available.
 
-Adding headeer links [#rabbit-header-1](taryn-knights-work.md#rabbit-header-1 "mention")
+Adding headeer links [#rabbit-header-1](../taryn-knights-work.md#rabbit-header-1 "mention")
 
-{% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-{% swagger src=".gitbook/assets/docs.yml" path="/accounts" method="post" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/accounts" method="post" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-{% swagger src=".gitbook/assets/docs.yml" path="/sign_in" method="post" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-{% swagger src=".gitbook/assets/docs.yml" path="/accounts" method="get" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/accounts" method="get" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-{% swagger src=".gitbook/assets/docs.yml" path="/accounts/{account_id}" method="get" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}" method="get" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-{% swagger src=".gitbook/assets/docs.yml" path="/accounts/{account_id}/trades" method="get" %}
-[docs.yml](.gitbook/assets/docs.yml)
+{% swagger src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}/trades" method="get" %}
+[docs.yml](../.gitbook/assets/docs.yml)
 {% endswagger %}
 
-<figure><img src=".gitbook/assets/Latex.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Latex.svg" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -126,11 +124,11 @@ bhejdwknmksa
 
 debsjkn
 
-\->
+->
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href=".gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="spider.md">spider.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href="../.gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
 
 <mark style="color:blue;">`GET`</mark>
 
@@ -144,7 +142,7 @@ _hello_
 
 commissioned him to shoot some creatures for a story on the Canadian Pigeon Fancier’s Association, the _Fancy Pigesons_ series began to take shape. “My intention was to juxtapose the lowly pigeon with formal portraiture techniques and provide a new perspective on something ubiquitous, bordering on completely invisible,” Burden shares. Set against solid, paper backdrops resting in a large, show cage, the images evoke studio shots and capture each creature’s unique features. The Kormorner tumbler, for example, appears as if it’s wearing a turtleneck of brown feathers with a puffy collar, while the Moden’s gleaming, iridescent neck contrasts the soft, black and orange plumes of its body. NMp
 
-[#rebecca-green-is-an-illustrator-and-author-based-in-michigan.](spider.md#rebecca-green-is-an-illustrator-and-author-based-in-michigan. "mention")
+[#rebecca-green-is-an-illustrator-and-author-based-in-michigan.](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan. "mention")
 
 * [ ] Hello
 * [ ] world
@@ -152,19 +150,19 @@ commissioned him to shoot some creatures for a story on the Canadian Pigeon Fanc
 * [x] freedom
 * [x] Rome
 
-<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 <table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
 
-{% file src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
+{% file src="../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
 
 [_Rebecca Green is an Illustrator & Author_\
-_based in Michigan._](https://www.thisiscolossal.com/)
-------------------------------------------------------
+&#xNAN;_&#x62;ased in Michigan._](https://www.thisiscolossal.com/)
+------------------------------------------------------------------
 
 Making changes here.
 
-And more[ changes](spider.md#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
+And more[ changes](./#rebecca-green-is-an-illustrator-and-author-based-in-michigan.)
 
 dfvnkfeldl
 
@@ -172,7 +170,7 @@ dfvnkfeldl
 
 ### My heading 2
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="spider.md">spider.md</a></td><td><a href=".gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href="../.gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="../nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### My heading 3
 
@@ -224,29 +222,17 @@ This is a second <mark style="color:orange;background-color:purple;">line</mark>
 
 ## ATD insights
 
-ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
+ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache.md](../nostalgia-of-banal-items-through-papier-mache.md "mention")<mark style="color:orange;">for</mark> a list of supported insights.
 
-[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md "mention")
+[nostalgia-of-banal-items-through-papier-mache.md](../nostalgia-of-banal-items-through-papier-mache.md "mention")
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="../rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="../taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="../group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
-<div>
+<div><figure><img src="../.gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src=".gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-![](<.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
+![](<../.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 
 Her hand painted illustrations showcase the timeless celebration of seasons, story, and home. She is most known for her work in picture books.
 

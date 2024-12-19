@@ -63,7 +63,7 @@ As you explore, take your time to notice the details:
 
 {% tabs %}
 {% tab title="First Tab" %}
-<figure><img src="../.gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-08-23 at 14.09.45@2x.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 {% endtab %}
@@ -81,5 +81,5 @@ As you explore, take your time to notice the details:
 
 </details>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

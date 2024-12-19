@@ -16,9 +16,9 @@ fluid figures.&#x20;
 
 
 
-[**making changes here**](kukushka.md#my-new-title)
+[**making changes here**](./#my-new-title)
 
-<figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -30,10 +30,10 @@ which often utilize colorful beads arranged in various formations to treat ailme
 
 
 
-{% content-ref url="nostalgia-of-banal-items-through-papier-mache.md" %}
-[nostalgia-of-banal-items-through-papier-mache.md](nostalgia-of-banal-items-through-papier-mache.md)
+{% content-ref url="../nostalgia-of-banal-items-through-papier-mache.md" %}
+[nostalgia-of-banal-items-through-papier-mache.md](../nostalgia-of-banal-items-through-papier-mache.md)
 {% endcontent-ref %}
 
 #### My new title
 
-type here [surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md "mention") continue
+type here [surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md](../new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md "mention") continue

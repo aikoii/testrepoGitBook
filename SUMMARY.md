@@ -1,19 +1,22 @@
 # Table of contents
 
 * [🐙 Octopus](README.md)
-* [🕷️ Spider](spider.md)
+* [🕷️ Spider](spider/README.md)
+  * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 
 ## MY GROUP
 
-* [Page 4](my-group/page-4.md)
+* [Page 4](my-group/page-4/README.md)
+  * [Page 6](my-group/page-4/page-6.md)
 
 ***
 
 * [changing title here](nostalgia-of-banal-items-through-papier-mache.md)
-* [Kukushka](kukushka.md)
-* [New page!](new-page.md)
+* [Kukushka](kukushka/README.md)
+  * [Adding a new pae Dec 19](kukushka/adding-a-new-pae-dec-19.md)
+* [New page!](new-page/README.md)
+  * [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
-* [Surreal and Metaphorical Nature of Annalise Neil’s Cyanotypes](surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
 
 ## Inspiring work
 
