@@ -1,10 +1,3 @@
-# Page links
+# Page
 
-{% content-ref url="../taryn-knights-work.md" %}
-[taryn-knights-work.md](../taryn-knights-work.md)
-{% endcontent-ref %}
-
-{% content-ref url="../rebecca-greens-work.md" %}
-[rebecca-greens-work.md](../rebecca-greens-work.md)
-{% endcontent-ref %}
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

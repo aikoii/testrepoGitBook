@@ -1,8 +1,14 @@
-# Untitled document
+# Doc import
 
 ### [**Monumental Bubbles Pop Up in Public Spaces in Atelier Sisu’s Inflatable Installations**](https://www.thisiscolossal.com/2023/02/atelier-sisu-bubbletecture/) <a href="#j0f5ksi07eka" id="j0f5ksi07eka"></a>
 
 [**FEBRUARY 9, 2023**](https://www.thisiscolossal.com/2023/02/atelier-sisu-bubbletecture/)[**KATE MOTHES**](https://www.thisiscolossal.com/author/kmothes/)
+
+sbsxnjsx
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Page   </td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="cards.md">cards.md</a></td></tr><tr><td>      </td><td>               </td><td></td><td><a href=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png">CleanShot 2023-01-25 at 19.27.15@2x.png</a></td><td><a href="page-2/">page-2</a></td></tr><tr><td>Pagewithsubpage         </td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="group-1/good-afternoon/">good-afternoon</a></td></tr></tbody></table>
 
 ![An inflatable installation that looks like large bubbles.](.gitbook/assets/0.jpeg)
 

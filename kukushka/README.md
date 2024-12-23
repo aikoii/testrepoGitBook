@@ -1,4 +1,4 @@
-# Kukushka
+# 🐰 Rabbit
 
 In the Mpumalanga region of South Africa, a mysterious, human-built structure known locally as [Inzalo Ye Langa](https://www.atlasobscura.com/places/adams-calendar)rests in the hills. Three monolithic dolomites complement a network of stone circles, which like other monuments of its kind around the world, align with the celestial calendar. Also referred to as “Adam’s Calendar” or the “Birthplace of the Sun,” the site provides a well of inspiration for artist [Sthenjwa Luthuli](https://www.instagram.com/sthenjwa_luthuli/?hl=en)’s newest body of work, now on view at [Unit London](https://unitlondon.com/).
 
