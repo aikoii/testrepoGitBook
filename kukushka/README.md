@@ -16,7 +16,7 @@ fluid figures.&#x20;
 
 
 
-[**making changes here**](./#my-new-title)
+M[**aking changes here**](./#my-new-title)
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
