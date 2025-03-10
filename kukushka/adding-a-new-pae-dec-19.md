@@ -4,11 +4,7 @@
 {% step %}
 ###
 
-{% include "../.gitbook/includes/untitled.md" %}
-
-{% include "../.gitbook/includes/untitled (1).md" %}
-
-{% include "../.gitbook/includes/im-inspired-by-cooking-an....md" %}
+{% include "../.gitbook/includes/ccooking.md" %}
 
 
 {% endstep %}
@@ -16,7 +12,7 @@
 {% step %}
 ###
 
-{% include "../.gitbook/includes/im-inspired-by-cooking-an....md" %}
+{% include "../.gitbook/includes/ccooking.md" %}
 
 
 {% endstep %}
@@ -24,4 +20,4 @@
 
 
 
-{% include "../.gitbook/includes/im-inspired-by-cooking-an....md" %}
+{% include "../.gitbook/includes/ccooking.md" %}

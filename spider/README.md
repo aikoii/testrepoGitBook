@@ -10,17 +10,15 @@ $$
 gvfdcsxamn n Wgyudjbhewsjn
 $$
 
-{% include "../.gitbook/includes/untitled (1).md" %}
-
 
 
 Doings some changes now!!
 
 A cupcake is a small, individually-sized cake typically baked in a lined cup-shaped mold. Cupcakes are usually topped with frosting and can be decorated with sprinkles or other embellishments. They come in various flavors and are popular for their convenience and portion control, often served at parties and celebrations.
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet" method="post" %}
+{% openapi src="https://petstore.swagger.io/v2/swagger.json" path="/pet" method="post" %}
 [https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
-{% endswagger %}
+{% endopenapi %}
 
 > ranslates topic names on incoming commands.
 >
@@ -57,29 +55,29 @@ A cupcake is a small, individually-sized cake typically baked in a lined cup-sha
 
 Adding headeer links [#rabbit-header-1](../taryn-knights-work.md#rabbit-header-1 "mention")
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/accounts" method="post" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/accounts" method="post" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/accounts" method="get" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/accounts" method="get" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}" method="get" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}" method="get" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}/trades" method="get" %}
+{% openapi src="../.gitbook/assets/docs.yml" path="/accounts/{account_id}/trades" method="get" %}
 [docs.yml](../.gitbook/assets/docs.yml)
-{% endswagger %}
+{% endopenapi %}
 
 <figure><img src="../.gitbook/assets/Latex.svg" alt=""><figcaption></figcaption></figure>
 
