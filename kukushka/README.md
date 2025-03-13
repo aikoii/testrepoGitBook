@@ -36,4 +36,4 @@ which often utilize colorful beads arranged in various formations to treat ailme
 
 #### My new title
 
-type here [surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md](../new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md "mention") continue
+type here [Broken link](broken-reference "mention") continue

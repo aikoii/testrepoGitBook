@@ -6,7 +6,8 @@ Early mornings are chilly in Los Romero, a village high up in the mountains of w
 
 Residents of Los Romero live mainly from subsistence farming, growing maize, beans and squash, or grazing livestock. Almost 50% of the population is Indigenous in Guatemala, Central America’s biggest economy, but they do not share in its prosperity. Indigenous women in particular are discriminated against and dispossessed, with a life expectancy 13 years lower, and a maternal mortality rate two times higher, than the national average, according to the World Bank.
 
-\\
+\
+
 
 * one
 * two
