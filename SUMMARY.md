@@ -6,14 +6,13 @@
 
 ## MY GROUP
 
-* [Page 4](my-group/page-4/README.md)
-  * [Page 6](my-group/page-4/page-6.md)
-
 ***
 
 * [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
 * [🐰 Rabbit](kukushka/README.md)
   * [Adding a new pae Dec 19](kukushka/adding-a-new-pae-dec-19.md)
+  * [Page 4](kukushka/page-4/README.md)
+    * [Page 6](kukushka/page-4/page-6.md)
 * [New page!](new-page.md)
   * [Surreal and metaphorical nature of annalise neils cyanotypes](new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
   * [Surreal and metaphorical natur of-annalise neils cyanotypes](new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
