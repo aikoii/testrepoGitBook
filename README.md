@@ -12,7 +12,15 @@ Typing and referencing another page [spider](spider/ "mention")
 
 
 
+Storylane records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.
 
+(For example, capturing your product's dashboard to personalize the logo for different customers, remove/blur elements, add different personalization tokens, add media, or customize HTML...)
+
+{% @storylane/embed subdomain="app" linkValue="d7h8qoqynzgn" url="https://app.storylane.io/share/d7h8qoqynzgn" %}
+
+* Open the tab you wish to capture.&#x20;
+* Launch Storylane's Chrome Extension.&#x20;
+* Click "Create New Demo" (or Add to Existing Demo, if you have a demo already created)
 
 {% stepper %}
 {% step %}
