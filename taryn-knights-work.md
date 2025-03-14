@@ -1,4 +1,4 @@
-# Taryn Knight's work
+# 🎄 Taryn Knight's work
 
 1. [Trees](taryn-knights-work.md#second-tab) Link to Second Tab
 
@@ -6,13 +6,13 @@
 Drawing trees
 {% endhint %}
 
-2. [Mushrooms](taryn-knights-work.md#first-tab) - link to First Tab
+2. [Mushrooms](https://www.thisiscolossal.com/) - link to First Tab
 
-## Rabbit Header 1
+## Rabbit Header 1\`\`\`
 
 In this conversation, Niemann discusses his practice and process, how he consumes news and culture, and how his openness when experiencing a new city or space has changed since the pandemic began. The conversation veers from poetry, distillation, and the purpose of art to the downsides of pitching and finally, to his profound and enduring love for the humble act of putting ink on paper.
 
-[Leaves](taryn-knights-work.md#changed-title-to-colossal) - link to Change title to Colossal Tab
+[Leaves](taryn-knights-work.md#changed-title-to-colossal) - link to Change t\`tle to Colossal Tab
 
 Over Zoom in February 2023 when Niemann was in his Berlin studio, we discussed his practice and process, how he consumes news and culture, and how his openness when experiencing a new city or space has changed since the pandemic began. The conversation veers from poetry, distillation, and the purpose of art to the downsides of pitching and finally, to his profound and enduring love for the humble act of putting ink on paper.
 
@@ -24,7 +24,7 @@ Diana
 
 
 
-{% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1/?t=123456789" %}
+{% @figma/embed fileId="rHyJpfRqtFo6w1YfISUjkX" nodeId="1152:58573" url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1/?t=123456789" %}
 
 Artist [Sophie Woodrow](https://sophiewoodrow.co.uk/) ([previously](https://www.thisiscolossal.com/tags/sophie-woodrow/)) joins Colossal for [a technique workshop](https://colossal.shop/collections/workshops/products/a-colossal-workshop-decorative-clay-techniques-with-sophie-woodrow) on decorative patterns for clay. In this two-hour session, Woodrow will teach students how to create the textured motifs she utilizes in her figurative porcelain works on small pinch pots. Attendees are invited to work on their preferred material to learn coiling, chequering, dotting, and more, which can be translated to a variety of projects. As this is a technique workshop—see some examples of motifs below—the goal is not necessarily to finish the session with a completed project, although participants may do so.
 
@@ -36,7 +36,11 @@ Artist [Sophie Woodrow](https://sophiewoodrow.co.uk/) ([previously](https://www.
 {% tab title="First Tab" %}
 Digital transformation has become the language we use to challenge the status quo, experiment, and reach new audiences
 
-Another merge conflict?\
+Another merge conflict?
+
+
+
+\
 
 
 ![](<.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png>)
@@ -59,13 +63,49 @@ From their work in interactive performance to immersive installations, the winne
 
 Typing [**here**](#user-content-fn-1)[^1]
 
-And then[^2] here
+
+
+~~And~~ [~~then~~](#user-content-fn-2)[^2] ~~here~~
+
+
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+{% hint style="info" %}
+* [ ] this is my task
+* [ ] heelp
+* [ ] nbut
+
+
+{% endhint %}
+
+
+
+hello, world
 
 <details>
 
 <summary>Renaming this to Tab 1</summary>
 
+```
 
+
+fdnkkhds
+```
+
+##
 
 ## Hello!
 
