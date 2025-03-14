@@ -10,6 +10,8 @@
 
 Typing and referencing another page [spider](spider/ "mention")
 
+<table><thead><tr><th><select><option value="sSESvXcVskye" label="New" color="blue"></option><option value="3piIrawem5FM" label="Enhancement" color="blue"></option><option value="iPMEbhDtPKs3" label="Bug" color="blue"></option></select></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>text</td><td></td></tr><tr><td></td><td>can't type</td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+
 
 
 Storylane records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.

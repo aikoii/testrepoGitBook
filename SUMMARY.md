@@ -11,16 +11,16 @@
 * [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
 * [🐰 Rabbit](kukushka/README.md)
   * [Adding a new pae Dec 19](kukushka/adding-a-new-pae-dec-19.md)
-  * [Page 4](kukushka/page-4/README.md)
-    * [Page 6](kukushka/page-4/page-6.md)
-* [New page!](new-page.md)
-  * [Surreal and metaphorical nature of annalise neils cyanotypes](new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
-  * [Surreal and metaphorical natur of-annalise neils cyanotypes](new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
 
 ## Inspiring work
 
 * [Page](inspiring-work/page.md)
+* [New page!](inspiring-work/new-page/README.md)
+  * [Surreal and metaphorical nature of annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
+  * [Surreal and metaphorical natur of-annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
+* [Page 4](inspiring-work/page-4/README.md)
+  * [Page 6](inspiring-work/page-4/page-6.md)
 
 ***
 
@@ -38,8 +38,8 @@
 * [Another new doc?](group-1/another-new-doc.md)
 * [Create new docc??](group-1/create-new-docc.md)
 * [Hello world](group-1/hello-world.md)
-* [A win is a win](group-1/a-win-is-a-win.md)
 * [The barber of Siberia](group-1/the-barber-of-siberia.md)
+* [A win is a win](group-1/a-win-is-a-win.md)
 
 ## Group 2
 
