@@ -6,8 +6,6 @@
 
 ## MY GROUP
 
-***
-
 * [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
 * [🐰 Rabbit](kukushka/README.md)
   * [Adding a new pae Dec 19](kukushka/adding-a-new-pae-dec-19.md)

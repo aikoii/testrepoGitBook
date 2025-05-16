@@ -1,12 +1,23 @@
 # 🐙 Octopus
 
-Lorem ipsum dolor sit amet <br/>
-
-Vivamus lacinia turpis ut justo porta <br/>
-
-Duis vel lacus sit amet dolor <br/>
+Lorem ipsum dolor sit amet\
 
 
+Vivamus lacinia turpis ut justo porta\
+
+
+Duis vel lacus sit amet dolor
+
+/
+
+
+
+
+
+\
+
+
+{% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
 
 {% include ".gitbook/includes/cards-test.md" %}
 
@@ -14,27 +25,23 @@ Duis vel lacus sit amet dolor <br/>
 
 <figure><img src=".gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure>
 
-
-
 Typing and referencing another page [spider](spider/ "mention")
 
 <table><thead><tr><th><select><option value="sSESvXcVskye" label="New" color="blue"></option><option value="3piIrawem5FM" label="Enhancement" color="blue"></option><option value="iPMEbhDtPKs3" label="Bug" color="blue"></option></select></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>text</td><td></td></tr><tr><td></td><td>can't type</td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
-
-
 
 Storylane records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.
 
 (For example, capturing your product's dashboard to personalize the logo for different customers, remove/blur elements, add different personalization tokens, add media, or customize HTML...)
 
-{% @storylane/embed subdomain="app" linkValue="d7h8qoqynzgn" url="https://app.storylane.io/share/d7h8qoqynzgn" %}
+{% @storylane/embed subdomain="app" linkvalue="d7h8qoqynzgn" url="https://app.storylane.io/share/d7h8qoqynzgn" %}
 
-* Open the tab you wish to capture.&#x20;
-* Launch Storylane's Chrome Extension.&#x20;
+* Open the tab you wish to capture.
+* Launch Storylane's Chrome Extension.
 * Click "Create New Demo" (or Add to Existing Demo, if you have a demo already created)
 
 {% stepper %}
 {% step %}
-### Prepare Ingredients
+#### Prepare Ingredients
 
 Gather flour, sugar, salt, yeast, milk, butter, and eggs.
 
@@ -42,23 +49,17 @@ Gather flour, sugar, salt, yeast, milk, butter, and eggs.
 {% endstep %}
 
 {% step %}
-### Make Dough
+#### Make Dough
 
 Mix dry ingredients, add wet ingredients, and knead until smooth.
 {% endstep %}
 {% endstepper %}
 
-
-
 {% stepper %}
 {% step %}
-**Prepare Ingredients**:&#x20;
-
-
+**Prepare Ingredients**:
 
 Gather flour, sugar, salt, yeast, milk, butter, and eggs.
-
-
 
 1. **Make Dough**: Mix dry ingredients, add wet ingredients, and knead until smooth.
 2. **Chill Dough**: Refrigerate the dough for at least 30 minutes.
@@ -100,34 +101,20 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 * **Bake**: Bake for 15-20 minutes, or until golden br
 
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
 
-
-
 {% endstep %}
 
 {% step %}
-###
+####
 {% endstep %}
 
 {% step %}
-
-
-
-
-
-
-
-
 
 {% endstep %}
 {% endstepper %}
-
-
 
 1. **Make Dough**: Mix dry ingredients, add wet , and knead until smooth.
 2. **Chill Dough**: Refrigerate the dough for at least 30 minutes.
@@ -147,27 +134,14 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 
 changes
 
-
-
 {% include ".gitbook/includes/ingredients.md" %}
-
-
-
-
-
-
 
 {% stepper %}
 {% step %}
-###
-
-
+####
 {% endstep %}
 
 {% step %}
-###
-
-
+####
 {% endstep %}
 {% endstepper %}
-
