@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🐙 Octopus](README.md)
+* [🐢 Octopus](README.md)
 * [🕷️ Spider](spider/README.md)
   * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 
@@ -22,8 +22,8 @@
 
 ***
 
-* [Taryn Knight's work](taryn-knights-work.md)
-* [Rebecca Green's work](rebecca-greens-work.md)
+* [🎄 Taryn Knight's work](taryn-knights-work.md)
+* [🍏 Rebecca Green's work](rebecca-greens-work.md)
 * [Doc import](untitled-document.md)
 * [Cards!](cards.md)
 * [Page 2](page-2/README.md)
