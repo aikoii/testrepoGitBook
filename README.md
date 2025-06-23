@@ -6,7 +6,20 @@ Lorem ipsum dolor sit amet\
 Vivamus lacinia turpis ut justo porta\
 
 
-making changes!\
+#### CHANGES TO A NEWBRANCH
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+* Sed do eiusmod tempor incididunt ut labore et dolore
+
+* Ut enim ad minim veniam, quis nostrud exercitation
+
+* Duis aute irure dolor in reprehenderit in voluptate velit esse
+
+* Excepteur sint occaecat cupidatat non proident
+
 
 
 {% include ".gitbook/includes/cards-test.md" %}
