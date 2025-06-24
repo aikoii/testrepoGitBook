@@ -1,7 +1,5 @@
 # 🐺 Wolf
 
-{% include ".gitbook/includes/cards-test.md" %}
-
 
 
 ####

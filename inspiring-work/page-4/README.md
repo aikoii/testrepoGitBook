@@ -21,8 +21,6 @@ Con
 {% step %}
 ###
 
-{% include "../../.gitbook/includes/ingredients.md" %}
-
 
 {% endstep %}
 
@@ -32,8 +30,6 @@ Con
 Research online or use apps like _AllTrails_ to find locations near you.
 
 
-
-{% include "../../.gitbook/includes/ingredients.md" %}
 {% endstep %}
 
 {% step %}
@@ -63,16 +59,10 @@ As you explore, take your time to notice the details:
 
 {% tabs %}
 {% tab title="First Tab" %}
-{% include "../../.gitbook/includes/ingredients.md" %}
-
-{% include "../../.gitbook/includes/ccooking.md" %}
-
 
 {% endtab %}
 
 {% tab title="Second Tab" %}
-{% include "../../.gitbook/includes/ccooking.md" %}
-
 
 {% endtab %}
 {% endtabs %}

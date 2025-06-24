@@ -1,4 +1,4 @@
-# 🐢 Octopus
+# 🐙 Octopus
 
 Lorem ipsum dolor sit amet\
 
@@ -6,8 +6,20 @@ Lorem ipsum dolor sit amet\
 Vivamus lacinia turpis ut justo porta\
 
 
-making changes!\
+Duis vel lacus sit amet dolor
 
+
+
+<img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
+
+
+
+
+\
+
+
+{% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
 
 {% include ".gitbook/includes/cards-test.md" %}
 
