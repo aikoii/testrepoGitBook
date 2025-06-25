@@ -1,12 +1,9 @@
 # 🐙 Octopus
 
-Lorem ipsum dolor sit amet\
+\
 
 
-Vivamus lacinia turpis ut justo porta\
-
-
-Duis vel lacus sit amet dolor
+{% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
 
 
