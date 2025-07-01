@@ -1,23 +1,23 @@
-# 🐙 Octopus
+# 🐢 Octopus
 
-\
+Lorem ipsum dolor sit amet\
 
 
-{% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
+Vivamus lacinia turpis ut justo porta\
+
+
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 
 
 <img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
+```
+// Some coddecs
+    e
+```
 
-
-{% content-ref url="spider/" %}
-[spider](spider/)
-{% endcontent-ref %}
-
-
-
-{% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
+<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 {% include ".gitbook/includes/cards-test.md" %}
 
@@ -130,7 +130,7 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 12. **Shape Croissants**: Cut into triangles and roll into crescent shapes.
 13. **Proof Croissants**: Let them rise until doubled in size.
 14. **Preheat Oven**: Set your oven to 375°F (190°C).
-15. **Bake**: Bake for 15-20 minutes, or until golden br
+15. **Bake: Bake for 15-20 minutes, or until golden brown**&#x20;
 
 changes
 
@@ -142,14 +142,6 @@ changes
 {% endstep %}
 
 {% step %}
-
-{% endstep %}
-
-{% step %}
-
-
-
+####
 {% endstep %}
 {% endstepper %}
-
-## MY heading
