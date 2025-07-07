@@ -1,9 +1,12 @@
 ---
+hidden: true
 cover: ../.gitbook/assets/image.png
 coverY: 0
 ---
 
 # 🕷️ Spider
+
+
 
 $$
 gvfdcsxamn n Wgyudjbhewsjn
