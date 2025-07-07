@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🐙 Octopus](README.md)
+  * [Page 7](readme/page-7.md)
 * [🕷️ Spider](spider/README.md)
   * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 

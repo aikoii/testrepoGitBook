@@ -156,3 +156,7 @@ changes
 {% endstepper %}
 
 ## MY heading
+
+<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
