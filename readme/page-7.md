@@ -205,6 +205,8 @@ Review the revised DRG and write a case summary:
 
 Here’s an example of an APR-DRG final summary in **Manual** mode:
 
+<figure><img src="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
 
 <div align="left"><figure><img src="../.gitbook/assets/teapotnewA6.webp" alt=""><figcaption></figcaption></figure></div>
