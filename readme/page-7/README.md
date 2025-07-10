@@ -101,7 +101,7 @@ Sometimes _not all codes_ shown in the left panel affect the DRG (MS-DRG) or SOI
 
 Diagnosis codes with policy criteria and supporting evidence in the medical records show reference links that are shown with a summary and a link to the location in the medical record. Click on a reference link to navigate to the medical record content that supports the finding.
 
-<div align="left"><figure><img src="../.gitbook/assets/driedbunches.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/driedbunches.png" alt=""><figcaption></figcaption></figure></div>
 
 To avoid missing critical context, many links might be provided. The links are sorted by relevance, similar to a Google search. Usually, one of the first few results answer the clinical question. Step through the links using the up and down arrows next to the link.
 
@@ -118,7 +118,7 @@ To avoid missing critical context, many links might be provided. The links are s
 
 You can add a text note on any criteria by clicking the tiny document icon next to each criterion. Criteria text fields help future human reviewers understand your decisions. It also helps the AI assistant summarize your case findings.
 
-<div align="left"><figure><img src="../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 ### **Criteria and criteria group icons**
 
@@ -126,7 +126,7 @@ As you review criteria, mark if the criteria is met (click the checkmark, which 
 
 Some criteria are grouped hierarchically under one label:
 
-<div align="left"><figure><img src="../.gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 Grouped criteria have an icon to the left of the group label to indicate its status. A green round checkmark means that these grouped criteria are already satisfied. A red X means criteria are not met. A yellow circle with horizontal line indicates undetermined.
 
@@ -140,7 +140,7 @@ Not all sub-criteria in a group need to be evaluated or marked green or red. For
 
 When you begin an audit of a diagnosis code, look to the right of the diagnosis name for an icon. Often, it’s initially yellow with a horizontal line to indicate that it’s undetermined. When required guidelines are met for this diagnosis, its icon becomes a green round checkmark.
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-01-10 at 12.42.50@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-01-10 at 12.42.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **IMPORTANT:** If the diagnosis icon becomes a round green checkmark <img src="broken-reference" alt="" data-size="line">, don’t spend more time answering questions for it. Skip ahead to the following diagnosis code.
@@ -205,8 +205,8 @@ Review the revised DRG and write a case summary:
 
 Here’s an example of an APR-DRG final summary in **Manual** mode:
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
 
-<div align="left"><figure><img src="../.gitbook/assets/teapotnewA6.webp" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/teapotnewA6.webp" alt=""><figcaption></figcaption></figure></div>
