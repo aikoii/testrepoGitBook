@@ -214,3 +214,18 @@ directory/*    # Ignores all files and directories inside "directory", but not t
 *.log          # Ignores all .log files
 !important.log # But keeps important.log
 ```
+
+<details>
+
+<summary></summary>
+
+<div><figure><img src="../../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/teapotnewA6.webp" alt=""><figcaption></figcaption></figure></div>
+
+<figure><img src="../../.gitbook/assets/1.jpeg" alt=""><figcaption></figcaption></figure>
+
+</details>
+
+<figure><img src="../../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png" alt="fdvced"><figcaption><p>dceds</p></figcaption></figure>
+
