@@ -1,5 +1,21 @@
 # 🐙 Octopus
 
+{% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="post" %}
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="testtt" path="/api/v1/customer/pre-entitlements/{symphonyId}/externalNetwork/{externalNetwork}" method="post" %}
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="testtt" path="/api/v1/customer/pre-entitlements/{symphonyId}/externalNetwork/{externalNetwork}" method="delete" %}
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
+
 |                             |   |   |
 | --------------------------- | - | - |
 |                             |   |   |
