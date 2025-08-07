@@ -1,42 +1,29 @@
-# 🐙 Octopus
+# 🐢 Octopus
 
-{% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="post" %}
-[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
+{% file src=".gitbook/assets/api_documentation (1) (1).yaml" %}
 
-{% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
-[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
+Lorem ipsum dolor sit amet\
 
-{% openapi-operation spec="testtt" path="/api/v1/customer/pre-entitlements/{symphonyId}/externalNetwork/{externalNetwork}" method="post" %}
-[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
 
-{% openapi-operation spec="testtt" path="/api/v1/customer/pre-entitlements/{symphonyId}/externalNetwork/{externalNetwork}" method="delete" %}
-[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250721%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250721T132353Z&X-Amz-Expires=172800&X-Amz-Signature=d0c84a459292998974ca0758e36fc9ffa0da071f3a99538a730a095d18407748&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-{% endopenapi-operation %}
+Vivamus lacinia turpis ut justo porta
 
-|                             |   |   |
-| --------------------------- | - | - |
-|                             |   |   |
-| #                           |   |   |
-| efjre3ijws# fedjnfklcmerlds | # |   |
 
-{% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
+
+/\
+
+
+<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 
 
 <img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
+```
+// Some coddecs
+    e
+```
 
-
-{% content-ref url="spider/" %}
-[spider](spider/)
-{% endcontent-ref %}
-
-
-
-{% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
+<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 {% include ".gitbook/includes/cards-test.md" %}
 
@@ -149,7 +136,7 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 12. **Shape Croissants**: Cut into triangles and roll into crescent shapes.
 13. **Proof Croissants**: Let them rise until doubled in size.
 14. **Preheat Oven**: Set your oven to 375°F (190°C).
-15. **Bake**: Bake for 15-20 minutes, or until golden br
+15. **Bake: Bake for 15-20 minutes, or until golden brown**&#x20;
 
 changes
 
@@ -161,18 +148,6 @@ changes
 {% endstep %}
 
 {% step %}
-
-{% endstep %}
-
-{% step %}
-
-
-
+####
 {% endstep %}
 {% endstepper %}
-
-## MY heading
-
-<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
