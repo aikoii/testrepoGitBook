@@ -8,13 +8,12 @@ Her hand painted illustrations showcase the timeless celebration of seasons, sto
 
 ![](https://images.unsplash.com/photo-1641927676953-f12cc1b1a59a?crop=entropy\&cs=srgb\&fm=jpg\&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NjQwMjB8\&ixlib=rb-4.0.3\&q=85)
 
-![](.gitbook/assets/H93A9948.jpeg)
 
 :smile: Hello! Making other changes here 🌼
 
 $$f(x) = x * e^{2 pi i \xi x}$$
 
-
+Quisque id ligula nec elit feugiat scelerisque in sit amet sapien. Integer a luctus urna. Vivamus id dui et lectus tincidunt eleifend. Suspendisse potenti. Proin vel cursus magna. Morbi vitae nulla ac orci convallis facilisis. Aenean fringilla mauris vel orci aliquam, in viverra lacus hendrerit. Sed at ex in mi facilisis porttitor non eget erat.
 
 {% hint style="info" %}
 
