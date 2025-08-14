@@ -1,29 +1,26 @@
-# 🐢 Octopus
+# 🐙 Octopus
 
-{% file src=".gitbook/assets/api_documentation (1) (1).yaml" %}
+{% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250814%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250814T083846Z&X-Amz-Expires=172800&X-Amz-Signature=07c26ac0e279b3e64abbd267bfe51d96a85cec240fc97cf154c1b2c88dd2d411&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+{% endopenapi-operation %}
 
-Lorem ipsum dolor sit amet\
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr></tbody></table>
 
-
-Vivamus lacinia turpis ut justo porta
-
-
-
-/\
-
-
-<img src=".gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+{% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
 
 
 <img src=".gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-```
-// Some coddecs
-    e
-```
 
-<img src=".gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+
+{% content-ref url="spider/" %}
+[spider](spider/)
+{% endcontent-ref %}
+
+
+
+{% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
 
 {% include ".gitbook/includes/cards-test.md" %}
 
@@ -136,7 +133,7 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 12. **Shape Croissants**: Cut into triangles and roll into crescent shapes.
 13. **Proof Croissants**: Let them rise until doubled in size.
 14. **Preheat Oven**: Set your oven to 375°F (190°C).
-15. **Bake: Bake for 15-20 minutes, or until golden brown**&#x20;
+15. **Bake**: Bake for 15-20 minutes, or until golden br
 
 changes
 
@@ -148,6 +145,18 @@ changes
 {% endstep %}
 
 {% step %}
-####
+
+{% endstep %}
+
+{% step %}
+
+
+
 {% endstep %}
 {% endstepper %}
+
+## MY heading
+
+<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
