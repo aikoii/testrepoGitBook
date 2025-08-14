@@ -1,4 +1,4 @@
-# 🐙 Octopus
+
 
 {% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
 [OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250814%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250814T083846Z&X-Amz-Expires=172800&X-Amz-Signature=07c26ac0e279b3e64abbd267bfe51d96a85cec240fc97cf154c1b2c88dd2d411&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
@@ -7,6 +7,7 @@
 <table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
+
 
 
 
