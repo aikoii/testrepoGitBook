@@ -10,7 +10,7 @@
 
 * [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
 * [🐰 Rabbit](kukushka/README.md)
-  * [Adding a new pae Dec 19](kukushka/adding-a-new-pae-dec-19.md)
+  * [Robin](kukushka/adding-a-new-pae-dec-19.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
 
 ## Inspiring work
