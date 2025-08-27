@@ -10,12 +10,12 @@
 
 * [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
 * [🐰 Rabbit](kukushka/README.md)
-  * [Robin](kukushka/adding-a-new-pae-dec-19.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
 
 ## Inspiring work
 
 * [Page](inspiring-work/page.md)
+* [Robin](kukushka/adding-a-new-pae-dec-19.md)
 * [New page!](inspiring-work/new-page/README.md)
   * [Surreal and metaphorical nature of annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-nature-of-annalise-neils-cyanotypes.md)
   * [Surreal and metaphorical natur of-annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
