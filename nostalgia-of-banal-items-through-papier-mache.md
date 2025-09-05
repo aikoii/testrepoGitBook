@@ -2,7 +2,9 @@
 
 
 
-####
+**What is a Thumbs Up Emoji?**
+
+A thumbs up emoji (👍) is a common symbol used in digital communication to express approval or agreement. It is often used to indicate that someone likes a particular message, comment, or post, and is widely recognized across various social media platforms, messaging apps, and online communities.
 
 #### Title tile
 
