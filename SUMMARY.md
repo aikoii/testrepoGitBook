@@ -8,7 +8,21 @@
 
 ## MY GROUP
 
-* [🐺 Wolf](nostalgia-of-banal-items-through-papier-mache.md)
+* [🐺 Wolf](my-group/nostalgia-of-banal-items-through-papier-mache/README.md)
+  * [Introduction](my-group/nostalgia-of-banal-items-through-papier-mache/introduction.md)
+  * [Introduction](my-group/nostalgia-of-banal-items-through-papier-mache/introduction-1.md)
+  * [Getting Started](my-group/nostalgia-of-banal-items-through-papier-mache/getting-started.md)
+  * [Features](my-group/nostalgia-of-banal-items-through-papier-mache/features.md)
+  * [Examples](my-group/nostalgia-of-banal-items-through-papier-mache/examples.md)
+  * [FAQ](my-group/nostalgia-of-banal-items-through-papier-mache/faq.md)
+  * [Introduction](my-group/nostalgia-of-banal-items-through-papier-mache/introduction-2.md)
+  * [Getting Started](my-group/nostalgia-of-banal-items-through-papier-mache/getting-started-1.md)
+  * [Features](my-group/nostalgia-of-banal-items-through-papier-mache/features-1.md)
+  * [Examples](my-group/nostalgia-of-banal-items-through-papier-mache/examples-1.md)
+  * [FAQ](my-group/nostalgia-of-banal-items-through-papier-mache/faq-1.md)
+  * [test\_markdown\_combined](my-group/nostalgia-of-banal-items-through-papier-mache/test_markdown_combined.md)
+  * [test\_markdown\_combined](my-group/nostalgia-of-banal-items-through-papier-mache/test_markdown_combined-1.md)
+  * [test\_markdown\_10\_pages](my-group/nostalgia-of-banal-items-through-papier-mache/test_markdown_10_pages.md)
 * [🐰 Rabbit](kukushka/README.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
 

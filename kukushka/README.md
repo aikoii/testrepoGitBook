@@ -30,8 +30,8 @@ which often utilize colorful beads arranged in various formations to treat ailme
 
 
 
-{% content-ref url="../nostalgia-of-banal-items-through-papier-mache.md" %}
-[nostalgia-of-banal-items-through-papier-mache.md](../nostalgia-of-banal-items-through-papier-mache.md)
+{% content-ref url="../my-group/nostalgia-of-banal-items-through-papier-mache/" %}
+[nostalgia-of-banal-items-through-papier-mache](../my-group/nostalgia-of-banal-items-through-papier-mache/)
 {% endcontent-ref %}
 
 #### My new title

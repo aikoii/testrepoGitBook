@@ -1,10 +1,10 @@
 # 🐙 Octopus
 
 {% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
-[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250820%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250820T130525Z&X-Amz-Expires=172800&X-Amz-Signature=5e87f9c1775d6cc1e629013c3039b71d2302ae359db4377ca3e258330ab54560&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI testtt](https://gitbook-x-prod-openapi.4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250908%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250908T042318Z&X-Amz-Expires=172800&X-Amz-Signature=7ea7f0c3a6b7f4e6c7f85cd1101ea067e76c803d46d3ca2d3c5e1c34bf81261e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
-<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="nostalgia-of-banal-items-through-papier-mache.md">nostalgia-of-banal-items-through-papier-mache.md</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/nostalgia-of-banal-items-through-papier-mache/">nostalgia-of-banal-items-through-papier-mache</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
