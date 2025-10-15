@@ -1,11 +1,9 @@
----
-layout: editorial
----
-
 # 🐙 Octopus
 
+
+
 {% openapi-operation spec="testtt" path="/api/v2/customer/entitlements" method="get" %}
-[OpenAPI testtt](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251013%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251013T120505Z&X-Amz-Expires=172800&X-Amz-Signature=d5c76366f6f7e6d531e4406ece444c064fb98c5e39fe0176f88fdb61eee90d68&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI testtt](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/077b5f37e739e241ca9f252e2924585d025127b1084164982d828fdf6b04a0d6.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20251015%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20251015T063232Z&X-Amz-Expires=172800&X-Amz-Signature=472574bb35cc1ba332f6fe4603e8c2253bab56f0a0138ec86404c06c63429ea5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
 <table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/nostalgia-of-banal-items-through-papier-mache/">nostalgia-of-banal-items-through-papier-mache</a></td></tr></tbody></table>
