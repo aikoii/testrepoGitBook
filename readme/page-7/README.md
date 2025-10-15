@@ -6,6 +6,8 @@ This article describes recommended steps in Machinify Audit to efficiently and a
 
 <a href="https://www.gitbook.com/pricing" class="button primary" data-icon="sack-dollar">Pricing</a>
 
+<a href="../../group-1/another-new-doc.md" class="button primary" data-icon="bird">in-app page</a>
+
 A DRG audit, or [Diagnosis](./#summary) Related Group audit, is a review of a patient's hospital stay to ensure that the DRG assignment and payment are accurate. DRG audits can help hospitals avoid costly billing issues and penalties. Machinify Audit supports audit angles MS-DRG (Medicare Severity Diagnosis Related Groups) and APR-DRG (All Patient Refined Diagnosis Related Groups).
 
 This article describes DRG audits and covers steps applicable for clinical and coding reviews for both MS-DRG and APR-DRG. Clinical and coding reviews are quite similar, but if your team does not perform all of the steps listed, then focus on the steps that apply to your company’s audit process.
