@@ -4,7 +4,7 @@
 message here
 {% endhint %}
 
-<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/nostalgia-of-banal-items-through-papier-mache/">nostalgia-of-banal-items-through-papier-mache</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 

@@ -126,7 +126,7 @@ debsjkn
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../my-group/nostalgia-of-banal-items-through-papier-mache/">nostalgia-of-banal-items-through-papier-mache</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href="../.gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../my-group/wolfff/">wolfff</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href="../.gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
 
 <mark style="color:blue;">`GET`</mark>
 
@@ -168,7 +168,7 @@ dfvnkfeldl
 
 ### My heading 2
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href="../.gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="../my-group/nostalgia-of-banal-items-through-papier-mache/">nostalgia-of-banal-items-through-papier-mache</a></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href="../.gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="../my-group/wolfff/">wolfff</a></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### My heading 3
 
@@ -220,9 +220,9 @@ This is a second <mark style="color:orange;background-color:purple;">line</mark>
 
 ## ATD insights
 
-ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [nostalgia-of-banal-items-through-papier-mache](../my-group/nostalgia-of-banal-items-through-papier-mache/ "mention")<mark style="color:orange;">for</mark> a list of supported insights.
+ATD insights are created using statistics from your EOIs and machine learning algorithms on the Anvilogic platform. <mark style="color:orange;">Set</mark> [wolfff](../my-group/wolfff/ "mention")<mark style="color:orange;">for</mark> a list of supported insights.
 
-[nostalgia-of-banal-items-through-papier-mache](../my-group/nostalgia-of-banal-items-through-papier-mache/ "mention")
+[wolfff](../my-group/wolfff/ "mention")
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="../rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="../taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="../group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
