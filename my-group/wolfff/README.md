@@ -18,8 +18,8 @@ A thumbs up emoji (👍) is a common symbol used in digital communication to exp
 
 
 
-{% content-ref url="../../rebecca-greens-work.md" %}
-[rebecca-greens-work.md](../../rebecca-greens-work.md)
+{% content-ref url="../../inspiring-work/empty-parent-page/rebecca-greens-work.md" %}
+[rebecca-greens-work.md](../../inspiring-work/empty-parent-page/rebecca-greens-work.md)
 {% endcontent-ref %}
 
 {% embed url="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/~/changes/98/untitled-document" %}
@@ -30,7 +30,7 @@ A stack of worn phone books, a neatly folded button-up, and a junk draw filled w
 
 [Wilkie Collins’ ](broken-reference)
 
-* [_The Woman in White_](../../rebecca-greens-work.md)&#x20;
+* [_The Woman in White_](../../inspiring-work/empty-parent-page/rebecca-greens-work.md)&#x20;
 * [John Berger’s _A Painter of Our Time_ ](broken-reference)
 
 
@@ -39,4 +39,4 @@ A stack of worn phone books, a neatly folded button-up, and a junk draw filled w
 
 
 
-From large pieces of [basswood](https://www.wood-database.com/european-lime/), artist [Christian Verginer](https://verginer.org/) carves figurative sculptures that meld the play and wonder of adolescence with the vitality of the natural world. Leafy branches grow like pigtails, a bird perches on the zipper of a hoodie, and two young boys sit on ladders that lead to treetops and clouds. Textured by small gouges, the works contrast realistic renditions of children with fantastical elements, the latter of which the artist tends to paint in a single color like vibrant green, slate gray, or[ beige.](../../rebecca-greens-work.md#author-based-in-michigan.)
+From large pieces of [basswood](https://www.wood-database.com/european-lime/), artist [Christian Verginer](https://verginer.org/) carves figurative sculptures that meld the play and wonder of adolescence with the vitality of the natural world. Leafy branches grow like pigtails, a bird perches on the zipper of a hoodie, and two young boys sit on ladders that lead to treetops and clouds. Textured by small gouges, the works contrast realistic renditions of children with fantastical elements, the latter of which the artist tends to paint in a single color like vibrant green, slate gray, or[ beige.](../../inspiring-work/empty-parent-page/rebecca-greens-work.md#author-based-in-michigan.)

@@ -24,11 +24,11 @@ Diana
 
 
 
-{% embed url="https://www.figma.com/file/rHyJpfRqtFo6w1YfISUjkX/GitBook?type=design&node-id=1152%3A58573&mode=design&t=WBoLaB8YcFwPThlD-1/?t=123456789" %}
+{% @figma/embed %}
 
 Artist [Sophie Woodrow](https://sophiewoodrow.co.uk/) ([previously](https://www.thisiscolossal.com/tags/sophie-woodrow/)) joins Colossal for [a technique workshop](https://colossal.shop/collections/workshops/products/a-colossal-workshop-decorative-clay-techniques-with-sophie-woodrow) on decorative patterns for clay. In this two-hour session, Woodrow will teach students how to create the textured motifs she utilizes in her figurative porcelain works on small pinch pots. Attendees are invited to work on their preferred material to learn coiling, chequering, dotting, and more, which can be translated to a variety of projects. As this is a technique workshop—see some examples of motifs below—the goal is not necessarily to finish the session with a completed project, although participants may do so.
 
-<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
 
 [Spring](taryn-knights-work.md#rabbit-header-1) - link this to Header 1
 
@@ -39,17 +39,17 @@ Digital transformation has become the language we use to challenge the status qu
 Another merge conflict?\
 
 
-![](<.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png>)
+![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png>)
 
-<figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption><p><br></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption><p><br></p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
 From their work in interactive performance to immersive installations, the winners, who represent the area’s rich diversity, are creators who push the boundaries of art through technology.
 
-![](<.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png>)
+![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png>)
 
-<figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -91,7 +91,7 @@ Digital transformation has become the language we use to challenge the status qu
 
 </details>
 
-<figure><img src=".gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure>
 
 [^1]: Hello! bye
 

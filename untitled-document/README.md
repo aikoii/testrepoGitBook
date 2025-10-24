@@ -8,9 +8,9 @@ sbsxnjsx
 
 
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Page   </td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="cards.md">cards.md</a></td></tr><tr><td>      </td><td>               </td><td></td><td><a href=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png">CleanShot 2023-01-25 at 19.27.15@2x.png</a></td><td><a href="page-2/">page-2</a></td></tr><tr><td>Pagewithsubpage         </td><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href="group-1/good-afternoon/">good-afternoon</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Page   </td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../inspiring-work/empty-parent-page/cards/">cards</a></td></tr><tr><td>      </td><td>               </td><td></td><td><a href="../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png">CleanShot 2023-01-25 at 19.27.15@2x.png</a></td><td><a href="../inspiring-work/empty-parent-page/cards/page-2/">page-2</a></td></tr><tr><td>Pagewithsubpage         </td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../group-1/good-afternoon/">good-afternoon</a></td></tr></tbody></table>
 
-![An inflatable installation that looks like large bubbles.](.gitbook/assets/0.jpeg)
+![An inflatable installation that looks like large bubbles.](../.gitbook/assets/0.jpeg)
 
 “Evanescent.” All images © Atelier Sisu, shared with permission
 
@@ -24,6 +24,6 @@ Atelier Sisu’s self-described “bubble-tecture” is exemplified in the iride
 
 “Evanescent” is currently on view at Leadenhall Market in London through February 10. You can find more work on the studio’s [website](https://www.ateliersisu.com/), and follow updates on [Instagram](https://www.instagram.com/ateliersisu).
 
-![](.gitbook/assets/1.jpeg)
+![](../.gitbook/assets/1.jpeg)
 
 “Iris” hello workd

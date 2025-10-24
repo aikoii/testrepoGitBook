@@ -35,15 +35,17 @@
   * [Surreal and metaphorical natur of-annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
 * [Page 4](inspiring-work/page-4/README.md)
   * [Page 6](inspiring-work/page-4/page-6.md)
+* [Empty parent page](inspiring-work/empty-parent-page/README.md)
+  * [Rebecca Green's work](inspiring-work/empty-parent-page/rebecca-greens-work.md)
+  * [Taryn Knight's work](inspiring-work/empty-parent-page/taryn-knights-work.md)
+  * [Cards!](inspiring-work/empty-parent-page/cards/README.md)
+    * [Page 2](inspiring-work/empty-parent-page/cards/page-2/README.md)
+      * [Making](inspiring-work/empty-parent-page/cards/page-2/making.md)
 
 ***
 
-* [Taryn Knight's work](taryn-knights-work.md)
-* [Rebecca Green's work](rebecca-greens-work.md)
-* [Doc import](untitled-document.md)
-* [Cards!](cards.md)
-* [Page 2](page-2/README.md)
-  * [Making](page-2/making.md)
+* [Doc import](untitled-document/README.md)
+  * [Page 9](untitled-document/page-9.md)
 
 ## Group 1
 
@@ -58,13 +60,13 @@
 ## Group 2
 
 * [Page 1](group-2/page-1/README.md)
+  * [Rebecca green's work](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/inspiring-work/rebecca-greens-work)
+  * [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
+  * [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
   * [Page 3](group-2/page-1/page-3.md)
 
 ***
 
 * [Page links are broken?](page-links-are-broken.md)
-* [Rebecca green's work](https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/IPlAOE9qy3Sp4aWmCChk/inspiring-work/rebecca-greens-work)
 * [Annotations deletes](page-3.md)
-* [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
-* [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
 * [Page 5](page-5.md)

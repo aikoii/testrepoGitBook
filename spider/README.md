@@ -53,7 +53,7 @@ A cupcake is a small, individually-sized cake typically baked in a lined cup-sha
 
 > For security reasons some mongo db operators are not available or are partially available.
 
-Adding headeer links [#rabbit-header-1](../taryn-knights-work.md#rabbit-header-1 "mention")
+Adding headeer links [#rabbit-header-1](../inspiring-work/empty-parent-page/taryn-knights-work.md#rabbit-header-1 "mention")
 
 {% openapi src="../.gitbook/assets/docs.yml" path="/sign_in" method="post" %}
 [docs.yml](../.gitbook/assets/docs.yml)
@@ -224,7 +224,7 @@ ATD insights are created using statistics from your EOIs and machine learning al
 
 [wolfff](../my-group/wolfff/ "mention")
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="../rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="../taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="../group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Rebecca Green</td><td></td><td></td><td><a href="../inspiring-work/empty-parent-page/rebecca-greens-work.md">rebecca-greens-work.md</a></td></tr><tr><td>Taryn knight</td><td></td><td></td><td><a href="../inspiring-work/empty-parent-page/taryn-knights-work.md">taryn-knights-work.md</a></td></tr><tr><td>The barber of Siberia</td><td></td><td></td><td><a href="../group-1/the-barber-of-siberia.md">the-barber-of-siberia.md</a></td></tr></tbody></table>
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
