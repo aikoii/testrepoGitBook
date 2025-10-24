@@ -35,16 +35,16 @@
   * [Surreal and metaphorical natur of-annalise neils cyanotypes](inspiring-work/new-page/surreal-and-metaphorical-natur-of-annalise-neils-cyanotypes.md)
 * [Page 4](inspiring-work/page-4/README.md)
   * [Page 6](inspiring-work/page-4/page-6.md)
-* [Empty parent page](inspiring-work/empty-parent-page/README.md)
-  * [Rebecca Green's work](inspiring-work/empty-parent-page/rebecca-greens-work.md)
-  * [Taryn Knight's work](inspiring-work/empty-parent-page/taryn-knights-work.md)
-  * [Cards!](inspiring-work/empty-parent-page/cards/README.md)
-    * [Page 2](inspiring-work/empty-parent-page/cards/page-2/README.md)
-      * [Making](inspiring-work/empty-parent-page/cards/page-2/making.md)
+* [MYYY](inspiring-work/myyy/README.md)
+  * [Rebecca Green's work](inspiring-work/myyy/rebecca-greens-work.md)
+  * [Taryn Knight's work](inspiring-work/myyy/taryn-knights-work.md)
+  * [Cards!](inspiring-work/myyy/cards/README.md)
+    * [Page 2](inspiring-work/myyy/cards/page-2/README.md)
+      * [Making](inspiring-work/myyy/cards/page-2/making.md)
 
 ***
 
-* [Doc import](untitled-document/README.md)
+* [Doc import](untitled-document.md)
   * [Page 9](untitled-document/page-9.md)
 
 ## Group 1

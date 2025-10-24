@@ -1,3 +1,7 @@
+---
+icon: wreath-laurel
+---
+
 # Rebecca Green's work
 
 ### _Rebecca Green is an Illustrator &_&#x20;

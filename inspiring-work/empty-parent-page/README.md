@@ -1,2 +1,0 @@
-# Empty parent page
-
