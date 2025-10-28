@@ -1,6 +1,6 @@
 # 🐙 Octopus
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td></tr><tr><td>link</td><td></td></tr><tr><td>link</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td data-object-fit="cover"><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/teapotnewA6.webp">teapotnewA6.webp</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/web2.webp">web2.webp</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 message here
