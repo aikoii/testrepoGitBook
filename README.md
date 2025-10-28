@@ -1,5 +1,7 @@
 # 🐙 Octopus
 
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td></tr><tr><td>link</td><td></td></tr><tr><td>link</td><td></td></tr></tbody></table>
+
 {% hint style="info" %}
 message here
 {% endhint %}
@@ -101,6 +103,14 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 {% endstep %}
 
 {% step %}
+Step 3
+
+
+{% endstep %}
+
+{% step %}
+###
+
 
 {% endstep %}
 
@@ -143,11 +153,25 @@ changes
 {% endstep %}
 
 {% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
 
 {% endstep %}
 {% endstepper %}
 
 ### MY heading
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
 
 <figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
 
