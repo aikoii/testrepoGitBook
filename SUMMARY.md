@@ -70,3 +70,16 @@
 * [Page links are broken?](page-links-are-broken.md)
 * [Annotations deletes](page-3.md)
 * [Page 5](page-5.md)
+* [bank\_guides\_ru](bank_guides_ru.md)
+* [bank\_guides\_ru (1)](bank_guides_ru-1.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+    downloadLink: true
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: neww
+  ```
