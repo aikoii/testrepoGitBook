@@ -64,6 +64,7 @@
   * [Nostaligua](https://production-playground.gitbook.io/colossal/nostalgia-of-banal-items-through-papier-mache)
   * [Siberia](https://production-playground.gitbook.io/colossal/group-1/the-barber-of-siberia)
   * [Page 3](group-2/page-1/page-3.md)
+  * [Page 11](group-2/page-1/page-11.md)
 
 ***
 
