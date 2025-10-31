@@ -55,7 +55,7 @@
 * [Create new docc??](group-1/create-new-docc.md)
 * [Hello world](group-1/hello-world.md)
 * [The barber of Siberia](group-1/the-barber-of-siberia.md)
-* [A win is a win](group-1/a-win-is-a-win.md)
+* [Stockkkk](group-1/a-win-is-a-win.md)
 
 ## Group 2
 
@@ -71,7 +71,11 @@
 * [Annotations deletes](page-3.md)
 * [Page 5](page-5.md)
 * [bank\_guides\_ru](bank_guides_ru.md)
-* [bank\_guides\_ru (1)](bank_guides_ru-1.md)
+* [bank\_guides\_ru (1)](bank_guides_ru-1/README.md)
+  * [Page 10](bank_guides_ru-1/page-10/README.md)
+    * [1. SANDBOX](bank_guides_ru-1/page-10/1.-sandbox.md)
+    * [2. SANDBOX](bank_guides_ru-1/page-10/2.-sandbox.md)
+    * [3. SANDBOX](bank_guides_ru-1/page-10/3.-sandbox.md)
 * ```yaml
   type: builtin:openapi
   props:
