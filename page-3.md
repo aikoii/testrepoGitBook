@@ -4,11 +4,11 @@
 
 _\[1] Optional in Hosted Integration._
 
-_\[2] Not required for Hosted Integration._
-
 _\[3] Direct Integration only._
 
 _\[4] Whilst the Gateway does not see this field as mandatory, Nomupay may have payment methods that require additional configuration using checkout options._
+
+_\[2] Not required for Hosted Integration._
 
 _\[5] Hosted Integration Only._
 

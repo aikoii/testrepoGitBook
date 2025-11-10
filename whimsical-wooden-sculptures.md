@@ -19,10 +19,10 @@ Christian Verginer is an artist known for his detailed carvings in basswood, whi
 
 You can run this code in any Python interpreter to see the output. It's a classic introductory exercise for beginners to familiarize themselves with a new programming language.
 
-```
-```
-
 Christian Verginer is an artist known for his detailed carvings in basswood, which skillfully blend the whimsy of childhood with elements from the natural world. His sculptures often depict realistic children combined with imaginative features like branches or birds, all painted in monochromatic hues such as green or gray. This unique style highlights the contrast between reality and fantasy, bringing a fresh perspective to traditional figurative sculpture.
+
+```
+```
 
 
 
