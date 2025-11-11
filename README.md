@@ -117,7 +117,7 @@ Gather flour, sugar, salt, yeast, milk, butter, and eggs.
 {% step %}
 **Make Dough**:
 
-Mix dry ingredients, add wet ingredients, and knead until smooth.
+Making a change
 
 * **Chill Dough**: Refrigerate the dough for at least 30 minutes.
 * **Roll and Fold**: Roll out dough, layer with butter, and fold several times.
@@ -131,14 +131,14 @@ Mix dry ingredients, add wet ingredients, and knead until smooth.
 * **Roll and Fold**: Roll out dough, layer with butter, and fold several times.
 * **Shape Croissants**: Cut into triangles and roll into crescent shapes.
 * **Proof Croissants**: Let them rise until doubled in size.
-* **Preheat Oven**: Set your oven to 375°F (190°C).
-* **Bake**: Bake for 15-20 minutes, or until golden br
+
 
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Step 3
+Adding smth here
 
 
 {% endstep %}
