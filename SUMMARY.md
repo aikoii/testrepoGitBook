@@ -78,10 +78,10 @@
     * [2. SANDBOX](bank_guides_ru-1/page-10/2.-sandbox.md)
     * [3. SANDBOX](bank_guides_ru-1/page-10/3.-sandbox.md)
 * ```yaml
-  type: builtin:openapi
   props:
     models: true
     downloadLink: true
+  type: builtin:openapi
   dependencies:
     spec:
       ref:

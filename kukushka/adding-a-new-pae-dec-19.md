@@ -6,15 +6,10 @@ icon: bird
 
 {% stepper %}
 {% step %}
-###
-
-
+####
 {% endstep %}
 
 {% step %}
-###
-
-
+####
 {% endstep %}
 {% endstepper %}
-

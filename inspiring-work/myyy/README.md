@@ -2,8 +2,6 @@
 
 {% stepper %}
 {% step %}
-
-
 Step 1
 
 {% tabs %}
@@ -18,7 +16,7 @@ Step 1
 {% endstep %}
 
 {% step %}
-### Step 2
+#### Step 2
 
 ```
 my code
@@ -26,19 +24,15 @@ my code
 {% endstep %}
 
 {% step %}
-### Step 3
+#### Step 3
 
 * [spider](../../spider/ "mention")
 {% endstep %}
 
 {% step %}
-### [https://docs.google.com/forms/d/1d3dAyZUEZx85841Cv\_jJMHvkr5cpebAPCFVfMNDHl2M/prefill](https://docs.google.com/forms/d/1d3dAyZUEZx85841Cv_jJMHvkr5cpebAPCFVfMNDHl2M/prefill)
+#### [https://docs.google.com/forms/d/1d3dAyZUEZx85841Cv\_jJMHvkr5cpebAPCFVfMNDHl2M/prefill](https://docs.google.com/forms/d/1d3dAyZUEZx85841Cv_jJMHvkr5cpebAPCFVfMNDHl2M/prefill)
 
 \
-&#x20;
-
-&#x20;
-
 
 {% endstep %}
 {% endstepper %}

@@ -12,8 +12,6 @@ A DRG audit, or [Diagnosis](./#summary) Related Group audit, is a review of a pa
 
 This article describes DRG audits and covers steps applicable for clinical and coding reviews for both MS-DRG and APR-DRG. Clinical and coding reviews are quite similar, but if your team does not perform all of the steps listed, then focus on the steps that apply to your company’s audit process.
 
-
-
 ## Step 1: Get case context from the Overview tab
 
 {% hint style="success" %}
@@ -23,8 +21,6 @@ This article describes DRG audits and covers steps applicable for clinical and c
 Your first stop to orient yourself with case details is the **Overview** tab in the middle panel.
 
 The top of the **Overview** tab is a high-level overview with the case’s basic info.
-
-
 
 <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
@@ -113,8 +109,7 @@ Diagnosis codes with policy criteria and supporting evidence in the medical reco
 
 To avoid missing critical context, many links might be provided. The links are sorted by relevance, similar to a Google search. Usually, one of the first few results answer the clinical question. Step through the links using the up and down arrows next to the link.
 
-*   **Review AI-assisted evidence highlights.** Machinify Audit uses AI to highlight the most important parts of the record for a criterion. _If you confirm the reference in the medical record_, click the star to the right of the highlight to convert it to auditor-confirmed evidence. The star becomes yellow and _your initials_ replace the AI icon on the left.\
-
+*   **Review AI-assisted evidence highlights.** Machinify Audit uses AI to highlight the most important parts of the record for a criterion. _If you confirm the reference in the medical record_, click the star to the right of the highlight to convert it to auditor-confirmed evidence. The star becomes yellow and _your initials_ replace the AI icon on the left.\\
 
     <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 * **Search for evidence to add as new highlights.** If no reference links exist or you strongly suspect that reference links are incorrect, search the medical records for more evidence.
@@ -126,7 +121,7 @@ To avoid missing critical context, many links might be provided. The links are s
 
 You can add a text note on any criteria by clicking the tiny document icon next to each criterion. Criteria text fields help future human reviewers understand your decisions. It also helps the AI assistant summarize your case findings.
 
-<div align="left"><figure><img src="../../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure></div>
 
 ### **Criteria and criteria group icons**
 
@@ -173,8 +168,7 @@ For APR-DRG audits, it’s especially important that after a code is deleted, yo
 1. Go to the **DRG calculator** tab in the middle panel.
 2. Click **Current review**.
 3. Click **Calculate** to refresh or register recent changes.
-4.  Even if a code is deleted and the DRG (and SOI) remains the same, it does not mean your audit is complete. Review the **Current review** tab contents for whether there are additional codes in the overview summary with a “Y” (for “yes”) in the **Affects SOI** column to review.\
-
+4.  Even if a code is deleted and the DRG (and SOI) remains the same, it does not mean your audit is complete. Review the **Current review** tab contents for whether there are additional codes in the overview summary with a “Y” (for “yes”) in the **Affects SOI** column to review.\\
 
     <div align="left"><figure><img src="broken-reference" alt="" width="164"><figcaption></figcaption></figure></div>
 5. If there are additional codes to review, you can add these codes by clicking **More** in the left panel drop down menu. You can compare the **Current Review** to the **Original Claim** to see any differences.

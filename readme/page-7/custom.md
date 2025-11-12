@@ -25,7 +25,7 @@ For issues like **Improper Neutralization of Input During Web Page Generation**,
 
 {% stepper %}
 {% step %}
-#### Find the Rule ID
+**Find the Rule ID**
 
 1. Locate and retrieve the Rule ID in one of two ways, through either the Kodem platform or [VS Code](https://docs.kodemsecurity.com/integrations/ignoring-code-issues#example-in-vs-code).
 
@@ -45,13 +45,13 @@ Multiple rules can be ignored by separating IDs with commas.
 {% endstep %}
 
 {% step %}
-#### Add the Comment
+**Add the Comment**
 
 1. Place the comment directly above or next to the line of code with issues.
 {% endstep %}
 
 {% step %}
-#### Issue Exclusion
+**Issue Exclusion**
 
 Once the scanning completes:
 
@@ -64,25 +64,24 @@ Once the scanning completes:
 
 <summary>Example in VS Code</summary>
 
-### Ignore Specific Rules
+#### Ignore Specific Rules
 
 Multiple issues can be ignored by separating rule IDs with commas.
 
-#### Find the Rule ID
+**Find the Rule ID**
 
 1. Open VS Code.
-
-1) Click on the Kodem extension from the Activity Bar (sidebar).
-2) In your project, you can retrieve the Rule ID(s) from either:
+2. Click on the Kodem extension from the Activity Bar (sidebar).
+3. In your project, you can retrieve the Rule ID(s) from either:
    * The Overview panel (left sidebar). Excluding issue type in parenthesis.
-   * Bottom of the Kodem Issue dedicated panel (right sidebar).&#x20;
+   * Bottom of the Kodem Issue dedicated panel (right sidebar).
    * Inline annotations in the editor panel. Rule ID is in the parenthesis.
    * Quick Fix actions menu shortcut.
    * Problems panel. Rule ID is in the parenthesis.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-19 at 14.25.31.png" alt=""><figcaption><p>Retrieve Rule ID</p></figcaption></figure>
 
-3. Place the comment directly above or next to  the line of code with issues. The file is automatically scanned.&#x20;
+3. Place the comment directly above or next to the line of code with issues. The file is automatically scanned.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png" alt=""><figcaption><p>Ignore Specific Rules in VS Code</p></figcaption></figure>
 
@@ -92,7 +91,7 @@ Multiple issues can be ignored by separating rule IDs with commas.
 
 <figure><img src="https://docs.kodemsecurity.com/~gitbook/image?url=https%3A%2F%2F3136411388-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FZY4dsfekGohX1DwoEMB8%252Fuploads%252FZ8MxpbS9XpnRJRQLS4YF%252FScreenshot%25202025-06-15%2520at%252013.05.32.png%3Falt%3Dmedia%26token%3Db2304192-2870-4c30-9821-7cc06a1c19fa&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=dea0d210&#x26;sv=2" alt=""><figcaption><p>Issue Exclusion in VS Code</p></figcaption></figure>
 
-#### Copy Issue Details
+**Copy Issue Details**
 
 Copy issue details to share with team.
 
@@ -131,13 +130,13 @@ For issues like **Improper Neutralization of Input During Web Page Generation**,
 
 <details>
 
-<summary>Example in VS Code </summary>
+<summary>Example in VS Code</summary>
 
-### Ignore All Rules
+#### Ignore All Rules
 
 1. Open VS Code.
 2. Click on the Kodem extension from the Activity Bar (sidebar).
-3. Place the comment directly above or next to  the line of code with issues. The file is automatically scanned.&#x20;
+3. Place the comment directly above or next to the line of code with issues. The file is automatically scanned.
 
 <figure><img src="../../.gitbook/assets/333.webp" alt=""><figcaption><p>Ignore All Rules in VS Code</p></figcaption></figure>
 
@@ -228,4 +227,3 @@ directory/*    # Ignores all files and directories inside "directory", but not t
 <figure><img src="../../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png" alt="fdvced"><figcaption><p>dceds</p></figcaption></figure>
-

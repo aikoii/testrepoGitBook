@@ -10,14 +10,10 @@ dchbjkens
 
 dbsknjz
 
-
-
 </details>
 
 {% hint style="info" %}
 message her
-
-
 
 e
 {% endhint %}
@@ -41,7 +37,7 @@ dsbajknxns
 {% endcolumn %}
 {% endcolumns %}
 
-<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><p></p><p></p><p>Alpha</p></td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta</td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
@@ -57,7 +53,7 @@ dsbajknxns
 
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Typing and referencing another page [#my-heading](./#my-heading "mention")
 
@@ -132,21 +128,15 @@ Making a change
 * **Shape Croissants**: Cut into triangles and roll into crescent shapes.
 * **Proof Croissants**: Let them rise until doubled in size.
 
-
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-Step 3
-Adding smth here
-
-
+Step 3 Adding smth here
 {% endstep %}
 
 {% step %}
-###
-
-
+####
 {% endstep %}
 
 {% step %}
@@ -188,9 +178,7 @@ changes
 {% endstep %}
 
 {% step %}
-###
-
-
+####
 {% endstep %}
 
 {% step %}
@@ -211,5 +199,19 @@ changes
 <figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
+
+{% columns %}
+{% column width="58.333333333333336%" %}
+<table data-full-width="true"><thead><tr><th width="107.25347900390625">Parameter</th><th width="77.04083251953125">Type</th><th width="68.46441650390625">Required</th><th>Description</th></tr></thead><tbody><tr><td>MerchantID</td><td>String</td><td>✅</td><td><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td>Merchant identification assigned by gateway</td></tr></tbody></table><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr></tbody></table></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+{% endcolumn %}
+
+{% column width="41.666666666666664%" %}
+```
+// Some code
+```
+{% endcolumn %}
+{% endcolumns %}
+
+
 
 [^1]: annotate
