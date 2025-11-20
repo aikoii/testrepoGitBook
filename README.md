@@ -2,6 +2,8 @@
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td></td><td data-object-fit="cover"><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.25.31.png">Screenshot 2025-06-19 at 14.25.31.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/teapotnewA6.webp">teapotnewA6.webp</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/web2.webp">web2.webp</a></td><td><a href=".gitbook/assets/file.excalidraw (2).svg">file.excalidraw (2).svg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr></tbody></table>
 
+<a href="./#my-heading" class="button secondary">New button</a>
+
 <details>
 
 <summary></summary>
@@ -199,19 +201,5 @@ changes
 <figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/02copy_e10246bc-98bb-4363-b06b-35d81f1ac8ad.webp" alt=""><figcaption></figcaption></figure>
-
-{% columns %}
-{% column width="58.333333333333336%" %}
-<table data-full-width="true"><thead><tr><th width="107.25347900390625">Parameter</th><th width="77.04083251953125">Type</th><th width="68.46441650390625">Required</th><th>Description</th></tr></thead><tbody><tr><td>MerchantID</td><td>String</td><td>✅</td><td><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td>Merchant identification assigned by gateway</td></tr></tbody></table><table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr></tbody></table></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
-{% endcolumn %}
-
-{% column width="41.666666666666664%" %}
-```
-// Some code
-```
-{% endcolumn %}
-{% endcolumns %}
-
-
 
 [^1]: annotate
