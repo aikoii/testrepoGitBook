@@ -88,3 +88,4 @@
         kind: openapi
         spec: neww
   ```
+* [Set up your Help Center | Intercom Help](set-up-your-help-center-or-intercom-help.md)
