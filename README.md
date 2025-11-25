@@ -2,6 +2,24 @@
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td></td><td data-object-fit="cover"><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.25.31.png">Screenshot 2025-06-19 at 14.25.31.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/teapotnewA6.webp">teapotnewA6.webp</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/web2.webp">web2.webp</a></td><td><a href=".gitbook/assets/file.excalidraw (2).svg">file.excalidraw (2).svg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr></tbody></table>
 
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png">CleanShot 2023-02-28 at 17.12.36@2x (1).png</a></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Second Tab" %}
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href="https://images.unsplash.com/photo-1763641683842-3b4f09950d67?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNTAzMDV8&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1763641683842-3b4f09950d67?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNTAzMDV8&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr><tr><td></td><td><a href="https://images.unsplash.com/photo-1743961117237-a65e1abcab84?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNTAzMDV8&#x26;ixlib=rb-4.1.0&#x26;q=85">https://images.unsplash.com/photo-1743961117237-a65e1abcab84?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNTAzMDV8&#x26;ixlib=rb-4.1.0&#x26;q=85</a></td></tr></tbody></table>
+
+
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
 <a href="./#my-heading" class="button secondary" data-icon="paw">Tint color</a>
 
 <a href="spider/" class="button primary" data-icon="spade">Primary color</a>
