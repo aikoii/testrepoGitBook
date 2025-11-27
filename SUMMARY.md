@@ -3,6 +3,7 @@
 * [🐙 Octopus](README.md)
   * [Page 7](readme/page-7/README.md)
     * [Page 8](readme/page-7/custom.md)
+  * [Page 12](readme/page-12.md)
 * [🕷️ Spider](spider/README.md)
   * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 
@@ -25,6 +26,10 @@
   * [test\_markdown\_10\_pages](my-group/wolfff/test_markdown_10_pages.md)
 * [🐰 Rabbit](kukushka/README.md)
 * [Whimsical Wooden Sculptures](whimsical-wooden-sculptures.md)
+
+***
+
+* [ADDING NE PAGE IN GITBOOK](adding-ne-page-in-gitbook.md)
 
 ## Inspiring work
 
