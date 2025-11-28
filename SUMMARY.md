@@ -73,7 +73,8 @@
 
 ***
 
-* [Page links are broken?](page-links-are-broken.md)
+* [Page links are broken?](page-links-are-broken/README.md)
+  * [CliRef5.0.4.357 nightly gitbook (1)](page-links-are-broken/cliref5.0.4.357-nightly-gitbook-1.md)
 * [Annotations deletes](page-3.md)
 * [Page 5](page-5.md)
 * [bank\_guides\_ru](bank_guides_ru.md)

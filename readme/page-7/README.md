@@ -22,8 +22,6 @@ Your first stop to orient yourself with case details is the **Overview** tab in 
 
 The top of the **Overview** tab is a high-level overview with the case’s basic info.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
 Use its fields to orient yourself to the case:
 
 | Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -47,11 +45,7 @@ Below this section is a series of expandable/collapsible panels with more inform
 
 The first section, **Summary,** is a human-readable clinical summary based on the medical records. This is the first of the collapsible sections. It contains a concise overview of the case. It provides you with meaningful context and details before you start your review.
 
-<div align="left"><figure><img src="broken-reference" alt="" width="563"><figcaption></figcaption></figure></div>
-
 To validate the information, hover your mouse over the text. Machinify Audit displays a popup that shows actual text from the medical record.
-
-<div align="left"><figure><img src="broken-reference" alt="" width="563"><figcaption></figcaption></figure></div>
 
 To compare against the medical record raw image, click the page number (such as **Page 5** in the example) to leave the overview tab and instead directly view that section of the medical record.
 
@@ -59,25 +53,17 @@ To compare against the medical record raw image, click the page number (such as 
 
 Details of the charges associated with this case.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
 ### Provider
 
 Details of the medical provider.
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ### Member
 
 Details about the patient, which is also known as the _member_.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
 ### Codes
 
 Scroll to the **Codes** section for details of the DRG, codes, and diagnosis descriptions.
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Review points of interest (POIs)
 
@@ -99,8 +85,6 @@ Find the first tab in the left panel, **Validate Billed Codes**. Each diagnosis 
 
 Sometimes _not all codes_ shown in the left panel affect the DRG (MS-DRG) or SOI (APR-DRG). You can confirm each code’s status in the **Overview** tab in the middle panel. Under **Diagnoses**, check the rightmost column. For APR-DRG audits, instead look for the column **Affects SOI**. For MS-DRG audits, look for **Affects DRG.**
 
-<div align="left"><figure><img src="broken-reference" alt="" width="165"><figcaption></figcaption></figure></div>
-
 ### **Criteria evidence reference links**
 
 Diagnosis codes with policy criteria and supporting evidence in the medical records show reference links that are shown with a summary and a link to the location in the medical record. Click on a reference link to navigate to the medical record content that supports the finding.
@@ -109,9 +93,7 @@ Diagnosis codes with policy criteria and supporting evidence in the medical reco
 
 To avoid missing critical context, many links might be provided. The links are sorted by relevance, similar to a Google search. Usually, one of the first few results answer the clinical question. Step through the links using the up and down arrows next to the link.
 
-*   **Review AI-assisted evidence highlights.** Machinify Audit uses AI to highlight the most important parts of the record for a criterion. _If you confirm the reference in the medical record_, click the star to the right of the highlight to convert it to auditor-confirmed evidence. The star becomes yellow and _your initials_ replace the AI icon on the left.\\
-
-    <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+* **Review AI-assisted evidence highlights.** Machinify Audit uses AI to highlight the most important parts of the record for a criterion. _If you confirm the reference in the medical record_, click the star to the right of the highlight to convert it to auditor-confirmed evidence. The star becomes yellow and _your initials_ replace the AI icon on the left.\\
 * **Search for evidence to add as new highlights.** If no reference links exist or you strongly suspect that reference links are incorrect, search the medical records for more evidence.
   * Click the search box in the tab for **Search Documents** in the right panel. Search for any medical term or word (such as `SPO2` or `pna`). Machinify Audit shows all relevant results, including related terms, across all documents for the case. Scroll the preview hits of the searched term or word in the right pane, or click a search result to jump directly to the medical record.
   * Use the **Points of Interest** section to jump to specific sections in medical records.
@@ -134,7 +116,7 @@ Some criteria are grouped hierarchically under one label:
 Grouped criteria have an icon to the left of the group label to indicate its status. A green round checkmark means that these grouped criteria are already satisfied. A red X means criteria are not met. A yellow circle with horizontal line indicates undetermined.
 
 {% hint style="warning" %}
-**IMPORTANT:** If the icon for a criteria group becomes a round green checkmark <img src="broken-reference" alt="" data-size="line">, don’t spend more time answering questions in that group. Skip to the following group.
+**IMPORTANT:** If the icon for a criteria group becomes a round green checkmark , don’t spend more time answering questions in that group. Skip to the following group.
 {% endhint %}
 
 Not all sub-criteria in a group need to be evaluated or marked green or red. For example, it’s common that only one of the grouped sub-criteria might need to be satisfied. Narrow your focus to any unfinished evaluation criteria using data in the summary and POIs.
@@ -146,7 +128,7 @@ When you begin an audit of a diagnosis code, look to the right of the diagnosis 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-10 at 12.42.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**IMPORTANT:** If the diagnosis icon becomes a round green checkmark <img src="broken-reference" alt="" data-size="line">, don’t spend more time answering questions for it. Skip ahead to the following diagnosis code.
+**IMPORTANT:** If the diagnosis icon becomes a round green checkmark , don’t spend more time answering questions for it. Skip ahead to the following diagnosis code.
 {% endhint %}
 
 ### **Delete a diagnosis or procedure for disqualified codes**
@@ -168,12 +150,9 @@ For APR-DRG audits, it’s especially important that after a code is deleted, yo
 1. Go to the **DRG calculator** tab in the middle panel.
 2. Click **Current review**.
 3. Click **Calculate** to refresh or register recent changes.
-4.  Even if a code is deleted and the DRG (and SOI) remains the same, it does not mean your audit is complete. Review the **Current review** tab contents for whether there are additional codes in the overview summary with a “Y” (for “yes”) in the **Affects SOI** column to review.\\
-
-    <div align="left"><figure><img src="broken-reference" alt="" width="164"><figcaption></figcaption></figure></div>
+4. Even if a code is deleted and the DRG (and SOI) remains the same, it does not mean your audit is complete. Review the **Current review** tab contents for whether there are additional codes in the overview summary with a “Y” (for “yes”) in the **Affects SOI** column to review.\\
 5. If there are additional codes to review, you can add these codes by clicking **More** in the left panel drop down menu. You can compare the **Current Review** to the **Original Claim** to see any differences.
-6. To add new codes that aren’t on the UB, go to the second tab on the left panel called **Add Diagnoses/Procedures**. Note that you _cannot_ add new codes to the first tab in the left panel Validate Billed Codes. Newly added added codes can be reviewed in detail only under the second tab on the left panel. If you deleted codes and you need to add new codes to replace deleted ones, add them now.\
-   ![](broken-reference)
+6. To add new codes that aren’t on the UB, go to the second tab on the left panel called **Add Diagnoses/Procedures**. Note that you _cannot_ add new codes to the first tab in the left panel Validate Billed Codes. Newly added added codes can be reviewed in detail only under the second tab on the left panel. If you deleted codes and you need to add new codes to replace deleted ones, add them now.<br>
 
 ## Step 4: Edit claim fields only if there’s a change to principal diagnosis or discharge status
 
