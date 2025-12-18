@@ -1,5 +1,15 @@
 # 🐙 Octopus
 
+{% updates format="full" %}
+{% update date="2025-12-18" %}
+## Dec 18
+
+Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
+Comment on block\
+Playground Responsiveness: We've optimized the Playground editor by improving data handling and limiting undo/redo history size, resulting in a more responsive experience.
+{% endupdate %}
+{% endupdates %}
+
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td>bjnbjkwsdsjk ewhsuiadhkxws</td><td data-object-fit="cover"><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.25.31.png">Screenshot 2025-06-19 at 14.25.31.png</a></td></tr><tr><td>ewdshjb shiuhwi</td><td><a href=".gitbook/assets/teapotnewA6.webp">teapotnewA6.webp</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td>link</td><td><a href=".gitbook/assets/web2.webp">web2.webp</a></td><td><a href=".gitbook/assets/file.excalidraw (2).svg">file.excalidraw (2).svg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr></tbody></table>
 
 
