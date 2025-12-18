@@ -7,6 +7,18 @@
 Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
 Comment on block\
 Playground Responsiveness: We've optimized the Playground editor by improving data handling and limiting undo/redo history size, resulting in a more responsive experience.
+
+
+{% endupdate %}
+{% endupdates %}
+
+{% updates format="full" %}
+{% update date="2025-12-18" %}
+##
+
+#### Heading 3
+
+my changes
 {% endupdate %}
 {% endupdates %}
 
