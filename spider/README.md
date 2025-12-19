@@ -6,15 +6,11 @@ coverY: 0
 
 # 🕷️ Spider
 
-
-
 $$
 gvfdcsxamn n Wgyudjbhewsjn
 $$
 
 <img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
-
-
 
 Doings some changes now!!
 
@@ -26,14 +22,14 @@ A cupcake is a small, individually-sized cake typically baked in a lined cup-sha
 
 > ranslates topic names on incoming commands.
 >
-> This module requires one or more of the following options: `Topic`
+> This module requires o<mark style="color:purple;">ne or more of the following optio</mark>ns: `Topic`
 >
 > Specifies the translation to use. This option takes the following format:\
-> &#xNAN;_&#x6F;riginal_ _translated_
+> \&#xNAN;_original_ _translated_
 >
-> The _original_ parameter can be a literal topic name or a PCRE regex. Any topic on any command tha
+> The _original_ parameter <mark style="color:blue;">can be a literal topic nam</mark><mark style="color:$warning;">e or a PCR</mark><mark style="color:orange;">E regex. An</mark>y topic on any command tha
 
-> Let’s observe the facts: Humans took more than a hundred thousand Earth years to progress from the Hunter-Gatherer Age to the Agricultural Age. To get from the Agricultural Age to the Industrial Age took a few thousand Earth years. But to go from the Industrial Age to the Atomic Age took only two hundred Earth years. Thereafter, in only a few Earth decades, they entered the Information Age. This civilization possesses the terrifying ability to accelerate their progress.
+> Let’s observe the facts: Humans took more than a hundred thousand Earth years to progress from the Hunter-Gatherer Age to the Agricultural Age. To get from the Agricultural Age to the Industrial Ag<mark style="color:blue;">e took a few thousand</mark> <mark style="color:$primary;">Earth ye</mark>ars. But to go from the Industrial Age to the Atomic Age took only two <mark style="color:orange;">hundred Earth</mark> <mark style="color:purple;">years.</mark> Thereafter, in only a few Earth decades, they entered the Information Age. This civilization possesses the terrifying ability to accelerate their progress.
 
 >
 
@@ -155,8 +151,8 @@ commissioned him to shoot some creatures for a story on the Canadian Pigeon Fanc
 {% file src="../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
 
 [_Rebecca Green is an Illustrator & Author_\
-&#xNAN;_&#x62;ased in Michigan._](https://www.thisiscolossal.com/)
-------------------------------------------------------------------
+\&#xNAN;_based in Michigan._](https://www.thisiscolossal.com/)
+--------------------------------------------------------------
 
 Making changes here.
 
