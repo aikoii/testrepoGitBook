@@ -7,8 +7,6 @@
 Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
 Comment on block\
 Playground Responsiveness: We've optimized the Playground editor by improving data handling and limiting undo/redo history size, resulting in a more responsive experience.
-
-
 {% endupdate %}
 {% endupdates %}
 
@@ -16,25 +14,48 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 {% update date="2025-12-18" %}
 ##
 
-#### Heading 3
-
-my changes
-
-
-
-
-
-
-
-
-
 
 
 
 {% endupdate %}
 {% endupdates %}
 
+\
+In-place workload right-sizing
+------------------------------
 
+Autonomous workload optimization without restartsKubernetes version **1.33 or later**, with the **beta feature gate enabled**, is required to support in-place changes.
+
+### In-place concept <a href="#in-place-concept" id="in-place-concept"></a>
+
+The standard pod scaling approach requires pods to restart when applying new resource requests and limits. While this can work for stateless applications, it may still introduce latency and service disruptions, making it less suitable for workloads that demand continuous uptime. In addition, this method may add operational overhead for teams to manage it effectively.To address these challenges, **In-place Workload Right-sizing** is available. This feature is ideal for services where stability is critical, allowing you to improve performance seamlessly, reduce disruption risks due to restarts, and make the optimization process even more flexible and efficient.With in-place changes enabled, you can:
+
+1. **Keep infrastructure reliable** by eliminating the risks associated with restarts.
+2. **Stay continuously optimized** without service disruption.
+3. **Maintain operational productivity** without the overhead of time-consuming manual investigation and optimization.
+
+You can find more details about in-place changes on the official Kubernetes website:[![](https://images.gitbook.com/__img/dpr=1.7999999523162842,width=32,onerror=redirect,height=32,fit=contain,format=auto,signature=-1084863014/https%3A%2F%2Fkubernetes.io%2Ficons%2Ficon-128x128.png)Kubernetes v1.33: In-Place Pod Resize Graduated to BetaKubernetes](https://kubernetes.io/blog/2025/05/16/kubernetes-v1-33-in-place-pod-resize-beta/)
+
+### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
+To start leveraging in-place workload right-sizing, your cluster must support in-place changes.🎯 Update Kubernetes to **version 1.33 or later** and **enable the beta** `InPlacePodVerticalScaling` [**feature gate**](https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/) for your control plane and for all nodes in your cluster. After that, PerfectScale will automatically perform in-place workload right-sizing without additional effort from your side.No additional configurations are needed, as PerfectScale automatically applies changes in place, delivering instant optimization.
+
+### In-place resizing limitations <a href="#in-place-resizing-limitations" id="in-place-resizing-limitations"></a>
+
+|                          |                                                                                                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Supported workload types | **DeploymentStatefulSetDaemonSet**                                                                                                                                                   |
+| Resizable resources      | <p><strong>CPU</strong></p><ul><li>request</li><li>limit</li></ul><p><strong>Memory</strong></p><ul><li>request</li><li>limit (increase only)</li></ul>                              |
+| Operating system         | Windows pods do not support in-place                                                                                                                                                 |
+| Kubernetes version       | **1.33** or later                                                                                                                                                                    |
+| Container resize policy  | **restartPolicy: NotRequired** (apply the resource change to the running container without restarting it). If **restartPolicy: RestartContainer** - in-place changes will not apply. |
+| QoS Class                | The Pod's original QoS class is determined at creation and cannot be changed by a resize.                                                                                            |
+
+In-place right-sizing with PerfectScale AutomationIn-place pod resizing combined with PerfectScale Automation provides a complete solution for graceful and effective workload right-sizing. It eliminates manual effort associated with identifying inefficiencies and risks due to guestimated allocations, enabling continuous safe cost-reduction.If in-place resizing is not supported, PerfectScale’s safe automation algorithm will apply changes with a traditional scaling approach, ensuring your clusters remain reliable and stable.For automated pods that support in-place changes, when an over-provisioned or under-provisioned workload is detected, PerfectScale instantly applies data-driven recommendations without pod restart, ensuring safe K8s optimization.When PerfectScale applies in-place changes to right-size workloads, it unifies pod resources, guaranteeing consistency of the resources across the cluster.PodResizePending handlingYou may encounter a situation where it is impossible to apply new resources to a pod. In this case, the pod will get the PodResizePending status. This can happen due to:The requested resize is impossible on the current node (for example, requesting more resources than the node can provide).The requested resize is not currently possible, but may become possible later (for example, if another pod is removed and resources become available).To handle such cases, you can configure the PodResizePending strategy in the automation configuration CR by specifying one of the following values:rollingRestart (default)All pods will be restarted in order to update resources.deleteRecreatePendingPodOnly pods in the PodResizePending status will be deleted to trigger rescheduling. Conditions:The number of pods in the PodResizePending state is below the 20% threshold.At least 5 pods were successfully updated If any condition fails, a rollingRestart will be applied.CR example:The Automation Strategy can be configured at the cluster, namespace, or workload level.
+
+### Title here
+
+Some more tadjkwcjkwekdsj<br>
 
 |   |   |   |
 | - | - | - |
