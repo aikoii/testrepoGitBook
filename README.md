@@ -20,11 +20,9 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 {% endupdate %}
 {% endupdates %}
 
-\
-In-place workload right-sizing
-------------------------------
+## In-place workload right-sizing
 
-Autonomous workload optimization without restartsKubernetes version **1.33 or later**, with the **beta feature gate enabled**, is required to support in-place changes.
+{% include ".gitbook/includes/autonomous-workload-optimiz... (1).md" %}
 
 ### In-place concept <a href="#in-place-concept" id="in-place-concept"></a>
 
@@ -566,6 +564,9 @@ Place the username and the contents of the public key into a file called `~/.ssh
 
 ```
 craig@keeperdemo.io <contents of git_signing_key.pub>
+AikidoMiddleware::class,
+// Append AikidoMiddleware to other groups ('api' for example)
+
 ```
 
 In this example, the file looks like this:
@@ -624,6 +625,9 @@ Author: Craig Lurey <craig@keeperdemo.io>
 Date:   Fri Jan 17 20:18:19 2025 -0800
 
     Test commit with SSH signing
+    AikidoMiddleware::class,
+// Append AikidoMiddleware to other groups ('api' for example)
+
 ```
 
 Setup is complete.
