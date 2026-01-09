@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # 🐙 Octopus
 
 {% updates format="full" %}
@@ -35,6 +40,10 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 You can find more details about in-place changes on the official Kubernetes website:[![](https://images.gitbook.com/__img/dpr=1.7999999523162842,width=32,onerror=redirect,height=32,fit=contain,format=auto,signature=-1084863014/https%3A%2F%2Fkubernetes.io%2Ficons%2Ficon-128x128.png)Kubernetes v1.33: In-Place Pod Resize Graduated to BetaKubernetes](https://kubernetes.io/blog/2025/05/16/kubernetes-v1-33-in-place-pod-resize-beta/)
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
 
 To start leveraging in-place workload right-sizing, your cluster must support in-place changes.🎯 Update Kubernetes to **version 1.33 or later** and **enable the beta** `InPlacePodVerticalScaling` [**feature gate**](https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/) for your control plane and for all nodes in your cluster. After that, PerfectScale will automatically perform in-place workload right-sizing without additional effort from your side.No additional configurations are needed, as PerfectScale automatically applies changes in place, delivering instant optimization.
 
