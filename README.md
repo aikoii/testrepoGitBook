@@ -5,8 +5,22 @@ noIndex: true
 
 # 🐙 Octopus
 
+### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
+<table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
 {% updates format="full" %}
+{% update date="2026-01-20" %}
+##
+
+
+{% endupdate %}
+
 {% update date="2025-12-18" %}
+##
+
+##
+
 ## Dec 18
 
 Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
@@ -37,9 +51,11 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 2. **Stay continuously optimized** without service disruption.
 3. **Maintain operational productivity** without the overhead of time-consuming manual investigation and optimization.
 
+<table data-view="cards"><thead><tr><th data-type="image"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/KeeperPAM Integration with Git.jpg">KeeperPAM Integration with Git.jpg</a></td></tr></tbody></table>
+
 You can find more details about in-place changes on the official Kubernetes website:[![](https://images.gitbook.com/__img/dpr=1.7999999523162842,width=32,onerror=redirect,height=32,fit=contain,format=auto,signature=-1084863014/https%3A%2F%2Fkubernetes.io%2Ficons%2Ficon-128x128.png)Kubernetes v1.33: In-Place Pod Resize Graduated to BetaKubernetes](https://kubernetes.io/blog/2025/05/16/kubernetes-v1-33-in-place-pod-resize-beta/)
 
-### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
 
 {% content-ref url="./" %}
 [.](./)
