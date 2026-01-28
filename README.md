@@ -21,7 +21,7 @@ noIndex: true
 
 ##
 
-## Dec 18
+## MY CHANGES HERE
 
 Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
 Comment on block\
@@ -39,7 +39,7 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 {% endupdate %}
 {% endupdates %}
 
-## In-place workload right-sizing
+## In-place tasaaaaaaa
 
 {% include ".gitbook/includes/autonomous-workload-optimiz... (1).md" %}
 
@@ -47,7 +47,7 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 
 {% include ".gitbook/includes/the-standard-pod-scaling-ap....md" %}
 
-1. **Keep infrastructure reliable** by eliminating the risks associated with restarts.
+1. **Keep infrastructure reliable** by change
 2. **Stay continuously optimized** without service disruption.
 3. **Maintain operational productivity** without the overhead of time-consuming manual investigation and optimization.
 
