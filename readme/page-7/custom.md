@@ -12,7 +12,7 @@ nokodemcode: rule-id
 
 **Ignore Specific Rules**
 
-For issues like **Improper Neutralization of Input During Web Page Generation**, you can ignore specific rule IDs for this line of code:
+For issues like **Improper Neutralization of Input During** [**Web Page Generation**](#user-content-fn-1)[^1], you can ignore specific rule IDs for this line of code:
 
 * javascript\_rule-InsecureInnerHtml
 * javascript\_rule-InsecureDocumentMethod
@@ -64,7 +64,7 @@ Once the scanning completes:
 
 <summary>Example in VS Code</summary>
 
-#### Ignore Specific Rules
+**Ignore Specific Rules**
 
 Multiple issues can be ignored by separating rule IDs with commas.
 
@@ -132,7 +132,7 @@ For issues like **Improper Neutralization of Input During Web Page Generation**,
 
 <summary>Example in VS Code</summary>
 
-#### Ignore All Rules
+**Ignore All Rules**
 
 1. Open VS Code.
 2. Click on the Kodem extension from the Activity Bar (sidebar).
@@ -227,3 +227,5 @@ directory/*    # Ignores all files and directories inside "directory", but not t
 <figure><img src="../../.gitbook/assets/plantlovershopcard.webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png" alt="fdvced"><figcaption><p>dceds</p></figcaption></figure>
+
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

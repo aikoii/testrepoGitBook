@@ -5,23 +5,39 @@ noIndex: true
 
 # 🐙 Octopus
 
+{% include ".gitbook/includes/im-inspired-by-cooking-an....md" %}
+
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-<table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+[Aikin.sakieva](https://app.gitbook.com/u/yRtSyirawJZViWuXLYdt41QMCbp2 "mention")
+
+![CleanShot 2023-02-28 at 17.12.36@2x.png](https://images.gitbook.com/__img/dpr=2,width=100,onerror=redirect,format=auto,signature=1532124402/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%2FvqJCgK5qZss2PcdaCndk%2Fuploads%2Fgit-blob-11e3cc08d840c67cfe8b90ab82960a39a7d664e2%2FCleanShot%202023-02-28%20at%2017.12.36%402x.png%3Falt%3Dmedia)
+
+
+
+[#get-geodata-api-vector-filter](./#get-geodata-api-vector-filter "mention")
+
+[#first-tab](./#first-tab "mention")
+
+<figure><img src="https://images.gitbook.com/__img/dpr=2,width=100,onerror=redirect,format=auto,signature=1893306072/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%2FvqJCgK5qZss2PcdaCndk%2Fuploads%2Fgit-blob-d1bd9c3610d8da8ff138906a6f441b7d0cabf569%2Fmorningtinypawws_det1%2Bcopy.jpeg%3Falt%3Dmedia" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+<table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/dw ds.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 {% updates format="full" %}
 {% update date="2026-01-20" %}
 ##
-
-
 {% endupdate %}
 
 {% update date="2025-12-18" %}
 ##
 
-##
+###
 
-## MY CHANGES HERE
+### MY CHANGES HERE
 
 Extracting Tables: The extract a table procedure now supports a file\_upload mode for PDF documents, allowing you to send a file directly to an LLM for significantly improved performance.\
 Comment on block\
@@ -32,10 +48,6 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 {% updates format="full" %}
 {% update date="2025-12-18" %}
 ##
-
-
-
-
 {% endupdate %}
 {% endupdates %}
 
@@ -51,11 +63,9 @@ Playground Responsiveness: We've optimized the Playground editor by improving da
 2. **Stay continuously optimized** without service disruption.
 3. **Maintain operational productivity** without the overhead of time-consuming manual investigation and optimization.
 
-<table data-view="cards"><thead><tr><th data-type="image"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/KeeperPAM Integration with Git.jpg">KeeperPAM Integration with Git.jpg</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="image"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/dw ds.jpg">dw ds.jpg</a></td></tr></tbody></table>
 
 You can find more details about in-place changes on the official Kubernetes website:[![](https://images.gitbook.com/__img/dpr=1.7999999523162842,width=32,onerror=redirect,height=32,fit=contain,format=auto,signature=-1084863014/https%3A%2F%2Fkubernetes.io%2Ficons%2Ficon-128x128.png)Kubernetes v1.33: In-Place Pod Resize Graduated to BetaKubernetes](https://kubernetes.io/blog/2025/05/16/kubernetes-v1-33-in-place-pod-resize-beta/)
-
-
 
 {% content-ref url="./" %}
 [.](./)
@@ -100,18 +110,16 @@ Some more tadjkwcjkwekdsj<br>
 
 <table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td>conditional content</td><td><a href="https://app.gitbook.com/o/mZBC2rNDPE9yemCtBJTY/s/77WZwk5TAlC30s4FByo2/">Product Docs</a></td><td data-object-fit="cover"><a href=".gitbook/assets/CleanShot 2024-05-24 at 13.42.54@2x.png">CleanShot 2024-05-24 at 13.42.54@2x.png</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.25.31.png">Screenshot 2025-06-19 at 14.25.31.png</a></td></tr><tr><td>ewdshjb shiuhwi</td><td></td><td><a href=".gitbook/assets/teapotnewA6.webp">teapotnewA6.webp</a></td><td><a href=".gitbook/assets/Screenshot 2025-06-19 at 14.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td>link</td><td></td><td><a href=".gitbook/assets/web2.webp">web2.webp</a></td><td><a href=".gitbook/assets/file.excalidraw (2).svg">file.excalidraw (2).svg</a></td></tr><tr><td></td><td></td><td><a href=".gitbook/assets/image.png">image.png</a></td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr></tbody></table>
 
-
-
-|                                                           |                                                                                                          |                                                                                                      |
-| :-------------------------------------------------------: | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-|                        dfscbjwebhds                       |                                                                                                          |                                                                                                      |
-|                        PKqqbuy22a6R                       |                                                                                                          |                                                                                                      |
-|                                                           | Cover image                                                                                              | Cover image (dark)                                                                                   |
-|                                                           | [CleanShot 2024-05-24 at 13.42.54@2x.png](.gitbook/assets/CleanShot%202024-05-24%20at%2013.42.54@2x.png) | [Screenshot 2025-06-19 at 14.25.31.png](.gitbook/assets/Screenshot%202025-06-19%20at%2014.25.31.png) |
-|                            link                           | [teapotnewA6.webp](.gitbook/assets/teapotnewA6.webp)                                                     | [Screenshot 2025-06-19 at 14.45.36.png](.gitbook/assets/Screenshot%202025-06-19%20at%2014.45.36.png) |
-|                            link                           | [web2.webp](.gitbook/assets/web2.webp)                                                                   | [file.excalidraw (2).svg](.gitbook/assets/file.excalidraw%20\(2\).svg)                               |
-|                                                           | [image.png](.gitbook/assets/image.png)                                                                   | [Latex.svg](.gitbook/assets/Latex.svg)                                                               |
-| ![](<.gitbook/assets/KeeperPAM Integration with Git.jpg>) |                                                                                                          |                                                                                                      |
+|                                  |                                                                                                          |                                                                                                      |
+| :------------------------------: | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|           dfscbjwebhds           |                                                                                                          |                                                                                                      |
+|           PKqqbuy22a6R           |                                                                                                          |                                                                                                      |
+|                                  | Cover image                                                                                              | Cover image (dark)                                                                                   |
+|                                  | [CleanShot 2024-05-24 at 13.42.54@2x.png](.gitbook/assets/CleanShot%202024-05-24%20at%2013.42.54@2x.png) | [Screenshot 2025-06-19 at 14.25.31.png](.gitbook/assets/Screenshot%202025-06-19%20at%2014.25.31.png) |
+|               link               | [teapotnewA6.webp](.gitbook/assets/teapotnewA6.webp)                                                     | [Screenshot 2025-06-19 at 14.45.36.png](.gitbook/assets/Screenshot%202025-06-19%20at%2014.45.36.png) |
+|               link               | [web2.webp](.gitbook/assets/web2.webp)                                                                   | [file.excalidraw (2).svg](.gitbook/assets/file.excalidraw%20\(2\).svg)                               |
+|                                  | [image.png](.gitbook/assets/image.png)                                                                   | [Latex.svg](.gitbook/assets/Latex.svg)                                                               |
+| ![](<.gitbook/assets/dw ds.jpg>) |                                                                                                          |                                                                                                      |
 
 {% columns %}
 {% column %}
@@ -182,7 +190,7 @@ dsbajknxns
 {% endcolumn %}
 {% endcolumns %}
 
-<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta <img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt="" data-size="line"></td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega </td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta <img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt="" data-size="line"></td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
@@ -198,9 +206,11 @@ dsbajknxns
 
 {% embed url="https://glif.app/@dham/glifs/cm8ekte9h000el40c4kpcqwep" %}
 
-
-
 {% include ".gitbook/includes/cards-test.md" %}
+
+
+
+\#
 
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -208,12 +218,12 @@ dsbajknxns
 
 Typing and referencing another page [#my-heading](./#my-heading "mention")
 
-|       |                                                                |      |
-| ----- | -------------------------------------------------------------- | ---- |
-| edwe  | text                                                           |      |
-| here  | can't type                                                     | 1234 |
-| cant  |                                                                | nope |
-|       | ![](<.gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png>) |      |
+|      |                                                                |      |
+| ---- | -------------------------------------------------------------- | ---- |
+| edwe | text                                                           |      |
+| here | can't type                                                     | 1234 |
+| cant |                                                                | nope |
+|      | ![](<.gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png>) |      |
 
 [Storylane ](#user-content-fn-1)[^1]records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.
 
@@ -239,9 +249,7 @@ Gather flour, sugar, salt, yeast, milk, butter, and eggs.
 
 Mix dry ingredients, add wet ingredients, and knead until smooth.
 {% endstep %}
-{% endstepper %}
 
-{% stepper %}
 {% step %}
 **Prepare Ingredients**:
 
@@ -387,7 +395,7 @@ Date:   Fri Jan 17 20:18:19 2025 -0800
 
 Setup is complete.
 
-<figure><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure>
 
 Keeper's SSH Agent integrates seamlessly with Git for authentication and commit signing, ensuring private keys are securely stored in the Keeper Vault instead of being saved locally on the device. This approach enhances security by protecting sensitive keys from local exposure.
 
@@ -413,14 +421,14 @@ To authenticate with GitHub using Keeper, follow the below steps.
 
 {% stepper %}
 {% step %}
-### Create a Keeper record
+#### Create a Keeper record
 
 * Create a record in Keeper such as an **SSH Key** type or **PAM User** type.
 * Generate a strong password
 {% endstep %}
 
 {% step %}
-### Generate SSH Key
+#### Generate SSH Key
 
 Generate SSH key on your terminal with the password generated by Keeper. For example:
 
@@ -442,7 +450,7 @@ For example:
 {% endstep %}
 
 {% step %}
-### Add Key to Record
+#### Add Key to Record
 
 Add the contents from the public and private keys generated in Step 2 into the Keeper record. Copy paste the Public Key and Private Key into the fields of Keeper.
 
@@ -450,17 +458,17 @@ Add the contents from the public and private keys generated in Step 2 into the K
 {% endstep %}
 
 {% step %}
-### Add Key to Github
+#### Add Key to Github
 
-* From Github.com, go to **Settings** > **SSH and GPG keys** > **New SSH Key** > and select Key type of "**Authentication Key**".&#x20;
+* From Github.com, go to **Settings** > **SSH and GPG keys** > **New SSH Key** > and select Key type of "**Authentication Key**".
 * Assign a title, and paste the **public key** contents from `id_ecdsa.pub` in Step 2.
 * Save the key.
 {% endstep %}
 
 {% step %}
-### Add Key to SSH Agent
+#### Add Key to SSH Agent
 
-From the Keeper Desktop App, open **Settings** > **Developer** > **SSH Agent** > **Edit** and select your "Github Auth key" created in step3  from the list of available keys.
+From the Keeper Desktop App, open **Settings** > **Developer** > **SSH Agent** > **Edit** and select your "Github Auth key" created in step3 from the list of available keys.
 
 Click "**Update**" to save the settings.
 
@@ -468,9 +476,9 @@ Click "**Update**" to save the settings.
 {% endstep %}
 
 {% step %}
-### Delete the local key
+#### Delete the local key
 
-At this point, it's a good idea to delete the local key, since it is now stored and managed by Keeper.  In this case, you can delete both the public and private key.
+At this point, it's a good idea to delete the local key, since it is now stored and managed by Keeper. In this case, you can delete both the public and private key.
 
 ```
 rm /Users/craig/.ssh/id_ecdsa
@@ -479,7 +487,7 @@ rm /Users/craig/.ssh/id_ecdsa.pub
 {% endstep %}
 
 {% step %}
-### Authenticating with Github
+#### Authenticating with Github
 
 From a terminal in some repo, perform an authorized request with Github:
 
@@ -515,14 +523,14 @@ To sign GitHub commits with Keeper, we will create a separate key that is specif
 
 {% stepper %}
 {% step %}
-### Create a Keeper record
+#### Create a Keeper record
 
 * Create a record in Keeper such as an **SSH Key** type or **PAM User** type.
 * Generate a strong password
 {% endstep %}
 
 {% step %}
-### Generate SSH Key
+#### Generate SSH Key
 
 Generate SSH key on your terminal with the password generated by Keeper. For example:
 
@@ -544,7 +552,7 @@ For example:
 {% endstep %}
 
 {% step %}
-### Add Key to Record
+#### Add Key to Record
 
 Add the contents from the public and private keys generated in Step 2 into the Keeper record. Copy paste the Public Key and Private Key into the fields of Keeper.
 
@@ -552,15 +560,15 @@ Add the contents from the public and private keys generated in Step 2 into the K
 {% endstep %}
 
 {% step %}
-### Add Key to Github
+#### Add Key to Github
 
-* From Github, go to Settings > SSH and GPG keys > New SSH Key > and select Key type of "Signing Key".&#x20;
+* From Github, go to Settings > SSH and GPG keys > New SSH Key > and select Key type of "Signing Key".
 * Assign a title, and paste the public key contents from Step 2.
 * Save the key.
 {% endstep %}
 
 {% step %}
-### Add Key to SSH Agent
+#### Add Key to SSH Agent
 
 From Keeper, open **Settings** > **Developer** > **SSH Agent** > **Edit** and select the Github signing key.
 
@@ -568,9 +576,9 @@ Click "Update" to save the settings.
 {% endstep %}
 
 {% step %}
-### Delete the local private key
+#### Delete the local private key
 
-<figure><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure>
 
 We will only delete the local private key, since it is now stored and managed by Keeper. The public key (xxx.pub) needs to stay, as it will be used for identifying which key to use for signing.
 
@@ -596,7 +604,7 @@ AikidoMiddleware::class,
 
 In this example, the file looks like this:
 
-<figure><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```
@@ -606,7 +614,7 @@ craig@keeperdemo.io ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlz
 {% endstep %}
 
 {% step %}
-### Enable Git Signing
+#### Enable Git Signing
 
 From the terminal, instruct Github to sign commits using this new key and allowed signers.
 
@@ -621,7 +629,7 @@ This basically has the effect of adding several lines to `~/.gitconfig` and appl
 {% endstep %}
 
 {% step %}
-### Verify Signing
+#### Verify Signing
 
 From a repository, let's do a quick empty commit to test the signing process:
 
@@ -659,13 +667,13 @@ Setup is complete.
 {% endstep %}
 {% endstepper %}
 
-<div><figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-01-17 at 10.21.30 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-01-17 at 10.21.30 PM.png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="243.1431884765625" align="center"></th><th width="135.08587646484375" valign="middle"></th><th data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td align="center">dfscbjwebhds</td><td valign="middle">NaN</td><td>false</td><td></td></tr><tr><td align="center">PKqqbuy22a6R</td><td valign="middle">23456</td><td>true</td><td><button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Searctexth...</button></td></tr><tr><td align="center">link</td><td valign="middle"></td><td>false</td><td><a href=".gitbook/assets/Screenshot%202025-06-19%20at%2014.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td>Cover image (dark)</td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td></td></tr><tr><td align="center">link</td><td valign="middle">text here</td><td>false</td><td><a href=".gitbook/assets/file.excalidraw%20(2).svg">file.excalidraw (2).svg</a></td></tr><tr><td align="center"></td><td valign="middle">can'r reprodcue</td><td>false</td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr><tr><td align="center"><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""></td><td valign="middle"><i class="fa-layer-plus">:layer-plus:</i> GitBook</td><td>false</td><td><code class="expression"></code></td></tr></tbody></table>
+<table><thead><tr><th width="243.1431884765625" align="center"></th><th width="135.08587646484375" valign="middle"></th><th data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td align="center">dfscbjwebhds</td><td valign="middle">NaN</td><td>false</td><td></td></tr><tr><td align="center">PKqqbuy22a6R</td><td valign="middle">23456</td><td>true</td><td><button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Searctexth...</button></td></tr><tr><td align="center">link</td><td valign="middle"></td><td>false</td><td><a href=".gitbook/assets/Screenshot%202025-06-19%20at%2014.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td>Cover image (dark)</td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td></td></tr><tr><td align="center">link</td><td valign="middle">text here</td><td>false</td><td><a href=".gitbook/assets/file.excalidraw%20(2).svg">file.excalidraw (2).svg</a></td></tr><tr><td align="center"></td><td valign="middle">can'r reprodcue</td><td>false</td><td><a href=".gitbook/assets/Latex.svg">Latex.svg</a></td></tr><tr><td align="center"><img src=".gitbook/assets/dw ds.jpg" alt=""></td><td valign="middle"><i class="fa-layer-plus">:layer-plus:</i> GitBook</td><td>false</td><td></td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="First Tab" %}
-<figure><img src=".gitbook/assets/KeeperPAM Integration with Git.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}
