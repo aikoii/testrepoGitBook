@@ -1,3 +1,22 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+---
+
 # Page 7
 
 This article describes recommended steps in Machinify Audit to efficiently and accurately perform clinical or coding DRG reviews.
@@ -12,7 +31,46 @@ A DRG audit, or [Diagnosis](./#summary) Related Group audit, is a review of a pa
 
 This article describes DRG audits and covers steps applicable for clinical and coding reviews for both MS-DRG and APR-DRG. Clinical and coding reviews are quite similar, but if your team does not perform all of the steps listed, then focus on the steps that apply to your company’s audit process.
 
+{% tabs %}
+{% tab title="First Tab" %}
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
 ## Step 1: Get case context from the Overview tab
+
+
+
+{% tabs %}
+{% tab title="JavaScript" %}
+```javascript
+const message = "hello world";
+console.log(message);
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+message = "hello world"
+print(message)
+```
+{% endtab %}
+
+{% tab title="Ruby" %}
+```ruby
+message = "hello world"
+puts message
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
 **Goal**: Get oriented with the case context in the first 15 seconds.
@@ -23,6 +81,8 @@ Your first stop to orient yourself with case details is the **Overview** tab in 
 The top of the **Overview** tab is a high-level overview with the case’s basic info.
 
 Use its fields to orient yourself to the case:
+
+
 
 | Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
