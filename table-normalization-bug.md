@@ -2,9 +2,9 @@
 
 ## Footnotes in a table
 
-| Country   | Availability        |
-| --------- | ------------------- |
-| Albania   | Available\[^1]\[^2] |
-| Algeria   | Available\[^1]\[^2] |
-| Australia | Available\[^1]\[^2] |
+| Country   | Availability                   |
+| --------- | ------------------------------ |
+| Albania   | Available<sup>\[^1]\[^2]</sup> |
+| Algeria   | Available<sup>\[^1]\[^2]</sup> |
+| Australia | Available<sup>\[^1]\[^2]</sup> |
 
