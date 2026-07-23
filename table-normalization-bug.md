@@ -10,3 +10,13 @@ another change
 | Algeria   | Available<sup>\[^1]\[^2]</sup> |
 | Australia | Available<sup>\[^1]\[^2]</sup> |
 | Austria   | Available<sup>\[^1]\[^2]</sup> |
+
+
+| Country | Availability |
+| --- | --- |
+| Albania | Available[^1][^2] |
+| Algeria | Available[^1][^2] |
+| Australia | Available[^1][^2] |
+
+[^1]: First footnote.
+[^2]: Second footnote.
