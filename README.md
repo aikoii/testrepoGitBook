@@ -16,6 +16,16 @@ style Did_the_query_find_a_a2ed9dac stroke:#8B009F,fill:#8B009F,color:#FFFFFF
 
 
 
+```mermaid
+flowchart TD
+Did_the_query_find_a_a2ed9dac{Did the query find an account default record?}
+style Did_the_query_find_a_a2ed9dac stroke:#8B009F,fill:#8B009F,color:#FFFFFF
+```
+
+{% @mermaid/diagram %}
+
+
+
 ### [Prerequisites](./#my-changes-here) <a href="#prerequisites" id="prerequisites"></a>
 
 [Aikin.sakieva](https://app.gitbook.com/u/yRtSyirawJZViWuXLYdt41QMCbp2 "mention")
