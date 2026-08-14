@@ -7,13 +7,20 @@ noIndex: true
 
 {% include ".gitbook/includes/im-inspired-by-cooking-an....md" %}
 
+```
+flowchart TD
+Did_the_query_find_a_a2ed9dac{Did the query find an account default record?}
+style Did_the_query_find_a_a2ed9dac stroke:#8B009F,fill:#8B009F,color:#FFFFFF
+
+```
+
+
+
 ### [Prerequisites](./#my-changes-here) <a href="#prerequisites" id="prerequisites"></a>
 
 [Aikin.sakieva](https://app.gitbook.com/u/yRtSyirawJZViWuXLYdt41QMCbp2 "mention")
 
 ![CleanShot 2023-02-28 at 17.12.36@2x.png](https://images.gitbook.com/__img/dpr=2,width=100,onerror=redirect,format=auto,signature=1532124402/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%2FvqJCgK5qZss2PcdaCndk%2Fuploads%2Fgit-blob-11e3cc08d840c67cfe8b90ab82960a39a7d664e2%2FCleanShot%202023-02-28%20at%2017.12.36%402x.png%3Falt%3Dmedia)
-
-
 
 [#get-geodata-api-vector-filter](./#get-geodata-api-vector-filter "mention")
 
@@ -28,9 +35,7 @@ noIndex: true
 | 2 |   |   |
 | 3 |   |   |
 
-
-
-<table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/dw ds.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/dw ds.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 {% updates format="full" %}
 {% update date="2026-01-20" %}
@@ -142,7 +147,7 @@ my hiiiint
 
 {% tabs %}
 {% tab title="First Tab" %}
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png">CleanShot 2023-02-28 at 17.12.36@2x (1).png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td><a href=".gitbook/assets/morningtinypawws_det1+copy.jpeg">morningtinypawws_det1+copy.jpeg</a></td></tr><tr><td></td><td><a href=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png">CleanShot 2023-02-28 at 17.12.36@2x.png</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Second Tab" %}
@@ -158,7 +163,7 @@ newkdsnck,me dm,s
 
 <a href="spider/" class="button primary" data-icon="spade">Primary color</a>
 
-<figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -195,7 +200,7 @@ dsbajknxns
 {% endcolumn %}
 {% endcolumns %}
 
-<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta <img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt="" data-size="line"></td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th data-type="image"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Alpha</td><td></td><td><a href="./">.</a></td></tr><tr><td>Beta <img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png" alt="" data-size="line"></td><td></td><td><a href="spider/">spider</a></td></tr><tr><td>Omega</td><td></td><td><a href="my-group/wolfff/">wolfff</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/duis-vel-lacus-sit-amet-dolor.md" %}
 
@@ -213,13 +218,11 @@ dsbajknxns
 
 {% include ".gitbook/includes/cards-test.md" %}
 
-
-
 \#
 
 <figure><img src=".gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure>
 
 Typing and referencing another page [#my-heading](./#my-heading "mention")
 
@@ -672,7 +675,7 @@ Setup is complete.
 {% endstep %}
 {% endstepper %}
 
-<div><figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-01-17 at 10.21.30 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/dw ds.jpg" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Screenshot 2025-01-17 at 10.21.30 PM.png" alt=""><figcaption></figcaption></figure></div>
 
 <table><thead><tr><th width="243.1431884765625" align="center"></th><th width="135.08587646484375" valign="middle"></th><th data-type="checkbox"></th><th></th></tr></thead><tbody><tr><td align="center">dfscbjwebhds</td><td valign="middle">NaN</td><td>false</td><td></td></tr><tr><td align="center">PKqqbuy22a6R</td><td valign="middle">23456</td><td>true</td><td><button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Searctexth...</button></td></tr><tr><td align="center">link</td><td valign="middle"></td><td>false</td><td><a href="https://github.com/aikoii/testrepoGitBook/blob/main/.gitbook/assets/Screenshot%202025-06-19%20at%2014.45.36.png">Screenshot 2025-06-19 at 14.45.36.png</a></td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td>Cover image (dark)</td></tr><tr><td align="center"></td><td valign="middle"></td><td>false</td><td></td></tr><tr><td align="center">link</td><td valign="middle">text here</td><td>false</td><td><a href="https://github.com/aikoii/testrepoGitBook/blob/main/.gitbook/assets/file.excalidraw%20(2).svg">file.excalidraw (2).svg</a></td></tr><tr><td align="center"></td><td valign="middle">can'r reprodcue</td><td>false</td><td><a href="https://github.com/aikoii/testrepoGitBook/blob/main/.gitbook/assets/Latex.svg">Latex.svg</a></td></tr><tr><td align="center"><img src=".gitbook/assets/dw ds.jpg" alt=""></td><td valign="middle"><i class="fa-layer-plus">:layer-plus:</i> GitBook</td><td>false</td><td></td></tr></tbody></table>
 
