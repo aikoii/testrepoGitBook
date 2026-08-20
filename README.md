@@ -24,7 +24,7 @@ style Did_the_query_find_a_a2ed9dac stroke:#8B009F,fill:#8B009F,color:#FFFFFF
 
 {% @mermaid/diagram %}
 
-
+## [MY HEADING](#user-content-fn-1)[^1]&#x20;
 
 ### [Prerequisites](./#my-changes-here) <a href="#prerequisites" id="prerequisites"></a>
 
@@ -243,7 +243,7 @@ Typing and referencing another page [#my-heading](./#my-heading "mention")
 | cant |                                                                | nope |
 |      | ![](<.gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png>) |      |
 
-[Storylane ](#user-content-fn-1)[^1]records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.
+[Storylane ](#user-content-fn-2)[^2]records the full, no-code replica (HTML and CSS) of each screen, allowing you to fully tailor it later for your audience. Best when you need to edit screens and create a sales demo environment.
 
 (For example, capturing your product's dashboard to personalize the logo for different customers, remove/blur elements, add different personalization tokens, add media, or customize HTML...)
 
@@ -699,4 +699,6 @@ Setup is complete.
 {% endtab %}
 {% endtabs %}
 
-[^1]: annotate
+[^1]: tadaaaa
+
+[^2]: annotate
