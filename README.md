@@ -19,12 +19,13 @@ noIndex: true
 
 <figure><img src="https://images.gitbook.com/__img/dpr=2,width=100,onerror=redirect,format=auto,signature=1893306072/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%2FvqJCgK5qZss2PcdaCndk%2Fuploads%2Fgit-blob-d1bd9c3610d8da8ff138906a6f441b7d0cabf569%2Fmorningtinypawws_det1%2Bcopy.jpeg%3Falt%3Dmedia" alt=""><figcaption></figcaption></figure>
 
-|   |   |   |
-| - | - | - |
-| 1 |   |   |
-| 2 |   |   |
-| 2 |   |   |
-| 3 |   |   |
+|   |   |   |   |
+| - | - | - | - |
+|   |   |   |   |
+| 1 |   |   |   |
+| 2 |   |   |   |
+| 2 |   |   |   |
+| 3 |   |   |   |
 
 <table><thead><tr><th></th><th></th><th data-type="image"></th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/dw ds.jpg" alt="my text here" data-size="original"></td><td><img src=".gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""></td><td><a href=".gitbook/assets/Screenshot 2025-01-17 at 8.18.39 PM.png">Screenshot 2025-01-17 at 8.18.39 PM.png</a></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 

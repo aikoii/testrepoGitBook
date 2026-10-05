@@ -76,7 +76,8 @@
 
 * [Page links are broken?](page-links-are-broken/README.md)
   * [CliRef5.0.4.357 nightly gitbook (1)](page-links-are-broken/cliref5.0.4.357-nightly-gitbook-1.md)
-* [Annotations deletes](page-3.md)
+* [Annotations deletes](page-3/README.md)
+  * [Remarkably Bright Creatures](page-3/remarkably-bright-creatures.md)
 * [Page 5](page-5.md)
 * [bank\_guides\_ru](bank_guides_ru.md)
 * [bank\_guides\_ru (1)](bank_guides_ru-1/README.md)
