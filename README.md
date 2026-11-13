@@ -1,8 +1,3 @@
----
-hidden: true
-noIndex: true
----
-
 # 🐙 Octopus
 
 {% include ".gitbook/includes/im-inspired-by-cooking-an....md" %}
