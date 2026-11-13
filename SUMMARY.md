@@ -4,6 +4,18 @@
   * [Page 7](readme/page-7/README.md)
     * [Page 8](readme/page-7/custom.md)
   * [Page 12](readme/page-12.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: true
+      downloadLink: true
+      grouping: by-operation
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: JXtest
+    ```
 * [🕷️ Spider](spider/README.md)
   * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 * [Table normalization bug?](table-normalization-bug.md)
