@@ -1,6 +1,6 @@
 # Stockkkk
 
-<figure><img src="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="JavaScript" %}

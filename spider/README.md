@@ -122,7 +122,7 @@ debsjkn
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../my-group/wolfff/">wolfff</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href="../.gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">TITLE ONE</td><td></td><td></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy.jpeg">morningtinypawws_det1+copy.jpeg</a></td><td><a href="https://www.thisiscolossal.com/">https://www.thisiscolossal.com/</a></td></tr><tr><td align="center">TITLE TWO</td><td></td><td></td><td><a href="../.gitbook/assets/image.png">image.png</a></td><td><a href="../my-group/wolfff/">wolfff</a></td></tr><tr><td align="center">TITLE THREE</td><td></td><td></td><td><a href="../.gitbook/assets/1.jpeg">1.jpeg</a></td><td><a href="./">.</a></td></tr></tbody></table>
 
 <mark style="color:blue;">`GET`</mark>
 
@@ -148,7 +148,7 @@ commissioned him to shoot some creatures for a story on the Canadian Pigeon Fanc
 
 <table><thead><tr><th width="268">Role</th><th>Capabilities</th></tr></thead><tbody><tr><td>Administrator</td><td>Has all admin privileges</td></tr><tr><td>Editor</td><td>Can edit the accessiblity</td></tr><tr><td>Viewer</td><td>Can only view the accessiblity</td></tr><tr><td>Guest</td><td>Can only view the accessiblity for certain pages</td></tr></tbody></table>
 
-{% file src="../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png" %}
+{% file src="../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png" %}
 
 [_Rebecca Green is an Illustrator & Author_\
 \&#xNAN;_based in Michigan._](https://www.thisiscolossal.com/)
@@ -164,7 +164,7 @@ dfvnkfeldl
 
 ### My heading 2
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href="../.gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="../my-group/wolfff/">wolfff</a></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg">morningtinypawws_det1+copy (1).jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Hello !</td><td>testing this!</td><td></td><td><a href="./">.</a></td><td><a href="../.gitbook/assets/H93A9948.jpeg">H93A9948.jpeg</a></td></tr><tr><td>dc</td><td>cd</td><td>dc</td><td></td><td></td></tr><tr><td>cd</td><td>d</td><td>d</td><td></td><td></td></tr><tr><td>typing hereedfns</td><td>bla bla dvbejkdsbjkvc</td><td>heya1</td><td><a href="../my-group/wolfff/">wolfff</a></td><td><a href="../.gitbook/assets/morningtinypawws_det1+copy.jpeg">morningtinypawws_det1+copy.jpeg</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 #### My heading 3
 
@@ -224,7 +224,7 @@ ATD insights are created using statistics from your EOIs and machine learning al
 
 {% embed url="https://app.guideflow.com/player/CV9wMHCCMHY%3D" %}
 
-<div><figure><img src="../.gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/CELIA_balletposterWS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/TheSpringDance_WS.jpeg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 ![](<../.gitbook/assets/CleanShot 2023-05-19 at 13.40.41@2x.png>)
 

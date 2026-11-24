@@ -12,11 +12,7 @@ fluid figures.
 
 <p align="center"><button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button></p>
 
-
-
 <p align="center"><button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Search…</button></p>
-
-
 
 M[**aking changes here**](./#my-new-title)
 
@@ -32,4 +28,4 @@ which often utilize colorful beads arranged in various formations to treat ailme
 
 #### My new title
 
-type here [broken-reference](broken-reference/ "mention") continue
+type here [https://github.com/aikoii/testrepoGitBook/tree/main/kukushka/broken-reference/README.md](https://github.com/aikoii/testrepoGitBook/tree/main/kukushka/broken-reference/README.md "mention") continue

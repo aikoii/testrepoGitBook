@@ -4,18 +4,6 @@
   * [Page 7](readme/page-7/README.md)
     * [Page 8](readme/page-7/custom.md)
   * [Page 12](readme/page-12.md)
-  * ```yaml
-    type: builtin:openapi
-    props:
-      models: true
-      downloadLink: true
-      grouping: by-operation
-    dependencies:
-      spec:
-        ref:
-          kind: openapi
-          spec: JXtest
-    ```
 * [🕷️ Spider](spider/README.md)
   * [Page from another space](https://production-playground.gitbook.io/editor/inspiring-work/api)
 * [Table normalization bug?](table-normalization-bug.md)
@@ -71,7 +59,10 @@
   * [Or maybe new subpage?](group-1/good-afternoon/or-maybe-new-subpage.md)
 * [Another new doc?](group-1/another-new-doc.md)
 * [Create new docc??](group-1/create-new-docc.md)
-* [Hello world](group-1/hello-world.md)
+* [Hello world](group-1/hello-world/README.md)
+  * [Link block shortcut test](group-1/hello-world/link-block-shortcut-test/README.md)
+    * [Appian destination](group-1/hello-world/link-block-shortcut-test/appian-destination.md)
+    * [Salesforce destination](group-1/hello-world/link-block-shortcut-test/salesforce-destination.md)
 * [The barber of Siberia](group-1/the-barber-of-siberia.md)
 * [Stockkkk](group-1/a-win-is-a-win.md)
 
@@ -88,8 +79,7 @@
 
 * [Page links are broken?](page-links-are-broken/README.md)
   * [CliRef5.0.4.357 nightly gitbook (1)](page-links-are-broken/cliref5.0.4.357-nightly-gitbook-1.md)
-* [Annotations deletes](page-3/README.md)
-  * [Remarkably Bright Creatures](page-3/remarkably-bright-creatures.md)
+* [Annotations deletes](page-3.md)
 * [Page 5](page-5.md)
 * [bank\_guides\_ru](bank_guides_ru.md)
 * [bank\_guides\_ru (1)](bank_guides_ru-1/README.md)

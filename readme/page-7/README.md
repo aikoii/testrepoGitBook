@@ -15,6 +15,10 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Page 7
@@ -46,8 +50,6 @@ This article describes DRG audits and covers steps applicable for clinical and c
 {% endtabs %}
 
 ## Step 1: Get case context from the Overview tab
-
-
 
 {% tabs %}
 {% tab title="JavaScript" %}
@@ -81,8 +83,6 @@ Your first stop to orient yourself with case details is the **Overview** tab in 
 The top of the **Overview** tab is a high-level overview with the case’s basic info.
 
 Use its fields to orient yourself to the case:
-
-
 
 | Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -163,7 +163,7 @@ To avoid missing critical context, many links might be provided. The links are s
 
 You can add a text note on any criteria by clicking the tiny document icon next to each criterion. Criteria text fields help future human reviewers understand your decisions. It also helps the AI assistant summarize your case findings.
 
-<div align="left"><figure><img src="../../.gitbook/assets/morningtinypawws_det1+copy (1).jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/morningtinypawws_det1+copy.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 ### **Criteria and criteria group icons**
 

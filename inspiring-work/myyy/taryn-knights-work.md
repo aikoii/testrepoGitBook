@@ -40,7 +40,7 @@ Digital transformation has become the language we use to challenge the status qu
 
 Another merge conflict?\\
 
-![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png>)
+![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png>)
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption><p><br></p></figcaption></figure>
 {% endtab %}
@@ -48,7 +48,7 @@ Another merge conflict?\\
 {% tab title="Second Tab" %}
 From their work in interactive performance to immersive installations, the winners, who represent the area’s rich diversity, are creators who push the boundaries of art through technology.
 
-![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x (1).png>)
+![](<../../.gitbook/assets/CleanShot 2023-02-28 at 17.12.36@2x.png>)
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-01-25 at 19.27.15@2x.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
